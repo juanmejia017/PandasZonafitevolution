@@ -63,7 +63,7 @@ PandasZonafitevolution/
 Requisitos: Python 3 y Git. Comandos para Windows (CMD):
 
 ```cmd
-git clone https://gh.hhj520.top/juanmejia017/PandasZonafitevolution.git
+git clone https://github.com/juanmejia017/PandasZonafitevolution.git
 cd PandasZonafitevolution
 python -m venv .venv
 .venv\Scripts\activate
