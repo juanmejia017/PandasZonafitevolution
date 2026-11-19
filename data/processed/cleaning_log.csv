@@ -1,0 +1,26 @@
+tabla,paso,filas,nulos,duplicados,memoria_kb
+zf_planes,0 original,6,5,0,0.6
+zf_planes,1 tipos,6,5,0,0.4
+zf_miembros,0 original,908,127,0,95.1
+zf_miembros,1 sin duplicados,900,126,0,94.6
+zf_miembros,2 tipos y fechas de relleno,900,135,0,72.0
+zf_miembros,3 categorías y faltantes,900,63,0,35.8
+zf_pagos,0 original,3572,108,12,276.1
+zf_pagos,1 sin duplicados,3560,107,0,276.5
+zf_pagos,2 tipos,3560,107,0,180.8
+zf_pagos,3 categorías y faltantes,3560,0,0,76.7
+zf_membresias,0 original,3425,51,0,277.4
+zf_membresias,1 tipos,3425,51,0,146.9
+zf_membresias,2 precio completado,3425,0,0,146.9
+zf_membresias,3 estado recalculado,3425,0,0,100.5
+zf_accesos,0 original,57003,1140,0,4283.0
+zf_accesos,1 tipos y dispositivo,57003,0,0,3228.4
+zf_accesos,2 sin lecturas dobles,56328,0,0,3204.0
+zf_accesos,3 sin inexistentes ni fuera de horario,56288,0,0,3201.7
+zf_accesos,"4 membresía asignada, sin canceladas",56109,386,0,1150.9
+kg_churn,0 original,4000,0,0,437.6
+kg_churn,1 nombres y tipos,4000,0,0,140.8
+kg_actividad,0 original,2600,0,0,317.0
+kg_actividad,1 fechas y columnas,2600,0,0,112.0
+gov_escenarios,0 original,1071,0,0,128.7
+gov_escenarios,1 texto y coordenadas,1071,44,0,125.1

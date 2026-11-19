@@ -1,0 +1,901 @@
+id_miembro,documento_hash,genero,fecha_nacimiento,comuna,canal_captacion,fecha_registro,membresias,ultima_fecha_fin,membresias_no_renovadas,visitas_totales,total_pagado,plan_inicial,tipo_plan_inicial,visitas_semana_inicial,franja_inicial,fecha_alta,primera_no_renovacion,evaluable,desertor_6m,frecuencia_inicial,edad_al_alta,activo_al_corte
+1,DOC75516401,F,1994-03-15,Buenos Aires,Referido,2025-08-24,9,2026-10-20,1,79,490000,Mensual estudiante,Ilimitado,1.17,mañana,2025-08-24,2025-09-22,True,True,más de 1 a 2,31,True
+2,DOC51923647,M,1997-05-01,Belén,Instagram,2026-02-19,1,2026-03-20,1,2,90000,Mensual ilimitado,Ilimitado,0.47,mañana,2026-02-19,2026-03-20,True,True,hasta 1,28,False
+3,DOC47750342,F,2003-02-27,El Poblado,Instagram,2025-07-29,5,2026-01-03,1,32,370000,Mensual estudiante,Ilimitado,0.93,tarde,2025-07-29,2026-01-03,True,True,hasta 1,22,False
+4,DOC33539774,F,1993-07-13,Belén,Walk-in,2026-08-02,1,2026-10-30,0,34,240000,Trimestral ilimitado,Ilimitado,3.17,mañana,2026-08-02,,False,False,más de 3,33,True
+5,DOC33058946,M,1968-11-14,Buenos Aires,Instagram,2026-05-29,1,2026-06-27,1,4,90000,Mensual ilimitado,Ilimitado,0.93,tarde,2026-05-29,2026-06-27,False,True,hasta 1,57,False
+6,DOC19189940,M,2005-08-31,El Poblado,Convenio empresarial,2026-01-25,1,2026-02-23,1,2,70000,Mensual estudiante,Ilimitado,0.47,tarde,2026-01-25,2026-02-23,True,True,hasta 1,20,False
+7,DOC64388417,M,1985-05-12,La América,Referido,2026-03-08,3,2026-06-20,1,23,203000,Mensual estudiante,Ilimitado,2.57,tarde,2026-03-08,2026-06-20,True,True,más de 2 a 3,40,False
+8,DOC23065634,M,1997-07-01,Belén,Convenio empresarial,2025-02-19,2,2025-04-25,1,12,180000,Mensual ilimitado,Ilimitado,2.1,noche,2025-02-19,2025-04-25,True,True,más de 2 a 3,27,False
+9,DOC47919450,F,2006-01-09,Belén,Walk-in,2025-08-21,3,2025-11-18,1,26,270000,Mensual ilimitado,Ilimitado,2.33,mañana,2025-08-21,2025-11-18,True,True,más de 2 a 3,19,False
+10,DOC57765853,M,2002-12-21,Laureles-Estadio,Instagram,2026-04-23,5,2026-09-28,0,67,300000,Mensual estudiante,Ilimitado,3.97,noche,2026-04-23,,False,False,más de 3,23,False
+11,DOC71991523,M,1982-08-08,Robledo,Walk-in,2026-04-07,3,2026-07-13,1,32,270000,Mensual ilimitado,Ilimitado,3.03,noche,2026-04-07,2026-07-13,False,True,más de 3,43,False
+12,DOC62730056,F,2009-06-08,La América,Instagram,2025-06-21,1,2025-07-20,1,3,60000,Tiquetera 12 ingresos,Tiquetera,0.7,mañana,2025-06-21,2025-07-20,True,True,hasta 1,16,False
+13,DOC72009777,F,2009-01-29,Aranjuez,Instagram,2025-11-06,1,2025-12-05,1,1,90000,Mensual ilimitado,Ilimitado,0.23,tarde,2025-11-06,2025-12-05,True,True,hasta 1,16,False
+14,DOC74605092,M,2003-11-02,El Poblado,Walk-in,2025-04-18,2,2025-06-16,1,17,90000,Mensual ilimitado,Ilimitado,2.57,mañana,2025-04-18,2025-06-16,True,True,más de 2 a 3,21,False
+15,DOC26012277,F,2003-07-26,Belén,Instagram,2026-02-17,3,2026-05-25,1,32,120000,Tiquetera 12 ingresos,Tiquetera,2.8,mañana,2026-02-17,2026-05-25,True,True,más de 2 a 3,22,False
+16,DOC59623809,F,2011-04-26,Robledo,Instagram,2026-07-30,2,2026-09-27,0,16,70000,Mensual estudiante,Ilimitado,2.33,mañana,2026-07-30,,False,False,más de 2 a 3,15,False
+17,DOC68200970,M,1997-02-12,Castilla,Instagram,2026-08-18,1,2027-02-13,0,39,405000,Semestral ilimitado,Ilimitado,4.63,mañana,2026-08-18,,False,False,más de 3,29,True
+18,DOC85204197,F,2002-11-30,Aranjuez,Walk-in,2026-04-06,2,2026-06-10,1,12,70000,Mensual estudiante,Ilimitado,1.63,noche,2026-04-06,2026-06-10,False,True,más de 1 a 2,23,False
+19,DOC19911890,F,2006-11-21,La América,Convenio empresarial,2025-03-17,7,2026-12-06,0,322,1680000,Trimestral ilimitado,Ilimitado,3.97,mañana,2025-03-17,,True,False,más de 3,18,True
+20,DOC56344535,M,2008-08-15,El Poblado,Instagram,2026-05-21,1,2026-06-19,1,1,70000,Mensual estudiante,Ilimitado,0.23,tarde,2026-05-21,2026-06-19,False,True,hasta 1,17,False
+21,DOC20449426,F,2010-04-18,El Poblado,Walk-in,2025-09-22,3,2025-12-22,1,12,210000,Mensual estudiante,Ilimitado,0.7,tarde,2025-09-22,2025-12-22,True,True,hasta 1,15,False
+22,DOC35596922,F,1999-01-07,San Javier,Referido,2025-02-09,5,2025-07-11,1,78,450000,Mensual ilimitado,Ilimitado,3.03,tarde,2025-02-09,2025-07-11,True,True,más de 3,26,False
+23,DOC14541305,F,1994-07-07,La Candelaria,Instagram,2025-07-25,1,2025-08-23,1,3,90000,Mensual ilimitado,Ilimitado,0.7,noche,2025-07-25,2025-08-23,True,True,hasta 1,31,False
+24,DOC44496042,M,2001-11-14,Castilla,Walk-in,2025-02-24,1,2025-03-25,1,6,70000,Mensual estudiante,Ilimitado,1.4,mañana,2025-02-24,2025-03-25,True,True,más de 1 a 2,23,False
+25,DOC84438442,M,,Aranjuez,Referido,2026-03-15,1,2027-03-14,0,88,840000,Anual ilimitado,Ilimitado,2.87,mañana,2026-03-15,,True,False,más de 2 a 3,,True
+26,DOC31486638,M,1998-11-11,Buenos Aires,Instagram,2026-05-16,1,2026-06-14,1,7,90000,Mensual ilimitado,Ilimitado,1.63,mañana,2026-05-16,2026-06-14,False,True,más de 1 a 2,27,False
+27,DOC56419698,F,2010-11-11,Laureles-Estadio,Walk-in,2026-03-01,1,2026-03-30,1,3,70000,Mensual estudiante,Ilimitado,0.7,mañana,2026-03-01,2026-03-30,True,True,hasta 1,15,False
+28,DOC86155187,M,1985-03-17,Robledo,Volante,2026-07-21,1,2026-08-19,1,2,90000,Mensual ilimitado,Ilimitado,0.47,mañana,2026-07-21,2026-08-19,False,True,hasta 1,41,False
+29,DOC14365461,F,1995-01-20,Belén,Referido,2026-02-27,1,2026-03-28,1,5,60000,Tiquetera 12 ingresos,Tiquetera,1.17,mañana,2026-02-27,2026-03-28,True,True,más de 1 a 2,31,False
+30,DOC64474173,F,1987-10-28,Belén,Instagram,2025-07-02,1,2025-07-31,1,6,81000,Mensual ilimitado,Ilimitado,1.4,mañana,2025-07-02,2025-07-31,True,True,más de 1 a 2,37,False
+31,DOC96480855,M,1984-11-19,Guayabal,Volante,2025-08-06,3,2027-01-27,0,210,1350000,Semestral ilimitado,Ilimitado,3.03,mañana,2025-08-06,,True,False,más de 3,40,True
+32,DOC65193101,M,1994-05-05,Belén,Volante,2025-02-22,6,2026-01-17,1,167,793000,Mensual estudiante,Ilimitado,3.27,mañana,2025-02-22,2026-01-17,True,False,más de 3,30,False
+33,DOC59873995,F,2000-01-10,Laureles-Estadio,Instagram,2025-02-02,11,2026-07-18,2,122,654000,Tiquetera 12 ingresos,Tiquetera,2.33,tarde,2025-02-02,2026-01-17,True,False,más de 2 a 3,25,False
+34,DOC27511919,M,2002-12-25,Belén,Walk-in,2025-10-31,2,2026-04-17,2,5,171000,Mensual ilimitado,Ilimitado,0.93,tarde,2025-10-31,2025-11-29,True,True,hasta 1,22,False
+35,DOC18568927,F,1997-09-22,Castilla,Volante,2026-07-30,3,2026-10-27,0,48,270000,Mensual ilimitado,Ilimitado,4.43,mañana,2026-07-30,,False,False,más de 3,28,True
+36,DOC88427833,M,1995-11-26,Laureles-Estadio,Walk-in,2025-04-11,17,2026-11-02,0,293,1289000,Mensual estudiante,Ilimitado,3.5,noche,2025-04-11,,True,False,más de 3,29,True
+37,DOC25991480,M,1979-05-18,Laureles-Estadio,Referido,2025-06-16,7,2026-11-26,0,240,1110000,Trimestral ilimitado,Ilimitado,3.42,tarde,2025-06-16,,True,False,más de 3,46,True
+38,DOC41496776,M,1988-04-12,Laureles-Estadio,Instagram,2026-06-15,1,2026-07-14,1,2,90000,Mensual ilimitado,Ilimitado,0.47,mañana,2026-06-15,2026-07-14,False,True,hasta 1,38,False
+39,DOC49529468,F,1998-02-03,Robledo,Walk-in,2025-03-05,5,2025-08-05,1,69,441000,Mensual ilimitado,Ilimitado,3.73,tarde,2025-03-05,2025-08-05,True,True,más de 3,27,False
+40,DOC48184769,M,2005-09-26,San Javier,Convenio empresarial,2025-09-13,7,2026-07-09,2,72,480000,Tiquetera 12 ingresos,Tiquetera,2.8,tarde,2025-09-13,2026-02-09,True,True,más de 2 a 3,19,False
+41,DOC78592517,M,2000-02-20,Laureles-Estadio,Referido,2026-01-07,2,2026-03-07,1,7,151000,Mensual ilimitado,Ilimitado,0.93,mañana,2026-01-07,2026-03-07,True,True,hasta 1,25,False
+42,DOC84604221,F,2009-07-15,Belén,Walk-in,2025-02-15,7,2026-08-08,2,118,900000,Mensual ilimitado,Ilimitado,2.57,noche,2025-02-15,2025-05-16,True,True,más de 2 a 3,15,False
+43,DOC30771647,M,1994-08-09,Laureles-Estadio,Referido,2026-02-12,9,2026-11-12,0,140,741000,Mensual ilimitado,Ilimitado,3.97,tarde,2026-02-12,,True,False,más de 3,31,True
+44,DOC83238324,M,1991-07-02,Belén,Volante,2025-01-23,5,2025-09-20,2,46,430000,Mensual ilimitado,Ilimitado,2.8,noche,2025-01-23,2025-06-02,True,True,más de 2 a 3,33,False
+45,DOC55637689,M,1994-08-16,La Candelaria,Referido,2025-02-12,2,2027-02-11,0,326,1260000,Anual ilimitado,Ilimitado,3.85,mañana,2025-02-12,,True,False,más de 3,30,True
+46,DOC79731385,M,2010-04-12,La América,Volante,2026-01-27,1,2026-02-25,1,3,0,Tiquetera 12 ingresos,Tiquetera,0.7,tarde,2026-01-27,2026-02-25,True,True,hasta 1,15,False
+47,DOC12764880,Sin dato,2001-01-21,El Poblado,Walk-in,2026-05-23,5,2026-10-26,0,57,450000,Mensual ilimitado,Ilimitado,2.1,tarde,2026-05-23,,False,False,más de 2 a 3,25,True
+48,DOC30074183,F,1986-12-10,Guayabal,Referido,2026-06-05,4,2026-10-15,0,47,280000,Mensual estudiante,Ilimitado,2.8,noche,2026-06-05,,False,False,más de 2 a 3,39,True
+49,DOC25979067,M,2002-01-10,Guayabal,Convenio empresarial,2025-12-01,3,2026-03-04,1,34,210000,Mensual estudiante,Ilimitado,2.1,mañana,2025-12-01,2026-03-04,True,True,más de 2 a 3,23,False
+50,DOC69386419,F,1996-02-09,La Candelaria,Convenio empresarial,2026-01-14,2,2026-03-15,1,18,171000,Mensual ilimitado,Ilimitado,3.27,tarde,2026-01-14,2026-03-15,True,True,más de 3,29,False
+51,DOC54491773,F,2003-11-17,Castilla,Walk-in,2025-08-29,3,2026-11-21,0,209,1140000,Semestral ilimitado,Ilimitado,3.38,tarde,2025-08-29,,True,False,más de 3,21,True
+52,DOC92284715,F,2005-12-17,La Candelaria,Walk-in,2025-09-21,3,2025-12-19,1,36,200000,Mensual estudiante,Ilimitado,4.9,mañana,2025-09-21,2025-12-19,True,True,más de 3,19,False
+53,DOC45954409,F,2001-10-18,Castilla,Referido,2026-09-03,2,2026-11-01,0,9,133000,Mensual estudiante,Ilimitado,1.63,mañana,2026-09-03,,False,False,más de 1 a 2,24,True
+54,DOC34285976,M,1997-05-30,El Poblado,Instagram,2025-01-20,4,2025-08-15,2,51,230000,Mensual estudiante,Ilimitado,2.57,noche,2025-01-20,2025-02-18,True,True,más de 2 a 3,27,False
+55,DOC32706705,M,1987-03-28,Belén,Referido,2026-03-18,1,2026-04-16,1,5,90000,Mensual ilimitado,Ilimitado,1.17,noche,2026-03-18,2026-04-16,True,True,más de 1 a 2,39,False
+56,DOC95717816,F,1985-08-21,El Poblado,Referido,2025-06-09,6,2025-12-17,1,71,430000,Mensual ilimitado,Ilimitado,2.33,mañana,2025-06-09,2025-12-17,True,False,más de 2 a 3,39,False
+57,DOC77895144,M,1978-10-28,Guayabal,Convenio empresarial,2025-02-24,1,2025-03-25,1,3,90000,Mensual ilimitado,Ilimitado,0.7,mañana,2025-02-24,2025-03-25,True,True,hasta 1,46,False
+58,DOC64493347,M,1990-04-20,Belén,Referido,2026-01-11,2,2026-03-11,1,16,140000,Mensual estudiante,Ilimitado,2.57,mañana,2026-01-11,2026-03-11,True,True,más de 2 a 3,35,False
+59,DOC81414484,M,2006-01-10,Doce de Octubre,Volante,2026-07-01,4,2026-10-28,0,60,273000,Mensual estudiante,Ilimitado,4.2,tarde,2026-07-01,,False,False,más de 3,20,True
+60,DOC82295013,M,2009-09-26,Belén,Instagram,2025-02-09,1,2025-03-10,1,6,63000,Mensual estudiante,Ilimitado,1.4,noche,2025-02-09,2025-03-10,True,True,más de 1 a 2,15,False
+61,DOC69469428,M,2000-04-08,Buenos Aires,Instagram,2025-07-13,2,2025-09-10,1,7,150000,Tiquetera 12 ingresos,Tiquetera,1.17,tarde,2025-07-13,2025-09-10,True,True,más de 1 a 2,25,False
+62,DOC45990056,M,2008-08-04,Laureles-Estadio,Instagram,2025-07-27,3,2027-01-21,0,157,1350000,Semestral ilimitado,Ilimitado,1.83,mañana,2025-07-27,,True,False,más de 1 a 2,16,True
+63,DOC47666971,F,2002-01-31,Laureles-Estadio,Volante,2025-07-20,5,2026-02-19,2,60,340000,Mensual estudiante,Ilimitado,3.97,mañana,2025-07-20,2025-11-25,True,True,más de 3,23,False
+64,DOC82884180,F,1998-06-18,Laureles-Estadio,Walk-in,2025-07-22,4,2025-11-28,1,38,270000,Tiquetera 12 ingresos,Tiquetera,2.1,mañana,2025-07-22,2025-11-28,True,True,más de 2 a 3,27,False
+65,DOC56339404,M,2002-04-08,Buenos Aires,Instagram,2026-02-01,2,2026-04-09,1,19,140000,Mensual estudiante,Ilimitado,3.27,mañana,2026-02-01,2026-04-09,True,True,más de 3,23,False
+66,DOC26093205,F,1987-02-07,Laureles-Estadio,Walk-in,2025-07-03,1,2025-08-01,1,2,60000,Tiquetera 12 ingresos,Tiquetera,0.47,tarde,2025-07-03,2025-08-01,True,True,hasta 1,38,False
+67,DOC61105515,M,1987-05-15,Aranjuez,Instagram,2026-09-30,1,2026-10-29,0,1,60000,Tiquetera 12 ingresos,Tiquetera,0.44,noche,2026-09-30,,False,False,hasta 1,39,True
+68,DOC87279029,F,2003-06-02,Buenos Aires,Walk-in,2025-09-08,3,2027-03-09,0,193,1305000,Semestral ilimitado,Ilimitado,3.54,tarde,2025-09-08,,True,False,más de 3,22,True
+69,DOC60554443,F,2003-02-01,San Javier,Instagram,2026-08-21,1,2026-11-18,0,12,240000,Trimestral ilimitado,Ilimitado,1.5,mañana,2026-08-21,,False,False,más de 1 a 2,23,True
+70,DOC60657890,F,1993-11-27,Belén,Instagram,2025-07-28,5,2026-11-07,0,93,1176000,Trimestral ilimitado,Ilimitado,1.71,mañana,2025-07-28,,True,False,más de 1 a 2,31,True
+71,DOC17997725,F,1988-06-01,Aranjuez,Walk-in,2025-04-01,5,2025-09-10,1,75,430000,Mensual ilimitado,Ilimitado,3.73,tarde,2025-04-01,2025-09-10,True,True,más de 3,36,False
+72,DOC91930896,F,2004-08-03,Belén,Referido,2026-04-11,1,2026-05-10,1,6,90000,Mensual ilimitado,Ilimitado,1.4,mañana,2026-04-11,2026-05-10,False,True,más de 1 a 2,21,False
+73,DOC60384213,F,2002-03-20,Sin dato,Instagram,2026-02-28,8,2026-11-04,0,97,543000,Mensual estudiante,Ilimitado,3.27,mañana,2026-02-28,,True,False,más de 3,23,True
+74,DOC22602401,M,2001-11-26,La Candelaria,Walk-in,2025-08-16,12,2026-08-20,1,133,1042000,Mensual ilimitado,Ilimitado,3.03,tarde,2025-08-16,2026-08-20,True,False,más de 3,23,False
+75,DOC23991906,M,1991-05-11,Laureles-Estadio,Volante,2026-01-06,4,2026-10-25,1,46,360000,Mensual ilimitado,Ilimitado,3.73,mañana,2026-01-06,2026-04-05,True,True,más de 3,34,True
+76,DOC29381218,M,2011-02-23,Robledo,Convenio empresarial,2026-02-23,2,2026-04-23,1,5,180000,Mensual ilimitado,Ilimitado,0.7,noche,2026-02-23,2026-04-23,True,True,hasta 1,15,False
+77,DOC64402806,M,1987-06-04,La América,Instagram,2025-01-19,1,2026-01-18,1,50,840000,Anual ilimitado,Ilimitado,0.96,tarde,2025-01-19,2026-01-18,True,False,hasta 1,37,False
+78,DOC60009040,F,,El Poblado,Walk-in,2025-01-19,1,2025-02-17,1,5,70000,Mensual estudiante,Ilimitado,1.17,tarde,2025-01-19,2025-02-17,True,True,más de 1 a 2,,False
+79,DOC38767999,F,1993-10-25,La América,Referido,2025-02-05,2,2025-08-21,2,8,140000,Mensual estudiante,Ilimitado,0.93,tarde,2025-02-05,2025-03-06,True,True,hasta 1,31,False
+80,DOC83933056,M,1992-05-09,Laureles-Estadio,Referido,2025-01-06,1,2025-02-04,1,6,90000,Mensual ilimitado,Ilimitado,1.4,mañana,2025-01-06,2025-02-04,True,True,más de 1 a 2,32,False
+81,DOC10818366,F,2008-04-13,Laureles-Estadio,Instagram,2026-06-10,3,2026-10-25,1,15,261000,Mensual ilimitado,Ilimitado,0.7,mañana,2026-06-10,2026-07-09,False,True,hasta 1,18,True
+82,DOC67204656,F,1999-12-16,Belén,Convenio empresarial,2026-02-06,6,2026-10-14,0,96,583000,Mensual estudiante,Ilimitado,2.8,mañana,2026-02-06,,True,False,más de 2 a 3,26,False
+83,DOC78986813,M,,El Poblado,Instagram,2025-02-23,4,2027-02-12,0,310,1800000,Semestral ilimitado,Ilimitado,3.54,tarde,2025-02-23,,True,False,más de 3,,True
+84,DOC58258698,F,1997-02-08,Robledo,Instagram,2025-10-24,4,2026-03-06,1,27,300000,Mensual estudiante,Ilimitado,2.33,mañana,2025-10-24,2026-03-06,True,True,más de 2 a 3,28,False
+85,DOC81369411,F,1988-11-24,Sin dato,Convenio empresarial,2026-07-07,4,2026-11-12,0,46,180000,Mensual ilimitado,Ilimitado,3.97,mañana,2026-07-07,,False,False,más de 3,37,True
+86,DOC72610374,M,1996-10-08,San Javier,Instagram,2025-03-18,2,2025-05-16,1,19,120000,Tiquetera 12 ingresos,Tiquetera,2.8,mañana,2025-03-18,2025-05-16,True,True,más de 2 a 3,28,False
+87,DOC50813338,F,,Laureles-Estadio,Instagram,2025-02-20,6,2025-08-27,1,51,441000,Mensual ilimitado,Ilimitado,2.1,noche,2025-02-20,2025-08-27,True,False,más de 2 a 3,,False
+88,DOC59259775,M,2006-07-07,La Candelaria,Walk-in,2025-02-07,6,2025-08-19,1,48,370000,Mensual estudiante,Ilimitado,1.63,mañana,2025-02-07,2025-08-19,True,False,más de 1 a 2,18,False
+89,DOC57101397,F,2003-05-23,Robledo,Walk-in,2025-07-08,6,2026-01-09,1,82,420000,Mensual estudiante,Ilimitado,3.5,tarde,2025-07-08,2026-01-09,True,False,más de 3,22,False
+90,DOC95617749,M,1988-12-24,Belén,Referido,2026-02-04,5,2026-11-06,1,22,340000,Mensual estudiante,Ilimitado,0.93,mañana,2026-02-04,2026-03-05,True,True,hasta 1,37,True
+91,DOC77010327,F,2007-04-20,La América,Instagram,2026-03-04,4,2026-10-28,1,34,280000,Mensual estudiante,Ilimitado,1.4,mañana,2026-03-04,2026-04-02,True,True,más de 1 a 2,18,True
+92,DOC32781190,M,2003-10-09,San Javier,Referido,2026-01-28,1,2026-02-26,1,3,70000,Mensual estudiante,Ilimitado,0.7,mañana,2026-01-28,2026-02-26,True,True,hasta 1,22,False
+93,DOC87832391,F,1992-02-14,Buenos Aires,Walk-in,2025-04-15,1,2025-05-14,1,4,70000,Mensual estudiante,Ilimitado,0.93,tarde,2025-04-15,2025-05-14,True,True,hasta 1,33,False
+94,DOC68084341,F,,La América,Volante,2025-05-30,5,2026-08-22,2,133,1050000,Trimestral ilimitado,Ilimitado,2.64,tarde,2025-05-30,2025-08-27,True,True,más de 2 a 3,,False
+95,DOC47534282,M,2003-10-28,Laureles-Estadio,Instagram,2025-12-14,1,2026-01-12,1,3,70000,Mensual estudiante,Ilimitado,0.7,mañana,2025-12-14,2026-01-12,True,True,hasta 1,22,False
+96,DOC36777462,F,1995-05-22,La América,Instagram,2026-08-13,1,2026-09-11,1,4,60000,Tiquetera 12 ingresos,Tiquetera,0.93,mañana,2026-08-13,2026-09-11,False,True,hasta 1,31,False
+97,DOC40221430,M,,Robledo,Instagram,2025-06-16,1,2025-07-15,1,3,60000,Tiquetera 12 ingresos,Tiquetera,0.7,tarde,2025-06-16,2025-07-15,True,True,hasta 1,,False
+98,DOC13700883,M,2010-02-01,Doce de Octubre,Convenio empresarial,2026-01-08,2,2026-06-05,2,12,180000,Mensual ilimitado,Ilimitado,1.63,mañana,2026-01-08,2026-02-06,True,True,más de 1 a 2,15,False
+99,DOC84389751,M,1999-10-04,San Javier,Volante,2026-08-01,1,2026-08-30,1,5,60000,Tiquetera 12 ingresos,Tiquetera,1.17,tarde,2026-08-01,2026-08-30,False,True,más de 1 a 2,26,False
+100,DOC82247267,M,1999-07-31,La Candelaria,Convenio empresarial,2026-02-23,3,2026-05-23,1,25,270000,Mensual ilimitado,Ilimitado,2.33,mañana,2026-02-23,2026-05-23,True,True,más de 2 a 3,26,False
+101,DOC50389459,F,1982-11-19,Castilla,Walk-in,2025-06-15,1,2025-07-14,1,6,90000,Mensual ilimitado,Ilimitado,1.4,mañana,2025-06-15,2025-07-14,True,True,más de 1 a 2,42,False
+102,DOC12676523,F,1998-10-29,Belén,Walk-in,2025-01-14,1,2025-07-12,1,60,450000,Semestral ilimitado,Ilimitado,2.33,tarde,2025-01-14,2025-07-12,True,True,más de 2 a 3,26,False
+103,DOC26298382,M,1997-01-24,Guayabal,Instagram,2025-02-10,2,2027-02-19,1,100,1680000,Anual ilimitado,Ilimitado,1.92,mañana,2025-02-10,2026-02-20,True,False,más de 1 a 2,28,True
+104,DOC10863789,F,2004-06-02,Laureles-Estadio,Instagram,2025-01-17,8,2026-11-11,0,260,1743000,Trimestral ilimitado,Ilimitado,2.96,mañana,2025-01-17,,True,False,más de 2 a 3,20,True
+105,DOC20409013,M,1994-07-22,Laureles-Estadio,Walk-in,2025-06-11,1,2025-07-10,1,7,60000,Tiquetera 12 ingresos,Tiquetera,1.63,mañana,2025-06-11,2025-07-10,True,True,más de 1 a 2,30,False
+106,DOC56287787,M,1999-06-09,Belén,Instagram,2025-07-02,4,2025-10-29,1,48,280000,Mensual estudiante,Ilimitado,3.73,tarde,2025-07-02,2025-10-29,True,True,más de 3,26,False
+107,DOC51172447,F,1997-02-05,El Poblado,Referido,2025-02-04,5,2025-07-03,1,70,300000,Mensual estudiante,Ilimitado,4.2,tarde,2025-02-04,2025-07-03,True,True,más de 3,28,False
+108,DOC49519897,M,,El Poblado,Volante,2025-01-12,4,2025-05-11,1,48,273000,Mensual estudiante,Ilimitado,3.73,mañana,2025-01-12,2025-05-11,True,True,más de 3,,False
+109,DOC13975969,F,2003-07-07,Sin dato,Instagram,2025-11-11,4,2026-11-13,0,133,720000,Trimestral ilimitado,Ilimitado,2.26,mañana,2025-11-11,,True,False,más de 2 a 3,22,True
+110,DOC83732908,M,2009-05-11,Laureles-Estadio,Instagram,2025-01-17,7,2025-08-20,1,83,610000,Mensual ilimitado,Ilimitado,2.8,noche,2025-01-17,2025-08-20,True,False,más de 2 a 3,15,False
+111,DOC19321055,M,1993-10-21,Laureles-Estadio,Instagram,2025-02-26,1,2025-03-27,1,7,90000,Mensual ilimitado,Ilimitado,1.63,mañana,2025-02-26,2025-03-27,True,True,más de 1 a 2,31,False
+112,DOC90826334,F,2004-10-03,Laureles-Estadio,Referido,2025-07-24,2,2025-09-27,1,11,180000,Mensual ilimitado,Ilimitado,1.63,mañana,2025-07-24,2025-09-27,True,True,más de 1 a 2,20,False
+113,DOC54039255,F,1992-11-27,Robledo,Instagram,2026-06-29,2,2026-09-05,1,4,140000,Mensual estudiante,Ilimitado,0.7,mañana,2026-06-29,2026-09-05,False,True,hasta 1,33,False
+114,DOC17249309,F,1989-08-23,El Poblado,Convenio empresarial,2025-04-07,1,2025-05-06,1,3,90000,Mensual ilimitado,Ilimitado,0.7,noche,2025-04-07,2025-05-06,True,True,hasta 1,35,False
+115,DOC29768941,F,1989-09-28,La América,Volante,2025-10-06,10,2026-08-05,1,96,650000,Mensual estudiante,Ilimitado,2.1,mañana,2025-10-06,2026-08-05,True,False,más de 2 a 3,36,False
+116,DOC28767051,F,1995-09-18,La América,Referido,2025-05-18,1,2025-06-16,1,4,60000,Tiquetera 12 ingresos,Tiquetera,0.93,tarde,2025-05-18,2025-06-16,True,True,hasta 1,29,False
+117,DOC30449744,F,1991-01-31,Belén,Instagram,2026-06-17,4,2026-10-24,0,53,351000,Mensual ilimitado,Ilimitado,3.73,tarde,2026-06-17,,False,False,más de 3,35,True
+118,DOC31939332,F,2000-01-13,Laureles-Estadio,Walk-in,2026-02-22,8,2026-10-28,0,113,531000,Mensual ilimitado,Ilimitado,2.8,tarde,2026-02-22,,True,False,más de 2 a 3,26,True
+119,DOC38928938,F,1997-02-11,La América,Instagram,2025-07-13,1,2025-08-11,1,4,81000,Mensual ilimitado,Ilimitado,0.93,tarde,2025-07-13,2025-08-11,True,True,hasta 1,28,False
+120,DOC33419782,M,1987-12-04,San Javier,Instagram,2025-06-05,6,2026-11-12,0,283,1290000,Mensual ilimitado,Ilimitado,4.9,tarde,2025-06-05,,True,False,más de 3,37,True
+121,DOC95652971,M,1986-11-09,San Javier,Instagram,2025-10-29,4,2026-08-30,2,38,280000,Mensual estudiante,Ilimitado,2.57,tarde,2025-10-29,2026-02-06,True,True,más de 2 a 3,38,False
+122,DOC11002498,M,2010-05-18,Laureles-Estadio,Convenio empresarial,2026-01-02,2,2026-12-27,0,176,900000,Semestral ilimitado,Ilimitado,4.16,mañana,2026-01-02,,True,False,más de 3,15,True
+123,DOC27434340,F,1970-07-22,Buenos Aires,Instagram,2026-08-21,2,2026-10-19,0,36,180000,Mensual ilimitado,Ilimitado,5.37,tarde,2026-08-21,,False,False,más de 3,56,True
+124,DOC65788766,M,1985-05-30,Sin dato,Referido,2025-01-15,3,2025-10-23,1,75,720000,Trimestral ilimitado,Ilimitado,2.18,mañana,2025-01-15,2025-10-23,True,False,más de 2 a 3,39,False
+125,DOC48013209,M,2002-06-08,Robledo,Walk-in,2025-06-07,2,2027-06-06,0,230,840000,Anual ilimitado,Ilimitado,3.34,mañana,2025-06-07,,True,False,más de 3,23,True
+126,DOC61726135,M,1999-04-15,Belén,Instagram,2025-04-18,6,2025-10-21,1,39,531000,Mensual ilimitado,Ilimitado,1.4,noche,2025-04-18,2025-10-21,True,False,más de 1 a 2,26,False
+127,DOC66222387,M,,Belén,Instagram,2026-03-20,3,2026-06-17,1,32,270000,Mensual ilimitado,Ilimitado,2.8,tarde,2026-03-20,2026-06-17,False,True,más de 2 a 3,,False
+128,DOC40944382,M,1988-11-29,Laureles-Estadio,Referido,2025-01-25,4,2027-01-23,0,313,1755000,Semestral ilimitado,Ilimitado,3.19,mañana,2025-01-25,,True,False,más de 3,36,True
+129,DOC19370937,F,2004-02-02,Doce de Octubre,Walk-in,2026-07-03,3,2026-09-30,0,27,230000,Mensual estudiante,Ilimitado,2.8,noche,2026-07-03,,False,False,más de 2 a 3,22,False
+130,DOC43403074,M,2009-06-12,Laureles-Estadio,Referido,2025-06-25,7,2026-01-26,1,72,600000,Mensual ilimitado,Ilimitado,1.87,mañana,2025-06-25,2026-01-26,True,False,más de 1 a 2,16,False
+131,DOC21113945,M,1993-02-27,Doce de Octubre,Referido,2025-09-06,2,2025-11-04,1,12,120000,Tiquetera 12 ingresos,Tiquetera,2.1,mañana,2025-09-06,2025-11-04,True,True,más de 2 a 3,32,False
+132,DOC47662569,M,1990-06-19,Guayabal,Instagram,2025-05-09,10,2026-05-30,2,59,630000,Mensual estudiante,Ilimitado,2.8,mañana,2025-05-09,2025-10-05,True,True,más de 2 a 3,34,False
+133,DOC91395349,F,1982-06-09,Laureles-Estadio,Volante,2025-10-26,12,2026-11-12,0,173,880000,Mensual ilimitado,Ilimitado,2.8,tarde,2025-10-26,,True,False,más de 2 a 3,43,True
+134,DOC13001756,M,2010-06-04,Castilla,Instagram,2025-08-02,12,2026-11-13,1,166,750000,Mensual estudiante,Ilimitado,2.33,mañana,2025-08-02,2025-08-31,True,True,más de 2 a 3,15,True
+135,DOC90155675,F,1992-06-24,La América,Instagram,2026-03-08,1,2026-09-03,1,66,450000,Semestral ilimitado,Ilimitado,2.57,mañana,2026-03-08,2026-09-03,True,True,más de 2 a 3,33,False
+136,DOC98474954,M,1973-04-01,Robledo,Convenio empresarial,2025-06-10,2,2025-10-21,2,9,160000,Mensual ilimitado,Ilimitado,0.7,mañana,2025-06-10,2025-07-09,True,True,hasta 1,52,False
+137,DOC82092136,M,2000-02-15,Doce de Octubre,Instagram,2026-09-26,1,2026-12-24,0,12,240000,Trimestral ilimitado,Ilimitado,4.2,mañana,2026-09-26,,False,False,más de 3,26,True
+138,DOC13857638,F,1990-12-08,Robledo,Referido,2026-07-01,4,2026-10-28,0,51,360000,Mensual ilimitado,Ilimitado,3.27,tarde,2026-07-01,,False,False,más de 3,35,True
+139,DOC22279803,M,1988-10-04,Belén,Referido,2025-04-28,6,2025-11-01,1,88,540000,Mensual ilimitado,Ilimitado,3.27,tarde,2025-04-28,2025-11-01,True,False,más de 3,36,False
+140,DOC22595729,M,1995-12-28,Robledo,Referido,2025-01-20,12,2026-01-28,1,165,870000,Mensual ilimitado,Ilimitado,2.8,mañana,2025-01-20,2026-01-28,True,False,más de 2 a 3,29,False
+141,DOC56863444,F,1996-09-01,Aranjuez,Instagram,2026-02-19,1,2026-03-20,1,7,54000,Tiquetera 12 ingresos,Tiquetera,1.63,tarde,2026-02-19,2026-03-20,True,True,más de 1 a 2,29,False
+142,DOC24985352,M,1988-01-09,Guayabal,Instagram,2026-06-13,1,2026-12-09,0,64,450000,Semestral ilimitado,Ilimitado,3.58,mañana,2026-06-13,,False,False,más de 3,38,True
+143,DOC32256192,F,1998-08-26,La Candelaria,Instagram,2025-07-01,1,2025-07-30,1,2,60000,Tiquetera 12 ingresos,Tiquetera,0.47,mañana,2025-07-01,2025-07-30,True,True,hasta 1,26,False
+144,DOC74937641,M,2001-01-24,Laureles-Estadio,Referido,2026-06-07,5,2026-11-04,0,76,360000,Mensual ilimitado,Ilimitado,4.2,mañana,2026-06-07,,False,False,más de 3,25,True
+145,DOC49752796,F,1995-07-10,Castilla,Volante,2026-07-26,1,2027-01-21,0,22,450000,Semestral ilimitado,Ilimitado,1.88,tarde,2026-07-26,,False,False,más de 1 a 2,31,True
+146,DOC66817182,F,2001-04-09,La América,Referido,2025-07-28,6,2026-11-30,0,188,1290000,Trimestral ilimitado,Ilimitado,2.96,mañana,2025-07-28,,True,False,más de 2 a 3,24,True
+147,DOC78051961,F,2001-09-19,San Javier,Instagram,2026-02-13,6,2026-08-19,1,88,540000,Mensual ilimitado,Ilimitado,3.97,mañana,2026-02-13,2026-08-19,True,False,más de 3,24,False
+148,DOC97019491,M,1989-08-30,San Javier,Instagram,2025-01-02,1,2025-01-31,1,6,90000,Mensual ilimitado,Ilimitado,1.4,noche,2025-01-02,2025-01-31,True,True,más de 1 a 2,35,False
+149,DOC37235714,F,1987-08-17,La América,Instagram,2025-06-12,10,2027-03-22,0,241,1386000,Mensual estudiante,Ilimitado,3.27,mañana,2025-06-12,,True,False,más de 3,37,True
+150,DOC29055560,M,2007-03-05,Doce de Octubre,Instagram,2026-01-12,4,2026-10-23,1,21,280000,Mensual estudiante,Ilimitado,1.4,tarde,2026-01-12,2026-03-12,True,True,más de 1 a 2,18,True
+151,DOC49433362,M,1990-05-07,San Javier,Instagram,2025-02-09,4,2027-07-17,1,219,1756000,Anual ilimitado,Ilimitado,3.15,mañana,2025-02-09,2026-02-08,True,False,más de 3,34,True
+152,DOC62342041,M,1990-08-29,La Candelaria,Referido,2026-01-21,1,2026-04-20,1,41,240000,Trimestral ilimitado,Ilimitado,3.19,mañana,2026-01-21,2026-04-20,True,True,más de 3,35,False
+153,DOC76935051,F,,La América,Instagram,2026-06-22,4,2026-11-06,0,35,351000,Mensual ilimitado,Ilimitado,3.03,mañana,2026-06-22,,False,False,más de 3,,True
+154,DOC52827899,F,1989-11-06,Belén,Referido,2025-08-06,9,2026-10-13,0,232,1060000,Mensual ilimitado,Ilimitado,4.67,mañana,2025-08-06,,True,False,más de 3,35,False
+155,DOC53182884,F,1991-06-21,La América,Walk-in,2025-04-16,9,2026-01-24,1,134,681000,Mensual ilimitado,Ilimitado,3.27,tarde,2025-04-16,2026-01-24,True,False,más de 3,33,False
+156,DOC86377182,M,2010-11-17,Buenos Aires,Walk-in,2025-12-05,5,2026-05-03,1,37,333000,Mensual estudiante,Ilimitado,2.33,mañana,2025-12-05,2026-05-03,True,True,más de 2 a 3,15,False
+157,DOC65895418,F,1988-02-26,Laureles-Estadio,Instagram,2025-07-08,7,2026-02-02,1,83,424000,Tiquetera 12 ingresos,Tiquetera,2.8,noche,2025-07-08,2026-02-02,True,False,más de 2 a 3,37,False
+158,DOC98654062,M,1989-06-03,Laureles-Estadio,Referido,2026-05-15,1,2026-06-13,1,5,90000,Mensual ilimitado,Ilimitado,1.17,noche,2026-05-15,2026-06-13,False,True,más de 1 a 2,36,False
+159,DOC91796168,M,1980-05-25,La América,Walk-in,2026-01-04,3,2026-04-04,1,21,270000,Mensual ilimitado,Ilimitado,2.1,mañana,2026-01-04,2026-04-04,True,True,más de 2 a 3,45,False
+160,DOC40952841,Sin dato,1982-05-25,La Candelaria,Volante,2025-08-06,2,2025-10-04,1,9,171000,Mensual ilimitado,Ilimitado,1.63,tarde,2025-08-06,2025-10-04,True,True,más de 1 a 2,43,False
+161,DOC88541486,F,2004-05-02,Castilla,Referido,2026-09-27,1,2026-10-26,0,9,81000,Mensual ilimitado,Ilimitado,3.32,mañana,2026-09-27,,False,False,más de 3,22,True
+162,DOC18784818,M,1986-10-18,Laureles-Estadio,Convenio empresarial,2026-08-28,2,2026-10-26,0,9,180000,Mensual ilimitado,Ilimitado,1.87,noche,2026-08-28,,False,False,más de 1 a 2,39,True
+163,DOC94676104,F,1985-05-13,La América,Instagram,2025-07-30,5,2026-07-01,2,63,600000,Mensual ilimitado,Ilimitado,2.57,tarde,2025-07-30,2025-09-27,True,True,más de 2 a 3,40,False
+164,DOC90705729,M,1982-04-22,Guayabal,Walk-in,2026-07-26,1,2026-08-24,1,3,90000,Mensual ilimitado,Ilimitado,0.7,noche,2026-07-26,2026-08-24,False,True,hasta 1,44,False
+165,DOC42083531,F,2001-12-08,La América,Walk-in,2025-11-07,1,2025-12-06,1,5,70000,Mensual estudiante,Ilimitado,1.17,mañana,2025-11-07,2025-12-06,True,True,más de 1 a 2,23,False
+166,DOC65100960,M,1998-06-19,Laureles-Estadio,Referido,2026-04-19,1,2026-05-18,1,6,0,Mensual ilimitado,Ilimitado,1.4,tarde,2026-04-19,2026-05-18,False,True,más de 1 a 2,27,False
+167,DOC14005969,M,2004-05-20,Sin dato,Instagram,2025-07-07,1,2025-08-05,1,6,70000,Mensual estudiante,Ilimitado,1.4,mañana,2025-07-07,2025-08-05,True,True,más de 1 a 2,21,False
+168,DOC93450687,M,2002-12-14,Robledo,Convenio empresarial,2025-02-20,7,2025-09-27,1,33,612000,Mensual ilimitado,Ilimitado,1.4,mañana,2025-02-20,2025-09-27,True,False,más de 1 a 2,22,False
+169,DOC14056317,F,1990-07-05,Guayabal,Instagram,2025-07-24,3,2027-01-22,0,134,900000,Semestral ilimitado,Ilimitado,2.02,mañana,2025-07-24,,True,False,más de 2 a 3,35,True
+170,DOC38894679,F,1996-01-27,Robledo,Walk-in,2026-02-12,6,2026-10-11,0,115,561000,Mensual ilimitado,Ilimitado,3.27,mañana,2026-02-12,,True,False,más de 3,30,False
+171,DOC25980676,F,1999-03-06,Sin dato,Convenio empresarial,2025-06-01,7,2026-01-30,1,115,503000,Mensual estudiante,Ilimitado,4.9,mañana,2025-06-01,2026-01-30,True,False,más de 3,26,False
+172,DOC84913838,M,2002-05-03,San Javier,Referido,2026-08-09,3,2026-11-06,0,32,210000,Mensual estudiante,Ilimitado,3.5,mañana,2026-08-09,,False,False,más de 3,24,True
+173,DOC52248212,F,1995-09-20,La Candelaria,Referido,2025-12-09,6,2026-11-04,1,55,397000,Mensual estudiante,Ilimitado,2.8,tarde,2025-12-09,2026-05-07,True,True,más de 2 a 3,30,True
+174,DOC35344884,F,1993-06-29,Sin dato,Referido,2025-09-07,5,2026-12-26,0,225,1200000,Trimestral ilimitado,Ilimitado,3.81,tarde,2025-09-07,,True,False,más de 3,32,True
+175,DOC24945583,F,1994-09-02,Laureles-Estadio,Instagram,2025-05-07,1,2025-06-05,1,5,90000,Mensual ilimitado,Ilimitado,1.17,mañana,2025-05-07,2025-06-05,True,True,más de 1 a 2,30,False
+176,DOC93069323,M,1993-02-17,Belén,Referido,2025-09-06,2,2025-11-04,1,15,140000,Mensual estudiante,Ilimitado,2.33,tarde,2025-09-06,2025-11-04,True,True,más de 2 a 3,32,False
+177,DOC19934708,M,1995-11-03,Laureles-Estadio,Instagram,2025-09-26,3,2025-12-24,1,24,200000,Mensual estudiante,Ilimitado,2.8,noche,2025-09-26,2025-12-24,True,True,más de 2 a 3,29,False
+178,DOC65666347,M,1998-05-21,La América,Walk-in,2025-12-12,6,2026-06-14,1,68,540000,Mensual ilimitado,Ilimitado,2.1,mañana,2025-12-12,2026-06-14,True,False,más de 2 a 3,27,False
+179,DOC26245051,F,1998-01-14,Sin dato,Volante,2026-02-11,3,2026-08-02,2,12,180000,Tiquetera 12 ingresos,Tiquetera,2.33,mañana,2026-02-11,2026-04-19,True,True,más de 2 a 3,28,False
+180,DOC85869602,M,2002-08-24,Robledo,Instagram,2026-01-20,3,2026-04-19,1,12,203000,Mensual estudiante,Ilimitado,1.17,mañana,2026-01-20,2026-04-19,True,True,más de 1 a 2,23,False
+181,DOC40945414,F,1995-08-12,Aranjuez,Volante,2026-04-04,7,2026-11-01,0,101,630000,Mensual ilimitado,Ilimitado,3.73,tarde,2026-04-04,,False,False,más de 3,30,True
+182,DOC66740467,M,,Sin dato,Instagram,2026-07-27,3,2026-10-24,0,20,180000,Tiquetera 12 ingresos,Tiquetera,1.87,mañana,2026-07-27,,False,False,más de 1 a 2,,True
+183,DOC25617825,M,,La América,Instagram,2025-01-21,1,2025-02-19,1,1,63000,Mensual estudiante,Ilimitado,0.23,tarde,2025-01-21,2025-02-19,True,True,hasta 1,,False
+184,DOC51038468,F,2011-04-22,Laureles-Estadio,Walk-in,2026-05-13,2,2026-11-08,0,54,456000,Trimestral ilimitado,Ilimitado,2.57,mañana,2026-05-13,,False,False,más de 2 a 3,15,True
+185,DOC14748181,F,1983-06-14,Laureles-Estadio,Instagram,2026-06-11,1,2026-07-10,1,2,81000,Mensual ilimitado,Ilimitado,0.47,mañana,2026-06-11,2026-07-10,False,True,hasta 1,43,False
+186,DOC68219998,F,1998-08-17,San Javier,Instagram,2025-06-26,8,2026-02-24,1,116,702000,Mensual ilimitado,Ilimitado,3.27,mañana,2025-06-26,2026-02-24,True,False,más de 3,26,False
+187,DOC53778131,M,1992-03-19,Belén,Referido,2025-08-21,2,2025-10-19,1,20,90000,Mensual ilimitado,Ilimitado,3.27,noche,2025-08-21,2025-10-19,True,True,más de 3,33,False
+188,DOC87981230,M,,Aranjuez,Instagram,2025-09-07,8,2026-05-15,1,59,630000,Mensual ilimitado,Ilimitado,1.63,mañana,2025-09-07,2026-05-15,True,False,más de 1 a 2,,False
+189,DOC22191772,F,1991-03-25,Laureles-Estadio,Walk-in,2025-12-29,3,2026-09-24,0,125,720000,Trimestral ilimitado,Ilimitado,3.97,mañana,2025-12-29,,True,False,más de 3,34,False
+190,DOC48568599,F,2008-05-22,Castilla,Instagram,2025-09-25,2,2026-03-16,2,4,140000,Mensual estudiante,Ilimitado,0.23,tarde,2025-09-25,2025-10-24,True,True,hasta 1,17,False
+191,DOC65081852,F,1999-04-05,El Poblado,Instagram,2026-02-19,1,2026-05-19,1,26,240000,Trimestral ilimitado,Ilimitado,2.02,mañana,2026-02-19,2026-05-19,True,True,más de 2 a 3,26,False
+192,DOC49798821,M,2002-12-26,La América,Referido,2025-09-18,2,2025-11-16,1,12,180000,Mensual ilimitado,Ilimitado,2.1,tarde,2025-09-18,2025-11-16,True,True,más de 2 a 3,22,False
+193,DOC60094900,F,2003-06-20,Belén,Walk-in,2025-02-22,4,2025-06-21,1,57,210000,Mensual estudiante,Ilimitado,3.97,tarde,2025-02-22,2025-06-21,True,True,más de 3,21,False
+194,DOC33308352,M,1999-03-22,Laureles-Estadio,Instagram,2025-02-08,1,2025-03-09,1,5,90000,Mensual ilimitado,Ilimitado,1.17,noche,2025-02-08,2025-03-09,True,True,más de 1 a 2,25,False
+195,DOC74944160,M,,Belén,Referido,2026-01-22,2,2026-03-22,1,14,180000,Mensual ilimitado,Ilimitado,2.57,noche,2026-01-22,2026-03-22,True,True,más de 2 a 3,,False
+196,DOC30535229,F,1998-05-30,La América,Referido,2025-09-05,5,2026-11-28,0,236,1200000,Trimestral ilimitado,Ilimitado,3.89,mañana,2025-09-05,,True,False,más de 3,27,True
+197,DOC55086414,M,2000-11-05,Aranjuez,Instagram,2026-04-18,1,2026-07-16,1,35,216000,Trimestral ilimitado,Ilimitado,2.72,mañana,2026-04-18,2026-07-16,False,True,más de 2 a 3,25,False
+198,DOC48553141,M,2010-07-17,Castilla,Referido,2025-07-16,2,2025-11-02,2,5,180000,Mensual ilimitado,Ilimitado,0.47,tarde,2025-07-16,2025-08-14,True,True,hasta 1,15,False
+199,DOC96521606,M,1983-01-03,El Poblado,Referido,2025-06-18,4,2027-01-11,0,175,1440000,Semestral ilimitado,Ilimitado,2.37,mañana,2025-06-18,,True,False,más de 2 a 3,42,True
+200,DOC23512437,F,1987-08-13,Robledo,Referido,2025-12-17,1,2026-03-16,1,40,240000,Trimestral ilimitado,Ilimitado,3.11,mañana,2025-12-17,2026-03-16,True,True,más de 3,38,False
+201,DOC39981923,F,2008-11-12,La América,Instagram,2025-12-23,5,2026-10-21,1,39,350000,Mensual estudiante,Ilimitado,1.63,mañana,2025-12-23,2026-02-20,True,True,más de 1 a 2,17,True
+202,DOC79470904,M,1996-02-26,Belén,Convenio empresarial,2025-09-14,1,2025-10-13,1,1,90000,Mensual ilimitado,Ilimitado,0.23,tarde,2025-09-14,2025-10-13,True,True,hasta 1,29,False
+203,DOC99312036,M,1993-06-04,La América,Walk-in,2025-01-12,1,2025-02-10,1,4,70000,Mensual estudiante,Ilimitado,0.93,mañana,2025-01-12,2025-02-10,True,True,hasta 1,31,False
+204,DOC16230882,M,1993-05-13,Laureles-Estadio,Convenio empresarial,2026-01-02,9,2026-10-21,0,171,643000,Mensual estudiante,Ilimitado,4.9,tarde,2026-01-02,,True,False,más de 3,32,True
+205,DOC83129287,F,1991-03-06,Doce de Octubre,Convenio empresarial,2025-08-11,1,2025-11-08,1,30,240000,Trimestral ilimitado,Ilimitado,2.33,tarde,2025-08-11,2025-11-08,True,True,más de 2 a 3,34,False
+206,DOC80931453,M,1988-09-13,Laureles-Estadio,Referido,2026-01-06,4,2026-07-15,1,89,411000,Mensual ilimitado,Ilimitado,3.5,mañana,2026-01-06,2026-07-15,True,False,más de 3,37,False
+207,DOC35214923,F,1989-09-18,Belén,Walk-in,2025-02-16,1,2026-02-15,1,136,840000,Anual ilimitado,Ilimitado,2.61,mañana,2025-02-16,2026-02-15,True,False,más de 2 a 3,35,False
+208,DOC17575429,M,1997-07-24,Belén,Referido,2025-01-21,2,2025-03-21,1,20,133000,Mensual estudiante,Ilimitado,3.73,tarde,2025-01-21,2025-03-21,True,True,más de 3,27,False
+209,DOC32117972,M,1998-09-29,Belén,Instagram,2025-01-15,2,2027-01-14,0,370,840000,Anual ilimitado,Ilimitado,4.03,mañana,2025-01-15,,True,False,más de 3,26,True
+210,DOC13357080,F,2002-05-24,Guayabal,Convenio empresarial,2026-08-02,2,2026-09-30,0,10,133000,Mensual estudiante,Ilimitado,2.1,noche,2026-08-02,,False,False,más de 2 a 3,24,False
+211,DOC40363784,F,2010-12-07,San Javier,Walk-in,2026-02-19,7,2026-10-01,0,83,450000,Mensual ilimitado,Ilimitado,3.5,tarde,2026-02-19,,True,False,más de 3,15,False
+212,DOC12657117,F,2005-08-21,Castilla,Instagram,2026-04-09,3,2026-07-13,1,34,210000,Mensual estudiante,Ilimitado,2.33,tarde,2026-04-09,2026-07-13,False,True,más de 2 a 3,20,False
+213,DOC36263989,F,1988-07-07,Aranjuez,Referido,2025-07-07,10,2026-05-02,1,109,630000,Tiquetera 12 ingresos,Tiquetera,2.8,tarde,2025-07-07,2026-05-02,True,False,más de 2 a 3,37,False
+214,DOC38376530,M,2005-03-26,La América,Convenio empresarial,2025-08-15,14,2026-11-11,0,218,1170000,Mensual ilimitado,Ilimitado,3.27,mañana,2025-08-15,,True,False,más de 3,20,True
+215,DOC15221150,M,2002-12-11,Belén,Walk-in,2025-06-27,1,2025-07-26,1,6,70000,Mensual estudiante,Ilimitado,1.4,mañana,2025-06-27,2025-07-26,True,True,más de 1 a 2,22,False
+216,DOC24963586,F,2007-07-02,Laureles-Estadio,Convenio empresarial,2025-08-25,7,2026-06-01,1,51,660000,Mensual estudiante,Ilimitado,1.87,mañana,2025-08-25,2026-06-01,True,False,más de 1 a 2,18,False
+217,DOC19324324,F,2000-06-28,La América,Referido,2025-11-09,4,2026-03-08,1,45,360000,Mensual ilimitado,Ilimitado,1.87,mañana,2025-11-09,2026-03-08,True,True,más de 1 a 2,25,False
+218,DOC94758460,F,,Belén,Referido,2026-05-18,4,2026-11-13,0,68,510000,Mensual ilimitado,Ilimitado,3.97,noche,2026-05-18,,False,False,más de 3,,True
+219,DOC10934828,M,1983-10-30,San Javier,Instagram,2025-02-12,8,2026-12-06,0,307,1746000,Trimestral ilimitado,Ilimitado,4.12,tarde,2025-02-12,,True,False,más de 3,41,True
+220,DOC27244928,M,2011-02-03,Belén,Referido,2026-07-04,1,2026-08-02,1,0,70000,Mensual estudiante,Ilimitado,0.0,,2026-07-04,2026-08-02,False,True,hasta 1,15,False
+221,DOC86869026,F,1989-10-21,Sin dato,Instagram,2025-07-24,10,2026-11-04,0,195,990000,Tiquetera 12 ingresos,Tiquetera,2.8,tarde,2025-07-24,,True,False,más de 2 a 3,35,True
+222,DOC11703431,M,2007-02-06,Belén,Referido,2026-09-12,1,2026-10-11,0,3,70000,Mensual estudiante,Ilimitado,0.7,mañana,2026-09-12,,False,False,hasta 1,19,False
+223,DOC55168171,M,,El Poblado,Convenio empresarial,2026-07-22,1,2026-08-20,1,6,70000,Mensual estudiante,Ilimitado,1.4,mañana,2026-07-22,2026-08-20,False,True,más de 1 a 2,,False
+224,DOC64477589,F,1981-09-11,Castilla,Walk-in,2025-06-29,1,2026-06-28,1,84,840000,Anual ilimitado,Ilimitado,1.61,tarde,2025-06-29,2026-06-28,True,False,más de 1 a 2,43,False
+225,DOC17908000,F,1995-08-20,Belén,Referido,2026-01-26,1,2027-01-25,0,158,840000,Anual ilimitado,Ilimitado,4.21,mañana,2026-01-26,,True,False,más de 3,30,True
+226,DOC94951813,M,1991-10-02,Laureles-Estadio,Volante,2025-07-21,3,2025-10-19,1,20,270000,Mensual ilimitado,Ilimitado,1.87,mañana,2025-07-21,2025-10-19,True,True,más de 1 a 2,33,False
+227,DOC42625564,F,2011-04-04,Laureles-Estadio,Referido,2026-08-08,2,2026-10-06,0,14,120000,Tiquetera 12 ingresos,Tiquetera,2.33,noche,2026-08-08,,False,False,más de 2 a 3,15,False
+228,DOC98951853,M,1987-12-24,Laureles-Estadio,Convenio empresarial,2026-05-18,5,2026-10-21,0,61,343000,Mensual estudiante,Ilimitado,3.03,mañana,2026-05-18,,False,False,más de 3,38,True
+229,DOC77529098,F,,Buenos Aires,Walk-in,2025-12-13,1,2026-03-12,1,29,240000,Trimestral ilimitado,Ilimitado,2.26,tarde,2025-12-13,2026-03-12,True,True,más de 2 a 3,,False
+230,DOC94783413,M,1983-02-18,El Poblado,Referido,2025-01-10,4,2025-05-09,1,40,360000,Mensual ilimitado,Ilimitado,2.8,tarde,2025-01-10,2025-05-09,True,True,más de 2 a 3,41,False
+231,DOC54337717,M,2007-11-12,Belén,Walk-in,2025-12-19,3,2026-07-07,2,14,210000,Mensual estudiante,Ilimitado,0.7,mañana,2025-12-19,2026-02-16,True,True,hasta 1,18,False
+232,DOC25147169,F,2002-01-02,Belén,Instagram,2025-05-26,1,2025-06-24,1,5,90000,Mensual ilimitado,Ilimitado,1.17,tarde,2025-05-26,2025-06-24,True,True,más de 1 a 2,23,False
+233,DOC64181917,M,2001-06-30,La América,Volante,2025-09-30,2,2025-11-28,1,18,140000,Mensual estudiante,Ilimitado,3.27,mañana,2025-09-30,2025-11-28,True,True,más de 3,24,False
+234,DOC37848240,F,2005-03-06,Belén,Referido,2025-08-04,2,2027-08-03,0,180,1260000,Anual ilimitado,Ilimitado,2.8,mañana,2025-08-04,,True,False,más de 2 a 3,20,True
+235,DOC44193311,M,2003-11-02,Castilla,Walk-in,2026-09-29,1,2026-10-28,0,3,60000,Tiquetera 12 ingresos,Tiquetera,1.24,noche,2026-09-29,,False,False,más de 1 a 2,22,True
+236,DOC37294673,F,2008-02-29,Belén,Instagram,2025-06-20,7,2026-11-06,2,66,630000,Mensual ilimitado,Ilimitado,1.17,tarde,2025-06-20,2025-07-19,True,True,más de 1 a 2,17,True
+237,DOC71532536,M,1993-11-28,Belén,Walk-in,2025-06-22,11,2026-10-28,0,182,1350000,Mensual ilimitado,Ilimitado,2.57,tarde,2025-06-22,,True,False,más de 2 a 3,31,True
+238,DOC41023181,M,2002-09-19,Robledo,Convenio empresarial,2026-02-14,3,2026-05-15,1,26,270000,Mensual ilimitado,Ilimitado,2.8,mañana,2026-02-14,2026-05-15,True,True,más de 2 a 3,23,False
+239,DOC67307574,F,1994-06-13,La América,Instagram,2025-01-27,1,2025-02-25,1,3,90000,Mensual ilimitado,Ilimitado,0.7,noche,2025-01-27,2025-02-25,True,True,hasta 1,30,False
+240,DOC19265857,M,2001-07-11,Guayabal,Instagram,2025-05-21,2,2025-07-19,1,13,140000,Mensual estudiante,Ilimitado,1.87,mañana,2025-05-21,2025-07-19,True,True,más de 1 a 2,23,False
+241,DOC90761143,F,1989-04-22,La América,Instagram,2025-01-26,4,2025-07-24,1,77,450000,Mensual estudiante,Ilimitado,2.8,tarde,2025-01-26,2025-07-24,True,True,más de 2 a 3,35,False
+242,DOC36690197,M,1982-03-16,Laureles-Estadio,Instagram,2026-01-31,7,2026-10-29,0,141,681000,Mensual ilimitado,Ilimitado,4.43,tarde,2026-01-31,,True,False,más de 3,43,True
+243,DOC79850908,F,1990-11-14,Robledo,Walk-in,2025-04-26,12,2026-06-15,2,147,970000,Mensual ilimitado,Ilimitado,4.2,tarde,2025-04-26,2025-10-04,True,True,más de 3,34,False
+244,DOC86776899,M,1999-03-24,Guayabal,Walk-in,2025-12-07,1,2026-01-05,1,3,90000,Mensual ilimitado,Ilimitado,0.7,mañana,2025-12-07,2026-01-05,True,True,hasta 1,26,False
+245,DOC44801961,M,2003-08-19,Sin dato,Instagram,2026-06-04,5,2026-11-06,0,75,350000,Mensual estudiante,Ilimitado,3.27,mañana,2026-06-04,,False,False,más de 3,22,True
+246,DOC78556751,F,2011-04-02,Robledo,Referido,2026-06-03,4,2026-09-30,0,34,280000,Mensual estudiante,Ilimitado,2.1,mañana,2026-06-03,,False,False,más de 2 a 3,15,False
+247,DOC24147926,F,,La América,Walk-in,2025-06-05,3,2026-11-26,0,155,1350000,Semestral ilimitado,Ilimitado,1.91,mañana,2025-06-05,,True,False,más de 1 a 2,,True
+248,DOC98123612,F,2005-07-19,La Candelaria,Volante,2025-09-19,4,2026-01-16,1,64,280000,Mensual estudiante,Ilimitado,4.9,tarde,2025-09-19,2026-01-16,True,True,más de 3,20,False
+249,DOC38959187,M,1999-11-11,Belén,Instagram,2026-05-04,6,2026-10-30,0,69,531000,Mensual ilimitado,Ilimitado,3.5,noche,2026-05-04,,False,False,más de 3,26,True
+250,DOC35077142,F,2005-11-25,Robledo,Volante,2025-11-08,9,2026-11-12,1,97,629000,Mensual estudiante,Ilimitado,2.8,noche,2025-11-08,2026-02-05,True,True,más de 2 a 3,19,True
+251,DOC54060242,M,1985-02-26,Belén,Instagram,2025-07-16,1,2025-08-14,1,7,90000,Mensual ilimitado,Ilimitado,1.63,mañana,2025-07-16,2025-08-14,True,True,más de 1 a 2,40,False
+252,DOC77479600,F,1990-09-18,La América,Referido,2025-05-18,12,2026-10-09,1,134,1060000,Mensual ilimitado,Ilimitado,3.03,noche,2025-05-18,2025-10-19,True,True,más de 3,34,False
+253,DOC54247789,M,1994-03-06,Robledo,Volante,2025-01-22,8,2026-11-04,1,185,1340000,Mensual estudiante,Ilimitado,3.5,tarde,2025-01-22,2025-05-21,True,True,más de 3,30,True
+254,DOC16356343,Sin dato,1979-07-24,El Poblado,Volante,2025-06-09,1,2025-07-08,1,7,70000,Mensual estudiante,Ilimitado,1.63,tarde,2025-06-09,2025-07-08,True,True,más de 1 a 2,45,False
+255,DOC28933685,M,1996-05-03,Guayabal,Instagram,2026-07-02,2,2026-10-29,0,46,240000,Trimestral ilimitado,Ilimitado,3.19,mañana,2026-07-02,,False,False,más de 3,30,True
+256,DOC42824090,F,1989-01-16,Belén,Walk-in,2025-02-03,5,2025-07-10,1,60,343000,Mensual estudiante,Ilimitado,3.73,mañana,2025-02-03,2025-07-10,True,True,más de 3,36,False
+257,DOC16318631,M,1990-04-28,La América,Volante,2026-03-29,1,2026-04-27,1,5,60000,Tiquetera 12 ingresos,Tiquetera,1.17,tarde,2026-03-29,2026-04-27,False,True,más de 1 a 2,35,False
+258,DOC57910748,F,1975-06-09,Laureles-Estadio,Referido,2026-02-10,1,2026-03-11,1,3,90000,Mensual ilimitado,Ilimitado,0.7,noche,2026-02-10,2026-03-11,True,True,hasta 1,50,False
+259,DOC29367943,M,1983-12-02,Guayabal,Walk-in,2025-02-25,1,2025-03-26,1,7,90000,Mensual ilimitado,Ilimitado,1.63,mañana,2025-02-25,2025-03-26,True,True,más de 1 a 2,41,False
+260,DOC16319341,F,1997-05-06,Belén,Convenio empresarial,2025-11-22,4,2026-03-26,1,50,340000,Mensual ilimitado,Ilimitado,2.57,mañana,2025-11-22,2026-03-26,True,True,más de 2 a 3,28,False
+261,DOC42799215,M,,Belén,Walk-in,2026-03-31,4,2026-07-28,1,24,234000,Tiquetera 12 ingresos,Tiquetera,1.4,noche,2026-03-31,2026-07-28,False,True,más de 1 a 2,,False
+262,DOC55057716,M,1980-12-01,Laureles-Estadio,Instagram,2026-09-15,1,2026-10-14,0,5,90000,Mensual ilimitado,Ilimitado,1.17,mañana,2026-09-15,,False,False,más de 1 a 2,45,False
+263,DOC11300862,F,1990-11-15,San Javier,Volante,2025-01-20,3,2025-04-19,1,41,194000,Mensual estudiante,Ilimitado,4.9,mañana,2025-01-20,2025-04-19,True,True,más de 3,34,False
+264,DOC21267763,M,2010-10-07,Aranjuez,Walk-in,2025-11-14,3,2026-02-13,1,33,210000,Mensual estudiante,Ilimitado,3.27,mañana,2025-11-14,2026-02-13,True,True,más de 3,15,False
+265,DOC48558955,M,1998-02-05,Robledo,Referido,2025-01-06,2,2027-01-05,0,215,1596000,Anual ilimitado,Ilimitado,2.21,mañana,2025-01-06,,True,False,más de 2 a 3,26,True
+266,DOC40084706,M,1989-10-09,Castilla,Referido,2025-04-19,5,2025-10-06,1,53,300000,Tiquetera 12 ingresos,Tiquetera,2.8,tarde,2025-04-19,2025-10-06,True,True,más de 2 a 3,35,False
+267,DOC60693326,F,2001-09-19,Belén,Volante,2026-02-15,2,2026-07-13,2,6,133000,Mensual estudiante,Ilimitado,0.7,mañana,2026-02-15,2026-03-16,True,True,hasta 1,24,False
+268,DOC17335900,Sin dato,1995-09-15,La América,Instagram,2026-02-24,1,2026-03-25,1,4,70000,Mensual estudiante,Ilimitado,0.93,mañana,2026-02-24,2026-03-25,True,True,hasta 1,30,False
+269,DOC79666103,M,,Laureles-Estadio,Instagram,2026-01-31,2,2026-04-01,1,15,120000,Tiquetera 12 ingresos,Tiquetera,2.8,noche,2026-01-31,2026-04-01,True,True,más de 2 a 3,,False
+270,DOC91382316,F,2001-02-23,Castilla,Referido,2025-06-04,6,2026-11-28,0,297,1416000,Trimestral ilimitado,Ilimitado,4.36,tarde,2025-06-04,,True,False,más de 3,24,True
+271,DOC27170502,M,2004-10-22,Belén,Walk-in,2026-01-04,4,2026-11-06,0,153,696000,Trimestral ilimitado,Ilimitado,3.89,mañana,2026-01-04,,True,False,más de 3,21,True
+272,DOC47944083,M,1999-10-23,Robledo,Instagram,2025-01-30,9,2026-05-08,2,114,951000,Mensual ilimitado,Ilimitado,3.03,noche,2025-01-30,2025-04-29,True,True,más de 3,25,False
+273,DOC33552827,F,2003-05-03,Belén,Walk-in,2026-02-16,1,2026-03-17,1,3,70000,Mensual estudiante,Ilimitado,0.7,mañana,2026-02-16,2026-03-17,True,True,hasta 1,22,False
+274,DOC75968658,M,2009-03-10,Doce de Octubre,Referido,2025-01-23,1,2025-02-21,1,12,70000,Mensual estudiante,Ilimitado,2.8,mañana,2025-01-23,2025-02-21,True,True,más de 2 a 3,15,False
+275,DOC82323485,M,1988-06-13,San Javier,Instagram,2025-06-17,2,2025-12-13,1,79,216000,Trimestral ilimitado,Ilimitado,3.27,mañana,2025-06-17,2025-12-13,True,True,más de 3,37,False
+276,DOC79582849,F,1999-04-10,Laureles-Estadio,Instagram,2025-01-05,8,2026-10-28,0,219,1770000,Trimestral ilimitado,Ilimitado,2.33,tarde,2025-01-05,,True,False,más de 2 a 3,25,True
+277,DOC94607889,F,1990-05-28,Laureles-Estadio,Walk-in,2025-04-28,4,2026-08-24,2,90,720000,Trimestral ilimitado,Ilimitado,1.94,tarde,2025-04-28,2026-01-23,True,False,más de 1 a 2,34,False
+278,DOC26505911,M,1987-12-24,Castilla,Referido,2026-02-12,2,2026-08-10,1,64,240000,Trimestral ilimitado,Ilimitado,2.57,mañana,2026-02-12,2026-08-10,True,True,más de 2 a 3,38,False
+279,DOC57733985,F,2009-12-16,La Candelaria,Referido,2025-01-01,7,2025-10-20,2,61,630000,Mensual ilimitado,Ilimitado,2.57,noche,2025-01-01,2025-06-05,True,True,más de 2 a 3,15,False
+280,DOC30707904,M,1992-04-03,Robledo,Referido,2026-04-09,1,2026-05-08,1,4,70000,Mensual estudiante,Ilimitado,0.93,tarde,2026-04-09,2026-05-08,False,True,hasta 1,34,False
+281,DOC69264573,F,2005-02-10,Castilla,Instagram,2026-01-01,2,2026-03-08,1,22,140000,Mensual estudiante,Ilimitado,3.03,mañana,2026-01-01,2026-03-08,True,True,más de 3,20,False
+282,DOC39842239,M,2010-06-03,Sin dato,Volante,2026-01-17,7,2026-10-15,1,39,603000,Mensual ilimitado,Ilimitado,2.57,mañana,2026-01-17,2026-04-26,True,True,más de 2 a 3,15,True
+283,DOC26811239,M,2009-03-25,Sin dato,Convenio empresarial,2026-02-03,1,2026-03-04,1,6,90000,Mensual ilimitado,Ilimitado,1.4,tarde,2026-02-03,2026-03-04,True,True,más de 1 a 2,16,False
+284,DOC65243313,F,1987-08-22,La América,Volante,2026-08-16,1,2026-09-14,1,6,90000,Mensual ilimitado,Ilimitado,1.4,mañana,2026-08-16,2026-09-14,False,True,más de 1 a 2,39,False
+285,DOC92640592,F,2010-03-01,Robledo,Instagram,2025-04-25,1,2025-05-24,1,6,81000,Mensual ilimitado,Ilimitado,1.4,mañana,2025-04-25,2025-05-24,True,True,más de 1 a 2,15,False
+286,DOC29878840,M,1992-03-01,Aranjuez,Instagram,2025-05-06,3,2025-08-10,1,37,240000,Mensual ilimitado,Ilimitado,3.97,tarde,2025-05-06,2025-08-10,True,True,más de 3,33,False
+287,DOC21586942,F,2007-02-02,La América,Instagram,2026-01-31,1,2026-03-01,1,5,90000,Mensual ilimitado,Ilimitado,1.17,tarde,2026-01-31,2026-03-01,True,True,más de 1 a 2,19,False
+288,DOC20746963,F,1996-12-02,El Poblado,Instagram,2026-07-04,3,2026-10-07,0,22,210000,Mensual estudiante,Ilimitado,1.63,noche,2026-07-04,,False,False,más de 1 a 2,29,False
+289,DOC63075349,M,1990-01-23,Belén,Walk-in,2026-01-25,9,2026-11-06,0,114,790000,Mensual ilimitado,Ilimitado,2.57,mañana,2026-01-25,,True,False,más de 2 a 3,36,True
+290,DOC59056146,M,1987-05-20,La América,Walk-in,2026-01-12,4,2026-05-21,1,14,351000,Mensual ilimitado,Ilimitado,0.47,noche,2026-01-12,2026-05-21,True,True,hasta 1,38,False
+291,DOC90152379,F,1998-05-12,San Javier,Instagram,2026-06-27,4,2026-10-24,0,47,360000,Mensual ilimitado,Ilimitado,2.57,mañana,2026-06-27,,False,False,más de 2 a 3,28,True
+292,DOC95311025,F,,Belén,Convenio empresarial,2026-01-11,2,2026-03-11,1,9,140000,Mensual estudiante,Ilimitado,1.63,noche,2026-01-11,2026-03-11,True,True,más de 1 a 2,,False
+293,DOC65997857,M,1969-09-27,Robledo,Volante,2026-03-26,3,2026-12-20,0,64,480000,Trimestral ilimitado,Ilimitado,2.33,tarde,2026-03-26,,False,False,más de 2 a 3,56,True
+294,DOC63570539,F,1997-07-12,Robledo,Walk-in,2025-11-15,1,2025-12-14,1,6,60000,Tiquetera 12 ingresos,Tiquetera,1.4,mañana,2025-11-15,2025-12-14,True,True,más de 1 a 2,28,False
+295,DOC97297550,M,1973-07-21,Laureles-Estadio,Walk-in,2026-06-20,4,2026-11-04,0,32,280000,Mensual estudiante,Ilimitado,2.1,tarde,2026-06-20,,False,False,más de 2 a 3,52,True
+296,DOC89690134,M,2002-10-28,Belén,Convenio empresarial,2025-03-24,10,2026-01-27,1,104,810000,Mensual ilimitado,Ilimitado,2.57,noche,2025-03-24,2026-01-27,True,False,más de 2 a 3,22,False
+297,DOC65304174,F,1992-11-26,Buenos Aires,Walk-in,2026-01-25,2,2027-01-23,0,80,900000,Semestral ilimitado,Ilimitado,1.98,tarde,2026-01-25,,True,False,más de 1 a 2,33,True
+298,DOC31986697,F,1997-10-29,Laureles-Estadio,Instagram,2026-04-13,1,2026-05-12,1,8,63000,Mensual estudiante,Ilimitado,1.87,tarde,2026-04-13,2026-05-12,False,True,más de 1 a 2,28,False
+299,DOC24956154,M,1989-10-12,Belén,Instagram,2025-02-13,7,2025-09-16,1,30,540000,Mensual ilimitado,Ilimitado,1.63,noche,2025-02-13,2025-09-16,True,False,más de 1 a 2,35,False
+300,DOC38144640,M,1999-09-02,Belén,Walk-in,2026-05-22,2,2026-11-17,0,65,480000,Trimestral ilimitado,Ilimitado,3.03,mañana,2026-05-22,,False,False,más de 3,26,True
+301,DOC98603153,M,1989-07-15,San Javier,Instagram,2026-01-07,4,2026-05-13,1,57,280000,Mensual estudiante,Ilimitado,4.2,tarde,2026-01-07,2026-05-13,True,True,más de 3,36,False
+302,DOC46280181,M,,Belén,Instagram,2026-01-17,7,2026-10-19,1,34,441000,Tiquetera 12 ingresos,Tiquetera,1.4,tarde,2026-01-17,2026-07-24,True,False,más de 1 a 2,,True
+303,DOC64825148,F,2007-08-15,La Candelaria,Instagram,2026-01-29,1,2026-02-27,1,6,90000,Mensual ilimitado,Ilimitado,1.4,mañana,2026-01-29,2026-02-27,True,True,más de 1 a 2,18,False
+304,DOC43617990,M,1990-10-15,Belén,Volante,2026-02-13,4,2026-12-09,0,126,321000,Trimestral ilimitado,Ilimitado,3.81,tarde,2026-02-13,,True,False,más de 3,35,True
+305,DOC83541857,M,2010-06-08,La América,Convenio empresarial,2026-01-08,6,2026-11-03,1,55,450000,Mensual ilimitado,Ilimitado,2.1,tarde,2026-01-08,2026-02-06,True,True,más de 2 a 3,15,True
+306,DOC17346468,M,2010-07-25,Doce de Octubre,Volante,2026-01-28,1,2027-01-27,0,117,0,Anual ilimitado,Ilimitado,3.14,tarde,2026-01-28,,True,False,más de 3,15,True
+307,DOC35472988,F,1977-06-04,Laureles-Estadio,Referido,2025-01-16,1,2025-02-14,1,6,60000,Tiquetera 12 ingresos,Tiquetera,1.4,mañana,2025-01-16,2025-02-14,True,True,más de 1 a 2,47,False
+308,DOC88713378,M,1991-06-14,Laureles-Estadio,Instagram,2025-02-26,1,2025-05-26,1,24,240000,Trimestral ilimitado,Ilimitado,1.87,mañana,2025-02-26,2025-05-26,True,True,más de 1 a 2,33,False
+309,DOC96716141,M,2010-05-22,La América,Volante,2026-01-04,2,2026-12-29,0,111,675000,Semestral ilimitado,Ilimitado,2.72,noche,2026-01-04,,True,False,más de 2 a 3,15,True
+310,DOC50015907,F,1992-10-04,Laureles-Estadio,Instagram,2025-10-15,1,2025-11-13,1,5,70000,Mensual estudiante,Ilimitado,1.17,mañana,2025-10-15,2025-11-13,True,True,más de 1 a 2,33,False
+311,DOC58457675,F,1986-12-27,Belén,Volante,2025-03-17,3,2025-06-15,1,16,180000,Tiquetera 12 ingresos,Tiquetera,1.4,mañana,2025-03-17,2025-06-15,True,True,más de 1 a 2,38,False
+312,DOC81507678,M,1999-04-03,La América,Volante,2026-06-08,5,2026-11-11,0,41,360000,Mensual ilimitado,Ilimitado,1.4,mañana,2026-06-08,,False,False,más de 1 a 2,27,True
+313,DOC23821976,F,1993-01-28,El Poblado,Instagram,2025-09-27,10,2026-08-11,1,70,792000,Mensual ilimitado,Ilimitado,1.17,tarde,2025-09-27,2026-08-11,True,False,más de 1 a 2,32,False
+314,DOC23789570,M,1998-05-10,Guayabal,Walk-in,2025-02-10,12,2026-02-26,1,141,1080000,Mensual ilimitado,Ilimitado,2.8,mañana,2025-02-10,2026-02-26,True,False,más de 2 a 3,26,False
+315,DOC25939693,M,2004-10-15,La América,Referido,2025-05-19,4,2025-09-27,1,44,280000,Mensual estudiante,Ilimitado,3.73,mañana,2025-05-19,2025-09-27,True,True,más de 3,20,False
+316,DOC52111973,M,1996-08-07,Castilla,Volante,2025-07-30,6,2026-12-01,0,252,1290000,Trimestral ilimitado,Ilimitado,4.04,tarde,2025-07-30,,True,False,más de 3,28,True
+317,DOC71988637,M,1983-03-31,Laureles-Estadio,Instagram,2026-07-17,1,2026-08-15,1,8,90000,Mensual ilimitado,Ilimitado,1.87,mañana,2026-07-17,2026-08-15,False,True,más de 1 a 2,43,False
+318,DOC70952797,M,1999-02-18,San Javier,Instagram,2025-12-06,5,2027-01-05,0,164,930000,Trimestral ilimitado,Ilimitado,3.58,mañana,2025-12-06,,True,False,más de 3,26,True
+319,DOC95230965,M,2000-05-05,La Candelaria,Instagram,2026-02-20,5,2026-09-18,0,40,576000,Mensual ilimitado,Ilimitado,2.1,mañana,2026-02-20,,True,False,más de 2 a 3,25,False
+320,DOC97480318,Sin dato,1980-02-25,Robledo,Walk-in,2025-01-18,13,2026-10-28,1,190,774000,Tiquetera 12 ingresos,Tiquetera,2.8,noche,2025-01-18,2025-08-21,True,False,más de 2 a 3,44,True
+321,DOC81021702,M,1996-04-26,Belén,Instagram,2025-09-08,11,2026-08-16,1,161,801000,Mensual ilimitado,Ilimitado,3.97,mañana,2025-09-08,2026-08-16,True,False,más de 3,29,False
+322,DOC72712518,M,2010-07-31,Robledo,Volante,2025-12-07,6,2026-11-06,0,148,800000,Mensual estudiante,Ilimitado,3.03,tarde,2025-12-07,,True,False,más de 3,15,True
+323,DOC31295929,M,2000-12-09,Laureles-Estadio,Referido,2026-06-24,4,2026-11-02,0,60,293000,Mensual estudiante,Ilimitado,4.2,mañana,2026-06-24,,False,False,más de 3,25,True
+324,DOC97297773,F,2004-12-22,Laureles-Estadio,Convenio empresarial,2026-08-18,2,2026-10-16,0,16,140000,Mensual estudiante,Ilimitado,2.57,mañana,2026-08-18,,False,False,más de 2 a 3,21,True
+325,DOC98626479,M,2008-03-07,Sin dato,Walk-in,2026-02-10,5,2027-06-25,0,98,1161000,Mensual ilimitado,Ilimitado,3.73,mañana,2026-02-10,,True,False,más de 3,17,True
+326,DOC80809144,M,,Guayabal,Walk-in,2025-01-14,2,2027-01-13,0,196,1680000,Anual ilimitado,Ilimitado,2.09,mañana,2025-01-14,,True,False,más de 2 a 3,,True
+327,DOC34960933,M,1991-04-04,Belén,Volante,2025-11-04,1,2026-11-03,0,154,840000,Anual ilimitado,Ilimitado,3.12,mañana,2025-11-04,,True,False,más de 3,34,True
+328,DOC22465498,F,2004-09-04,Buenos Aires,Walk-in,2025-03-14,4,2025-07-11,1,41,270000,Mensual estudiante,Ilimitado,2.1,mañana,2025-03-14,2025-07-11,True,True,más de 2 a 3,20,False
+329,DOC77406254,M,1985-07-09,Laureles-Estadio,Instagram,2025-09-15,2,2027-09-21,0,160,840000,Anual ilimitado,Ilimitado,2.9,mañana,2025-09-15,,True,False,más de 2 a 3,40,True
+330,DOC71377272,M,2005-11-18,Belén,Convenio empresarial,2026-01-14,9,2026-11-06,0,95,566000,Mensual estudiante,Ilimitado,3.03,mañana,2026-01-14,,True,False,más de 3,20,True
+331,DOC12493385,M,1987-06-12,Robledo,Walk-in,2026-07-27,3,2026-10-26,0,22,210000,Mensual estudiante,Ilimitado,1.87,mañana,2026-07-27,,False,False,más de 1 a 2,39,True
+332,DOC12926782,M,1996-12-02,Belén,Referido,2025-11-27,7,2026-07-03,1,68,420000,Tiquetera 12 ingresos,Tiquetera,2.1,noche,2025-11-27,2026-07-03,True,False,más de 2 a 3,29,False
+333,DOC36621728,Sin dato,2010-03-01,Belén,Walk-in,2026-03-28,7,2026-11-02,0,108,413000,Mensual estudiante,Ilimitado,3.97,tarde,2026-03-28,,False,False,más de 3,16,True
+334,DOC96000564,M,2009-02-14,Laureles-Estadio,Instagram,2026-07-04,1,2026-08-02,1,7,70000,Mensual estudiante,Ilimitado,1.63,mañana,2026-07-04,2026-08-02,False,True,más de 1 a 2,17,False
+335,DOC70062613,M,1993-01-27,Laureles-Estadio,Instagram,2025-01-01,1,2025-06-29,1,66,450000,Semestral ilimitado,Ilimitado,2.57,mañana,2025-01-01,2025-06-29,True,True,más de 2 a 3,31,False
+336,DOC12719837,F,1985-07-23,Robledo,Walk-in,2025-07-28,14,2026-10-24,0,250,1150000,Mensual ilimitado,Ilimitado,3.97,mañana,2025-07-28,,True,False,más de 3,40,True
+337,DOC28303362,M,2005-09-09,Guayabal,Walk-in,2026-09-11,1,2026-10-10,0,5,70000,Mensual estudiante,Ilimitado,1.17,mañana,2026-09-11,,False,False,más de 1 a 2,21,False
+338,DOC31626087,M,1994-04-15,El Poblado,Volante,2025-09-09,3,2025-12-07,1,22,180000,Mensual ilimitado,Ilimitado,2.33,mañana,2025-09-09,2025-12-07,True,True,más de 2 a 3,31,False
+339,DOC99343304,F,2003-06-13,La América,Volante,2026-07-08,4,2026-11-11,0,33,293000,Mensual estudiante,Ilimitado,2.8,tarde,2026-07-08,,False,False,más de 2 a 3,23,True
+340,DOC52777696,M,1997-07-30,Laureles-Estadio,Instagram,2026-02-07,9,2026-11-12,0,64,720000,Mensual ilimitado,Ilimitado,2.1,mañana,2026-02-07,,True,False,más de 2 a 3,28,True
+341,DOC85992087,M,1987-04-16,Castilla,Volante,2025-06-17,1,2025-07-16,1,6,60000,Tiquetera 12 ingresos,Tiquetera,1.4,mañana,2025-06-17,2025-07-16,True,True,más de 1 a 2,38,False
+342,DOC42546010,F,1982-08-01,Laureles-Estadio,Instagram,2026-08-11,3,2026-11-08,0,18,210000,Mensual estudiante,Ilimitado,2.1,mañana,2026-08-11,,False,False,más de 2 a 3,44,True
+343,DOC56531210,F,1986-04-30,Castilla,Referido,2026-02-23,2,2027-02-17,0,140,450000,Semestral ilimitado,Ilimitado,4.01,mañana,2026-02-23,,True,False,más de 3,39,True
+344,DOC18456419,F,1988-09-16,Robledo,Convenio empresarial,2026-07-26,3,2026-10-23,0,24,261000,Mensual ilimitado,Ilimitado,3.27,mañana,2026-07-26,,False,False,más de 3,37,True
+345,DOC83041346,M,1968-02-03,La Candelaria,Referido,2026-01-06,5,2026-10-22,1,59,430000,Mensual ilimitado,Ilimitado,1.4,noche,2026-01-06,2026-02-04,True,True,más de 1 a 2,57,True
+346,DOC82821320,F,1999-04-21,Belén,Instagram,2025-10-04,2,2026-09-28,0,99,855000,Semestral ilimitado,Ilimitado,1.87,tarde,2025-10-04,,True,False,más de 1 a 2,26,False
+347,DOC41885985,M,1995-11-13,Laureles-Estadio,Referido,2026-09-28,1,2027-09-27,0,12,840000,Anual ilimitado,Ilimitado,4.67,mañana,2026-09-28,,False,False,más de 3,30,True
+348,DOC25428874,M,2007-11-18,Sin dato,Instagram,2026-09-01,1,2026-11-29,0,7,240000,Trimestral ilimitado,Ilimitado,1.09,mañana,2026-09-01,,False,False,más de 1 a 2,18,True
+349,DOC17583334,F,1985-06-22,La América,Volante,2026-04-28,1,2026-05-27,1,5,60000,Tiquetera 12 ingresos,Tiquetera,1.17,mañana,2026-04-28,2026-05-27,False,True,más de 1 a 2,40,False
+350,DOC40600382,F,,Robledo,Referido,2025-11-02,2,2026-10-27,0,146,900000,Semestral ilimitado,Ilimitado,3.23,tarde,2025-11-02,,True,False,más de 3,,True
+351,DOC46248008,F,1986-07-04,Doce de Octubre,Instagram,2025-04-24,1,2025-05-23,1,3,90000,Mensual ilimitado,Ilimitado,0.7,noche,2025-04-24,2025-05-23,True,True,hasta 1,38,False
+352,DOC24907496,F,2003-04-29,La América,Walk-in,2026-08-21,1,2026-09-19,0,2,60000,Tiquetera 12 ingresos,Tiquetera,0.47,noche,2026-08-21,,False,False,hasta 1,23,False
+353,DOC85922559,F,2009-02-05,La Candelaria,Volante,2025-12-03,6,2026-06-14,1,60,420000,Mensual estudiante,Ilimitado,1.87,mañana,2025-12-03,2026-06-14,True,False,más de 1 a 2,16,False
+354,DOC18690321,M,1992-08-28,Belén,Walk-in,2025-03-09,5,2025-08-05,1,38,430000,Mensual ilimitado,Ilimitado,2.1,mañana,2025-03-09,2025-08-05,True,True,más de 2 a 3,32,False
+355,DOC27011288,F,1995-08-31,Doce de Octubre,Instagram,2025-04-23,1,2025-05-22,1,6,60000,Tiquetera 12 ingresos,Tiquetera,1.4,mañana,2025-04-23,2025-05-22,True,True,más de 1 a 2,29,False
+356,DOC57371786,M,1988-07-03,Buenos Aires,Referido,2025-01-16,1,2026-01-15,1,157,840000,Anual ilimitado,Ilimitado,3.01,tarde,2025-01-16,2026-01-15,True,False,más de 3,36,False
+357,DOC83029134,F,1999-01-24,La América,Walk-in,2025-10-03,4,2026-08-04,1,159,780000,Trimestral ilimitado,Ilimitado,3.5,tarde,2025-10-03,2026-08-04,True,False,más de 3,26,False
+358,DOC29225616,M,1985-12-27,Laureles-Estadio,Convenio empresarial,2025-12-11,1,2026-03-10,1,27,240000,Trimestral ilimitado,Ilimitado,2.1,mañana,2025-12-11,2026-03-10,True,True,más de 2 a 3,39,False
+359,DOC54052461,F,1983-12-29,Sin dato,Instagram,2025-09-01,1,2025-09-30,1,3,90000,Mensual ilimitado,Ilimitado,0.7,noche,2025-09-01,2025-09-30,True,True,hasta 1,41,False
+360,DOC65949618,M,1998-08-23,La América,Instagram,2025-08-25,3,2025-11-22,1,30,190000,Tiquetera 12 ingresos,Tiquetera,2.57,mañana,2025-08-25,2025-11-22,True,True,más de 2 a 3,27,False
+361,DOC84736775,F,1979-08-04,Belén,Volante,2025-02-16,1,2025-03-17,1,4,90000,Mensual ilimitado,Ilimitado,0.93,noche,2025-02-16,2025-03-17,True,True,hasta 1,45,False
+362,DOC17218481,M,2007-01-13,La América,Instagram,2026-06-04,1,2027-06-03,0,55,840000,Anual ilimitado,Ilimitado,2.87,mañana,2026-06-04,,False,False,más de 2 a 3,19,True
+363,DOC65530089,F,2002-12-11,El Poblado,Convenio empresarial,2025-02-17,5,2026-04-17,2,40,720000,Mensual ilimitado,Ilimitado,1.4,tarde,2025-02-17,2025-06-26,True,True,más de 1 a 2,22,False
+364,DOC26406550,F,1987-10-07,Castilla,Volante,2025-08-08,12,2026-11-11,1,159,680000,Mensual estudiante,Ilimitado,3.73,mañana,2025-08-08,2026-06-08,True,False,más de 3,37,True
+365,DOC63660309,M,1990-08-26,Sin dato,Referido,2025-12-21,7,2026-07-26,1,75,621000,Mensual ilimitado,Ilimitado,2.8,noche,2025-12-21,2026-07-26,True,False,más de 2 a 3,35,False
+366,DOC38544324,M,2001-04-27,Belén,Referido,2025-12-17,10,2026-10-21,0,142,751000,Mensual estudiante,Ilimitado,2.57,noche,2025-12-17,,True,False,más de 2 a 3,24,True
+367,DOC60872897,M,2002-08-23,Robledo,Instagram,2026-07-17,2,2026-09-14,1,13,140000,Mensual estudiante,Ilimitado,2.33,tarde,2026-07-17,2026-09-14,False,True,más de 2 a 3,23,False
+368,DOC21204989,M,1985-12-21,Sin dato,Walk-in,2025-01-16,2,2025-09-17,2,18,330000,Mensual ilimitado,Ilimitado,0.23,tarde,2025-01-16,2025-02-14,True,True,hasta 1,39,False
+369,DOC60111735,M,1995-03-15,Castilla,Referido,2026-01-01,1,2026-01-30,1,1,60000,Tiquetera 12 ingresos,Tiquetera,0.23,tarde,2026-01-01,2026-01-30,True,True,hasta 1,30,False
+370,DOC73645951,F,2010-03-18,Robledo,Volante,2025-09-24,8,2026-10-29,0,174,800000,Mensual estudiante,Ilimitado,4.2,mañana,2025-09-24,,True,False,más de 3,15,True
+371,DOC70532324,F,2005-02-06,Belén,Referido,2026-07-27,2,2027-02-21,0,43,540000,Mensual ilimitado,Ilimitado,2.57,mañana,2026-07-27,,False,False,más de 2 a 3,21,True
+372,DOC27773460,F,1999-08-05,La América,Volante,2026-09-01,2,2026-10-30,0,21,120000,Tiquetera 12 ingresos,Tiquetera,2.8,mañana,2026-09-01,,False,False,más de 2 a 3,27,True
+373,DOC75468289,F,1987-05-01,Robledo,Instagram,2026-03-11,1,2026-04-09,1,0,81000,Mensual ilimitado,Ilimitado,0.0,,2026-03-11,2026-04-09,True,True,hasta 1,38,False
+374,DOC99049447,M,1993-08-09,Buenos Aires,Instagram,2025-09-24,13,2026-11-06,0,173,942000,Mensual ilimitado,Ilimitado,3.73,tarde,2025-09-24,,True,False,más de 3,32,True
+375,DOC43950906,F,1990-11-08,La Candelaria,Convenio empresarial,2025-07-30,2,2025-09-27,1,18,133000,Mensual estudiante,Ilimitado,2.33,mañana,2025-07-30,2025-09-27,True,True,más de 2 a 3,34,False
+376,DOC99635021,M,2003-04-30,La América,Referido,2025-04-30,1,2026-04-29,1,150,840000,Anual ilimitado,Ilimitado,2.88,mañana,2025-04-30,2026-04-29,True,False,más de 2 a 3,22,False
+377,DOC11437848,F,1994-05-27,Robledo,Instagram,2025-12-23,4,2026-07-04,2,26,240000,Tiquetera 12 ingresos,Tiquetera,2.8,noche,2025-12-23,2026-02-20,True,True,más de 2 a 3,31,False
+378,DOC61221940,M,,San Javier,Convenio empresarial,2026-08-17,1,2026-09-15,1,5,54000,Tiquetera 12 ingresos,Tiquetera,1.17,tarde,2026-08-17,2026-09-15,False,True,más de 1 a 2,,False
+379,DOC34976387,F,2004-08-11,Robledo,Instagram,2026-01-07,1,2026-02-05,1,7,70000,Mensual estudiante,Ilimitado,1.63,tarde,2026-01-07,2026-02-05,True,True,más de 1 a 2,21,False
+380,DOC41021126,F,1992-07-08,Buenos Aires,Instagram,2026-08-07,2,2026-12-11,0,18,90000,Mensual ilimitado,Ilimitado,1.87,tarde,2026-08-07,,False,False,más de 1 a 2,34,True
+381,DOC61508461,F,1998-10-01,Laureles-Estadio,Referido,2025-02-23,5,2025-10-03,2,32,370000,Mensual estudiante,Ilimitado,1.17,mañana,2025-02-23,2025-03-24,True,True,más de 1 a 2,26,False
+382,DOC63187694,F,1991-11-30,Castilla,Instagram,2026-03-28,4,2026-08-03,1,55,280000,Mensual estudiante,Ilimitado,3.97,mañana,2026-03-28,2026-08-03,False,True,más de 3,34,False
+383,DOC85097024,F,1990-08-06,Sin dato,Instagram,2025-02-16,11,2027-04-21,0,331,1791000,Mensual ilimitado,Ilimitado,3.73,mañana,2025-02-16,,True,False,más de 3,34,True
+384,DOC15570926,M,1985-03-09,Belén,Referido,2025-06-25,1,2025-07-24,1,2,0,Mensual ilimitado,Ilimitado,0.47,noche,2025-06-25,2025-07-24,True,True,hasta 1,40,False
+385,DOC95259972,M,2006-03-06,Laureles-Estadio,Instagram,2025-03-19,3,2025-12-23,1,112,720000,Trimestral ilimitado,Ilimitado,2.96,mañana,2025-03-19,2025-12-23,True,False,más de 2 a 3,19,False
+386,DOC59521208,F,1995-04-09,La Candelaria,Instagram,2025-06-09,1,2025-07-08,1,4,60000,Tiquetera 12 ingresos,Tiquetera,0.93,mañana,2025-06-09,2025-07-08,True,True,hasta 1,30,False
+387,DOC74581332,M,2007-02-09,Laureles-Estadio,Instagram,2026-01-20,1,2026-02-18,1,8,70000,Mensual estudiante,Ilimitado,1.87,tarde,2026-01-20,2026-02-18,True,True,más de 1 a 2,18,False
+388,DOC57812488,M,2009-11-11,Doce de Octubre,Referido,2025-09-21,1,2025-10-20,1,5,70000,Mensual estudiante,Ilimitado,1.17,mañana,2025-09-21,2025-10-20,True,True,más de 1 a 2,15,False
+389,DOC14307502,M,1996-05-27,Belén,Convenio empresarial,2026-03-16,1,2026-04-14,1,6,90000,Mensual ilimitado,Ilimitado,1.4,mañana,2026-03-16,2026-04-14,True,True,más de 1 a 2,29,False
+390,DOC36026730,F,1982-02-23,Castilla,Referido,2025-11-03,2,2026-05-29,2,6,180000,Mensual ilimitado,Ilimitado,0.47,mañana,2025-11-03,2025-12-02,True,True,hasta 1,43,False
+391,DOC37364657,F,1990-10-10,Laureles-Estadio,Convenio empresarial,2025-07-23,15,2026-11-11,0,214,1251000,Mensual ilimitado,Ilimitado,3.73,mañana,2025-07-23,,True,False,más de 3,34,True
+392,DOC13278649,F,1988-05-28,Castilla,Convenio empresarial,2025-11-05,2,2026-10-28,1,72,480000,Trimestral ilimitado,Ilimitado,2.49,noche,2025-11-05,2026-02-02,True,True,más de 2 a 3,37,True
+393,DOC19119257,M,1984-09-12,Castilla,Walk-in,2026-07-25,1,2026-10-22,0,38,240000,Trimestral ilimitado,Ilimitado,3.2,mañana,2026-07-25,,False,False,más de 3,41,True
+394,DOC81907867,M,2009-06-05,Castilla,Walk-in,2026-06-14,1,2026-07-13,1,4,0,Mensual ilimitado,Ilimitado,0.93,tarde,2026-06-14,2026-07-13,False,True,hasta 1,17,False
+395,DOC74522755,F,2010-07-20,Sin dato,Convenio empresarial,2026-07-07,2,2026-09-04,1,17,140000,Mensual estudiante,Ilimitado,2.8,noche,2026-07-07,2026-09-04,False,True,más de 2 a 3,15,False
+396,DOC84546151,M,,Laureles-Estadio,Walk-in,2026-04-02,1,2026-05-01,1,4,70000,Mensual estudiante,Ilimitado,0.93,noche,2026-04-02,2026-05-01,False,True,hasta 1,,False
+397,DOC64534895,M,1986-04-27,San Javier,Referido,2025-03-28,8,2026-11-17,0,251,1620000,Trimestral ilimitado,Ilimitado,3.58,mañana,2025-03-28,,True,False,más de 3,38,True
+398,DOC33517272,M,2010-02-02,Castilla,Referido,2026-01-04,2,2026-03-08,1,9,140000,Mensual estudiante,Ilimitado,1.17,mañana,2026-01-04,2026-03-08,True,True,más de 1 a 2,15,False
+399,DOC98996905,M,2002-03-09,Doce de Octubre,Convenio empresarial,2025-07-26,9,2026-04-30,1,60,630000,Mensual estudiante,Ilimitado,2.1,tarde,2025-07-26,2026-04-30,True,False,más de 2 a 3,23,False
+400,DOC32997663,F,2000-05-20,Buenos Aires,Instagram,2025-03-04,2,2025-05-02,1,8,140000,Mensual estudiante,Ilimitado,1.4,mañana,2025-03-04,2025-05-02,True,True,más de 1 a 2,24,False
+401,DOC46338125,M,1984-12-20,San Javier,Walk-in,2025-08-08,3,2026-01-04,1,12,366000,Trimestral ilimitado,Ilimitado,0.78,mañana,2025-08-08,2026-01-04,True,True,hasta 1,40,False
+402,DOC30696192,M,1994-06-04,Belén,Walk-in,2025-06-28,2,2025-08-26,1,15,140000,Mensual estudiante,Ilimitado,2.8,mañana,2025-06-28,2025-08-26,True,True,más de 2 a 3,31,False
+403,DOC78641698,M,1994-05-16,Aranjuez,Referido,2025-07-12,14,2026-11-18,0,209,1080000,Tiquetera 12 ingresos,Tiquetera,2.8,tarde,2025-07-12,,True,False,más de 2 a 3,31,True
+404,DOC51989694,F,1988-07-03,Laureles-Estadio,Walk-in,2025-01-07,1,2025-02-05,1,4,60000,Tiquetera 12 ingresos,Tiquetera,0.93,noche,2025-01-07,2025-02-05,True,True,hasta 1,36,False
+405,DOC68650492,M,1988-08-08,San Javier,Referido,2025-01-30,4,2025-07-22,2,30,253000,Tiquetera 12 ingresos,Tiquetera,0.7,tarde,2025-01-30,2025-02-28,True,True,hasta 1,36,False
+406,DOC97341018,F,1991-12-17,La Candelaria,Referido,2026-01-11,3,2026-10-13,0,129,480000,Trimestral ilimitado,Ilimitado,3.5,tarde,2026-01-11,,True,False,más de 3,34,False
+407,DOC89218606,F,1986-04-06,La Candelaria,Instagram,2026-01-04,10,2026-11-10,0,150,780000,Mensual ilimitado,Ilimitado,3.5,noche,2026-01-04,,True,False,más de 3,39,True
+408,DOC16454426,F,1994-06-13,Belén,Convenio empresarial,2026-01-29,1,2026-02-27,1,3,90000,Mensual ilimitado,Ilimitado,0.7,mañana,2026-01-29,2026-02-27,True,True,hasta 1,31,False
+409,DOC36843600,M,1983-02-26,Doce de Octubre,Instagram,2026-05-31,4,2026-11-26,0,76,510000,Mensual ilimitado,Ilimitado,3.73,tarde,2026-05-31,,False,False,más de 3,43,True
+410,DOC87479263,M,1999-05-11,Belén,Instagram,2025-01-21,8,2025-09-18,1,95,510000,Tiquetera 12 ingresos,Tiquetera,2.8,mañana,2025-01-21,2025-09-18,True,False,más de 2 a 3,25,False
+411,DOC46490248,M,2004-07-21,San Javier,Walk-in,2026-06-06,3,2026-10-24,1,12,210000,Mensual estudiante,Ilimitado,1.4,mañana,2026-06-06,2026-07-05,False,True,más de 1 a 2,21,True
+412,DOC32655868,M,2009-07-02,Belén,Instagram,2025-01-10,1,2025-02-08,1,3,70000,Mensual estudiante,Ilimitado,0.7,mañana,2025-01-10,2025-02-08,True,True,hasta 1,15,False
+413,DOC93091743,M,1982-08-11,Laureles-Estadio,Instagram,2025-02-16,13,2026-05-14,2,144,831000,Tiquetera 12 ingresos,Tiquetera,2.8,mañana,2025-02-16,2025-12-23,True,False,más de 2 a 3,42,False
+414,DOC94421677,M,1993-08-08,Laureles-Estadio,Volante,2025-07-29,3,2025-11-02,1,26,270000,Mensual ilimitado,Ilimitado,3.03,mañana,2025-07-29,2025-11-02,True,True,más de 3,31,False
+415,DOC45209975,M,1996-08-03,Laureles-Estadio,Instagram,2025-04-17,2,2025-06-15,1,16,120000,Tiquetera 12 ingresos,Tiquetera,2.8,noche,2025-04-17,2025-06-15,True,True,más de 2 a 3,28,False
+416,DOC18726569,F,,La Candelaria,Instagram,2026-03-01,1,2026-03-30,1,6,90000,Mensual ilimitado,Ilimitado,1.4,mañana,2026-03-01,2026-03-30,True,True,más de 1 a 2,,False
+417,DOC28079241,M,1992-01-01,Laureles-Estadio,Walk-in,2025-09-19,12,2026-10-23,0,194,693000,Mensual estudiante,Ilimitado,3.97,mañana,2025-09-19,,True,False,más de 3,33,True
+418,DOC94239311,F,1972-08-29,Aranjuez,Instagram,2025-06-30,4,2025-10-29,1,38,240000,Tiquetera 12 ingresos,Tiquetera,2.8,tarde,2025-06-30,2025-10-29,True,True,más de 2 a 3,52,False
+419,DOC82507344,M,1987-05-08,Belén,Instagram,2026-05-09,4,2026-11-04,0,86,450000,Mensual estudiante,Ilimitado,3.27,tarde,2026-05-09,,False,False,más de 3,39,True
+420,DOC32106174,M,2001-09-19,Belén,Instagram,2026-02-09,3,2026-11-12,0,86,480000,Trimestral ilimitado,Ilimitado,2.57,noche,2026-02-09,,True,False,más de 2 a 3,24,True
+421,DOC32036181,M,1972-06-18,El Poblado,Convenio empresarial,2026-01-08,1,2027-01-07,0,135,840000,Anual ilimitado,Ilimitado,3.36,mañana,2026-01-08,,True,False,más de 3,53,True
+422,DOC45329533,M,1990-10-30,La Candelaria,Walk-in,2026-06-07,4,2026-10-08,0,44,351000,Mensual ilimitado,Ilimitado,2.33,mañana,2026-06-07,,False,False,más de 2 a 3,35,False
+423,DOC80609621,M,1993-08-08,La Candelaria,Instagram,2025-02-08,7,2025-09-05,1,56,630000,Mensual ilimitado,Ilimitado,2.57,noche,2025-02-08,2025-09-05,True,False,más de 2 a 3,31,False
+424,DOC40732430,F,2007-03-20,La América,Volante,2026-08-26,2,2026-10-24,0,25,140000,Mensual estudiante,Ilimitado,3.5,mañana,2026-08-26,,False,False,más de 3,19,True
+425,DOC39504595,F,1998-06-27,Castilla,Referido,2026-08-06,1,2026-09-04,1,4,60000,Tiquetera 12 ingresos,Tiquetera,0.93,tarde,2026-08-06,2026-09-04,False,True,hasta 1,28,False
+426,DOC48985488,F,2010-09-08,La América,Instagram,2026-05-22,2,2026-11-17,0,79,456000,Trimestral ilimitado,Ilimitado,3.58,tarde,2026-05-22,,False,False,más de 3,15,True
+427,DOC68056430,F,1998-05-28,Laureles-Estadio,Convenio empresarial,2025-11-06,4,2026-03-13,1,35,351000,Mensual ilimitado,Ilimitado,2.1,mañana,2025-11-06,2026-03-13,True,True,más de 2 a 3,27,False
+428,DOC14604350,F,2000-07-17,Robledo,Referido,2026-09-02,2,2026-10-31,0,25,180000,Mensual ilimitado,Ilimitado,4.43,noche,2026-09-02,,False,False,más de 3,26,True
+429,DOC94954473,F,,Laureles-Estadio,Referido,2025-08-29,1,2025-09-27,1,7,0,Mensual estudiante,Ilimitado,1.63,tarde,2025-08-29,2025-09-27,True,True,más de 1 a 2,,False
+430,DOC23853361,F,1986-05-26,Sin dato,Instagram,2025-05-01,8,2026-05-27,1,144,933000,Mensual estudiante,Ilimitado,2.57,noche,2025-05-01,2026-05-27,True,False,más de 2 a 3,38,False
+431,DOC52739945,F,2001-10-12,Buenos Aires,Referido,2026-03-18,5,2026-08-24,1,51,350000,Mensual estudiante,Ilimitado,2.57,tarde,2026-03-18,2026-08-24,True,True,más de 2 a 3,24,False
+432,DOC58106502,M,1978-08-29,El Poblado,Referido,2025-09-11,13,2026-10-20,0,239,1170000,Mensual ilimitado,Ilimitado,5.13,mañana,2025-09-11,,True,False,más de 3,47,True
+433,DOC38068206,M,1979-02-24,Buenos Aires,Volante,2025-08-26,1,2025-09-24,1,6,90000,Mensual ilimitado,Ilimitado,1.4,tarde,2025-08-26,2025-09-24,True,True,más de 1 a 2,46,False
+434,DOC47180554,F,2002-01-02,Castilla,Walk-in,2025-01-06,5,2025-06-10,1,57,361000,Mensual estudiante,Ilimitado,2.33,tarde,2025-01-06,2025-06-10,True,True,más de 2 a 3,23,False
+435,DOC75998427,M,2004-08-20,Robledo,Referido,2025-07-17,2,2025-09-14,1,14,140000,Mensual estudiante,Ilimitado,2.8,tarde,2025-07-17,2025-09-14,True,True,más de 2 a 3,20,False
+436,DOC70750458,M,1985-11-08,Sin dato,Walk-in,2026-09-23,1,2026-10-22,0,11,90000,Mensual ilimitado,Ilimitado,3.35,mañana,2026-09-23,,False,False,más de 3,40,True
+437,DOC92673619,F,1984-04-23,Belén,Walk-in,2025-09-01,8,2026-07-12,1,123,750000,Mensual ilimitado,Ilimitado,3.5,mañana,2025-09-01,2026-07-12,True,False,más de 3,41,False
+438,DOC92822431,M,2003-04-20,Belén,Instagram,2025-07-07,9,2026-04-26,1,126,570000,Mensual estudiante,Ilimitado,4.2,mañana,2025-07-07,2026-04-26,True,False,más de 3,22,False
+439,DOC27717368,M,1996-01-26,La América,Referido,2025-07-09,3,2026-12-30,0,148,1350000,Semestral ilimitado,Ilimitado,2.57,tarde,2025-07-09,,True,False,más de 2 a 3,29,True
+440,DOC35996194,M,2008-03-16,Laureles-Estadio,Walk-in,2025-09-27,1,2025-10-26,1,3,90000,Mensual ilimitado,Ilimitado,0.7,mañana,2025-09-27,2025-10-26,True,True,hasta 1,17,False
+441,DOC15406501,F,1995-04-04,El Poblado,Referido,2025-09-13,4,2026-12-24,0,223,1101000,Mensual ilimitado,Ilimitado,4.2,mañana,2025-09-13,,True,False,más de 3,30,True
+442,DOC15943727,M,1987-05-27,Laureles-Estadio,Referido,2025-02-23,4,2026-02-17,1,161,960000,Trimestral ilimitado,Ilimitado,3.89,mañana,2025-02-23,2026-02-17,True,False,más de 3,37,False
+443,DOC32776194,F,1988-06-05,Castilla,Instagram,2025-12-19,1,2026-01-17,1,1,70000,Mensual estudiante,Ilimitado,0.23,noche,2025-12-19,2026-01-17,True,True,hasta 1,37,False
+444,DOC10500594,M,2007-11-04,La América,Instagram,2025-05-04,17,2026-10-23,0,299,1420000,Mensual ilimitado,Ilimitado,3.97,mañana,2025-05-04,,True,False,más de 3,17,True
+445,DOC12223103,F,2000-03-23,La América,Convenio empresarial,2025-05-29,1,2025-08-26,1,15,240000,Trimestral ilimitado,Ilimitado,1.17,tarde,2025-05-29,2025-08-26,True,True,más de 1 a 2,25,False
+446,DOC17536551,F,2001-04-12,Laureles-Estadio,Walk-in,2025-06-30,1,2026-06-29,1,154,840000,Anual ilimitado,Ilimitado,2.95,mañana,2025-06-30,2026-06-29,True,False,más de 2 a 3,24,False
+447,DOC63857533,M,1995-05-19,Aranjuez,Instagram,2026-01-20,1,2026-02-18,1,1,0,Mensual estudiante,Ilimitado,0.23,noche,2026-01-20,2026-02-18,True,True,hasta 1,30,False
+448,DOC86925388,M,1999-10-11,Aranjuez,Walk-in,2025-07-11,2,2025-09-08,1,11,180000,Mensual ilimitado,Ilimitado,1.63,mañana,2025-07-11,2025-09-08,True,True,más de 1 a 2,25,False
+449,DOC17650072,F,1992-05-19,Laureles-Estadio,Referido,2026-09-04,1,2026-10-03,0,6,90000,Mensual ilimitado,Ilimitado,1.4,mañana,2026-09-04,,False,False,más de 1 a 2,34,False
+450,DOC37958266,M,1992-04-23,La América,Instagram,2026-07-13,2,2026-09-10,1,15,180000,Mensual ilimitado,Ilimitado,2.57,noche,2026-07-13,2026-09-10,False,True,más de 2 a 3,34,False
+451,DOC45505951,F,2006-07-27,Belén,Instagram,2026-01-10,9,2026-10-23,0,97,573000,Tiquetera 12 ingresos,Tiquetera,2.57,noche,2026-01-10,,True,False,más de 2 a 3,19,True
+452,DOC74308832,M,1982-04-10,Guayabal,Instagram,2025-08-01,1,2025-08-30,1,4,70000,Mensual estudiante,Ilimitado,0.93,mañana,2025-08-01,2025-08-30,True,True,hasta 1,43,False
+453,DOC29169996,F,2005-07-08,La América,Instagram,2025-04-10,1,2025-05-09,1,3,70000,Mensual estudiante,Ilimitado,0.7,tarde,2025-04-10,2025-05-09,True,True,hasta 1,19,False
+454,DOC92097750,F,2002-07-10,El Poblado,Convenio empresarial,2026-01-10,4,2026-07-13,1,51,261000,Mensual ilimitado,Ilimitado,1.63,mañana,2026-01-10,2026-07-13,True,False,más de 1 a 2,23,False
+455,DOC27817078,F,1993-02-04,La Candelaria,Instagram,2025-01-30,10,2026-06-09,3,83,900000,Mensual ilimitado,Ilimitado,0.7,mañana,2025-01-30,2025-02-28,True,True,hasta 1,32,False
+456,DOC15905923,F,2008-10-23,La América,Walk-in,2026-04-16,2,2026-10-16,0,62,480000,Trimestral ilimitado,Ilimitado,2.41,tarde,2026-04-16,,False,False,más de 2 a 3,17,True
+457,DOC27793182,M,1992-07-30,Sin dato,Instagram,2025-02-01,1,2025-03-02,1,6,90000,Mensual ilimitado,Ilimitado,1.4,mañana,2025-02-01,2025-03-02,True,True,más de 1 a 2,32,False
+458,DOC25227513,F,2004-04-27,La Candelaria,Walk-in,2025-02-06,7,2025-09-08,1,63,450000,Mensual ilimitado,Ilimitado,1.87,mañana,2025-02-06,2025-09-08,True,False,más de 1 a 2,20,False
+459,DOC72181238,M,1983-09-29,El Poblado,Referido,2025-10-10,4,2026-02-12,1,37,360000,Mensual ilimitado,Ilimitado,3.03,noche,2025-10-10,2026-02-12,True,True,más de 3,42,False
+460,DOC91623985,F,1999-01-25,Aranjuez,Referido,2025-10-31,3,2027-04-28,0,129,1320000,Trimestral ilimitado,Ilimitado,2.88,tarde,2025-10-31,,True,False,más de 2 a 3,26,True
+461,DOC31081182,F,2001-05-16,Robledo,Instagram,2025-07-06,11,2026-10-17,0,191,1026000,Tiquetera 12 ingresos,Tiquetera,2.8,tarde,2025-07-06,,True,False,más de 2 a 3,24,True
+462,DOC10909271,F,,Belén,Walk-in,2025-12-02,1,2025-12-31,1,1,90000,Mensual ilimitado,Ilimitado,0.23,tarde,2025-12-02,2025-12-31,True,True,hasta 1,,False
+463,DOC62949993,F,1980-08-31,El Poblado,Referido,2025-06-03,15,2026-10-18,0,216,1150000,Mensual ilimitado,Ilimitado,2.57,mañana,2025-06-03,,True,False,más de 2 a 3,44,True
+464,DOC56471645,M,2000-08-31,La Candelaria,Instagram,2026-03-28,7,2026-10-24,0,111,540000,Mensual ilimitado,Ilimitado,4.43,tarde,2026-03-28,,False,False,más de 3,25,True
+465,DOC88729830,F,2010-11-11,Buenos Aires,Walk-in,2026-02-19,4,2026-06-24,1,56,280000,Mensual estudiante,Ilimitado,4.2,noche,2026-02-19,2026-06-24,True,True,más de 3,15,False
+466,DOC31553180,F,2010-07-06,La Candelaria,Convenio empresarial,2026-01-11,2,2026-03-11,1,22,140000,Mensual estudiante,Ilimitado,3.97,mañana,2026-01-11,2026-03-11,True,True,más de 3,15,False
+467,DOC83677595,F,2005-07-08,Belén,Referido,2026-08-07,1,2026-09-05,1,3,90000,Mensual ilimitado,Ilimitado,0.7,mañana,2026-08-07,2026-09-05,False,True,hasta 1,21,False
+468,DOC93753468,F,2009-09-28,La América,Referido,2025-06-23,14,2026-08-17,1,245,1013000,Mensual estudiante,Ilimitado,4.67,noche,2025-06-23,2026-08-17,True,False,más de 3,15,False
+469,DOC78061374,M,2005-05-07,San Javier,Walk-in,2026-02-13,2,2026-06-23,2,12,140000,Mensual estudiante,Ilimitado,0.47,tarde,2026-02-13,2026-03-14,True,True,hasta 1,20,False
+470,DOC17417819,F,1995-10-22,Doce de Octubre,Instagram,2026-04-12,2,2026-06-10,1,19,140000,Mensual estudiante,Ilimitado,3.03,mañana,2026-04-12,2026-06-10,False,True,más de 3,30,False
+471,DOC34145831,F,2004-04-10,Laureles-Estadio,Instagram,2025-02-18,2,2025-04-18,1,18,140000,Mensual estudiante,Ilimitado,1.63,mañana,2025-02-18,2025-04-18,True,True,más de 1 a 2,20,False
+472,DOC72295745,F,1993-06-09,La América,Convenio empresarial,2025-06-26,2,2027-06-25,0,285,1596000,Anual ilimitado,Ilimitado,4.32,mañana,2025-06-26,,True,False,más de 3,32,True
+473,DOC37240471,M,2000-06-23,La América,Walk-in,2026-08-23,1,2026-09-21,0,4,90000,Mensual ilimitado,Ilimitado,0.93,mañana,2026-08-23,,False,False,hasta 1,26,False
+474,DOC69526300,F,1991-11-21,Laureles-Estadio,Volante,2025-12-24,7,2026-08-01,1,91,410000,Mensual ilimitado,Ilimitado,3.73,tarde,2025-12-24,2026-08-01,True,False,más de 3,34,False
+475,DOC32952897,F,1987-09-09,Robledo,Walk-in,2025-06-14,1,2025-07-13,1,4,90000,Mensual ilimitado,Ilimitado,0.93,tarde,2025-06-14,2025-07-13,True,True,hasta 1,37,False
+476,DOC53138012,F,1986-10-27,Robledo,Instagram,2025-12-29,1,2026-01-27,1,9,90000,Mensual ilimitado,Ilimitado,2.1,mañana,2025-12-29,2026-01-27,True,True,más de 2 a 3,39,False
+477,DOC91297948,F,1995-03-28,San Javier,Instagram,2025-07-28,9,2026-05-02,1,112,630000,Mensual estudiante,Ilimitado,3.03,noche,2025-07-28,2026-05-02,True,False,más de 3,30,False
+478,DOC11737858,F,,Laureles-Estadio,Instagram,2025-01-01,1,2025-01-30,1,5,90000,Mensual ilimitado,Ilimitado,1.17,noche,2025-01-01,2025-01-30,True,True,más de 1 a 2,,False
+479,DOC19883228,F,1996-02-07,Belén,Volante,2026-02-20,1,2026-05-20,1,17,216000,Trimestral ilimitado,Ilimitado,1.32,noche,2026-02-20,2026-05-20,True,True,más de 1 a 2,30,False
+480,DOC26401640,F,2005-07-23,La América,Referido,2026-02-14,6,2026-12-17,0,98,736000,Mensual estudiante,Ilimitado,2.33,noche,2026-02-14,,True,False,más de 2 a 3,20,True
+481,DOC18881323,F,1985-12-10,Sin dato,Walk-in,2026-05-15,3,2026-08-28,1,22,270000,Mensual ilimitado,Ilimitado,2.1,mañana,2026-05-15,2026-08-28,False,True,más de 2 a 3,40,False
+482,DOC30526820,M,1996-08-28,Laureles-Estadio,Referido,2025-10-24,5,2026-03-30,1,36,300000,Tiquetera 12 ingresos,Tiquetera,1.87,mañana,2025-10-24,2026-03-30,True,True,más de 1 a 2,29,False
+483,DOC24866877,M,1989-07-19,Belén,Walk-in,2025-11-08,7,2026-11-12,0,150,792000,Tiquetera 12 ingresos,Tiquetera,2.8,mañana,2025-11-08,,True,False,más de 2 a 3,36,True
+484,DOC36769411,M,2004-04-09,Laureles-Estadio,Convenio empresarial,2025-06-22,5,2026-04-25,2,31,340000,Mensual estudiante,Ilimitado,2.33,tarde,2025-06-22,2025-08-20,True,True,más de 2 a 3,21,False
+485,DOC77576670,F,1985-04-17,La América,Referido,2025-06-21,5,2025-11-22,1,42,360000,Mensual ilimitado,Ilimitado,2.33,tarde,2025-06-21,2025-11-22,True,True,más de 2 a 3,40,False
+486,DOC25082223,M,2001-09-21,Belén,Walk-in,2025-02-18,4,2025-06-17,1,37,280000,Mensual estudiante,Ilimitado,3.03,mañana,2025-02-18,2025-06-17,True,True,más de 3,23,False
+487,DOC61297434,F,1998-04-08,El Poblado,Instagram,2025-08-29,1,2025-09-27,1,3,90000,Mensual ilimitado,Ilimitado,0.7,mañana,2025-08-29,2025-09-27,True,True,hasta 1,27,False
+488,DOC60170833,F,2008-05-26,Belén,Walk-in,2025-09-20,6,2026-03-21,1,98,430000,Mensual estudiante,Ilimitado,4.2,noche,2025-09-20,2026-03-21,True,False,más de 3,17,False
+489,DOC40499559,M,1996-04-18,Castilla,Convenio empresarial,2025-04-24,1,2025-05-23,1,2,70000,Mensual estudiante,Ilimitado,0.47,tarde,2025-04-24,2025-05-23,True,True,hasta 1,29,False
+490,DOC31349785,F,1996-11-19,Laureles-Estadio,Referido,2025-01-25,3,2025-04-24,1,11,270000,Mensual ilimitado,Ilimitado,0.93,noche,2025-01-25,2025-04-24,True,True,hasta 1,28,False
+491,DOC36805194,F,1991-04-04,Doce de Octubre,Walk-in,2025-01-22,2,2025-03-22,1,4,180000,Mensual ilimitado,Ilimitado,0.7,mañana,2025-01-22,2025-03-22,True,True,hasta 1,33,False
+492,DOC89353411,F,2006-07-12,Castilla,Instagram,2025-06-20,8,2026-03-12,1,109,700000,Mensual ilimitado,Ilimitado,4.67,mañana,2025-06-20,2026-03-12,True,False,más de 3,18,False
+493,DOC31847801,F,2004-04-01,Castilla,Referido,2025-01-20,1,2025-02-18,1,2,54000,Tiquetera 12 ingresos,Tiquetera,0.47,tarde,2025-01-20,2025-02-18,True,True,hasta 1,20,False
+494,DOC82522908,Sin dato,2003-07-18,La América,Referido,2025-02-03,2,2027-02-09,0,164,1680000,Anual ilimitado,Ilimitado,1.86,mañana,2025-02-03,,True,False,más de 1 a 2,21,True
+495,DOC47979156,F,1992-08-02,La Candelaria,Instagram,2026-09-02,2,2026-10-31,0,29,180000,Mensual ilimitado,Ilimitado,4.9,mañana,2026-09-02,,False,False,más de 3,34,True
+496,DOC78482709,M,1994-08-14,Belén,Instagram,2026-07-18,3,2026-10-15,0,24,210000,Mensual estudiante,Ilimitado,2.33,mañana,2026-07-18,,False,False,más de 2 a 3,31,True
+497,DOC81758358,F,2005-09-10,Robledo,Walk-in,2025-02-24,3,2025-05-29,1,21,250000,Mensual ilimitado,Ilimitado,2.1,mañana,2025-02-24,2025-05-29,True,True,más de 2 a 3,19,False
+498,DOC47045085,F,1990-04-09,Laureles-Estadio,Walk-in,2026-07-22,3,2026-10-24,0,36,250000,Mensual ilimitado,Ilimitado,3.03,noche,2026-07-22,,False,False,más de 3,36,True
+499,DOC61169463,M,1995-10-05,Castilla,Referido,2025-02-24,7,2025-09-21,1,43,520000,Mensual estudiante,Ilimitado,1.17,tarde,2025-02-24,2025-09-21,True,False,más de 1 a 2,29,False
+500,DOC79553958,M,2001-11-06,Laureles-Estadio,Referido,2025-12-02,7,2026-07-11,1,91,490000,Mensual estudiante,Ilimitado,2.8,mañana,2025-12-02,2026-07-11,True,False,más de 2 a 3,24,False
+501,DOC17655917,F,2003-07-09,Laureles-Estadio,Referido,2025-12-09,2,2026-02-06,1,6,140000,Mensual estudiante,Ilimitado,1.17,noche,2025-12-09,2026-02-06,True,True,más de 1 a 2,22,False
+502,DOC19788689,F,1990-12-02,La América,Walk-in,2026-08-12,2,2027-03-09,0,17,540000,Mensual ilimitado,Ilimitado,1.4,mañana,2026-08-12,,False,False,más de 1 a 2,35,True
+503,DOC31835114,M,2010-12-08,Laureles-Estadio,Convenio empresarial,2026-02-25,8,2026-11-07,0,108,490000,Mensual estudiante,Ilimitado,3.73,mañana,2026-02-25,,True,False,más de 3,15,True
+504,DOC19649885,M,,San Javier,Referido,2025-08-22,1,2025-09-20,1,4,70000,Mensual estudiante,Ilimitado,0.93,mañana,2025-08-22,2025-09-20,True,True,hasta 1,,False
+505,DOC54812646,F,1995-05-02,La América,Walk-in,2026-10-01,1,2026-10-30,0,8,0,Mensual estudiante,Ilimitado,3.73,noche,2026-10-01,,False,False,más de 3,31,True
+506,DOC28228461,F,,Laureles-Estadio,Referido,2026-04-15,1,2027-04-14,0,63,840000,Anual ilimitado,Ilimitado,2.4,mañana,2026-04-15,,False,False,más de 2 a 3,,True
+507,DOC64127396,M,1990-04-06,La América,Convenio empresarial,2025-12-27,3,2026-03-26,1,36,270000,Mensual ilimitado,Ilimitado,2.1,mañana,2025-12-27,2026-03-26,True,True,más de 2 a 3,35,False
+508,DOC16673017,M,1992-10-21,Doce de Octubre,Referido,2026-02-23,6,2026-10-20,0,152,630000,Mensual estudiante,Ilimitado,4.67,mañana,2026-02-23,,True,False,más de 3,33,True
+509,DOC12891650,Sin dato,1984-09-18,San Javier,Convenio empresarial,2025-05-14,3,2025-08-17,1,27,250000,Mensual ilimitado,Ilimitado,3.03,mañana,2025-05-14,2025-08-17,True,True,más de 3,40,False
+510,DOC66453681,F,2004-05-12,La América,Referido,2025-11-12,4,2026-03-11,1,40,280000,Mensual estudiante,Ilimitado,2.1,noche,2025-11-12,2026-03-11,True,True,más de 2 a 3,21,False
+511,DOC13290770,M,1993-03-30,El Poblado,Instagram,2025-09-22,4,2026-09-16,1,24,501000,Mensual ilimitado,Ilimitado,0.93,mañana,2025-09-22,2025-10-21,True,True,hasta 1,32,False
+512,DOC31621701,M,1999-06-20,Laureles-Estadio,Referido,2025-06-26,1,2025-07-25,1,1,70000,Mensual estudiante,Ilimitado,0.23,noche,2025-06-26,2025-07-25,True,True,hasta 1,26,False
+513,DOC83586829,M,1990-03-16,La América,Walk-in,2025-06-02,1,2025-07-01,1,5,60000,Tiquetera 12 ingresos,Tiquetera,1.17,mañana,2025-06-02,2025-07-01,True,True,más de 1 a 2,35,False
+514,DOC70010706,F,1984-03-01,Belén,Referido,2026-09-02,2,2026-10-31,0,21,180000,Mensual ilimitado,Ilimitado,3.73,tarde,2026-09-02,,False,False,más de 3,42,True
+515,DOC37623767,M,1997-07-29,Robledo,Instagram,2025-11-27,9,2026-08-27,1,106,480000,Tiquetera 12 ingresos,Tiquetera,2.8,mañana,2025-11-27,2026-08-27,True,False,más de 2 a 3,28,False
+516,DOC53720075,M,1993-11-18,La América,Referido,2026-06-21,2,2027-01-16,0,37,540000,Mensual ilimitado,Ilimitado,1.87,tarde,2026-06-21,,False,False,más de 1 a 2,32,True
+517,DOC76105857,F,,Belén,Referido,2025-06-25,1,2025-07-24,1,4,70000,Mensual estudiante,Ilimitado,0.93,noche,2025-06-25,2025-07-24,True,True,hasta 1,,False
+518,DOC39947951,F,1997-03-09,La América,Walk-in,2026-09-01,1,2026-11-29,0,21,240000,Trimestral ilimitado,Ilimitado,3.27,noche,2026-09-01,,False,False,más de 3,29,True
+519,DOC11940449,M,1982-12-17,San Javier,Referido,2025-02-10,1,2025-03-11,1,6,90000,Mensual ilimitado,Ilimitado,1.4,noche,2025-02-10,2025-03-11,True,True,más de 1 a 2,42,False
+520,DOC41895853,M,,Laureles-Estadio,Convenio empresarial,2026-10-01,1,2026-10-30,0,11,90000,Mensual ilimitado,Ilimitado,5.13,tarde,2026-10-01,,False,False,más de 3,,True
+521,DOC81399475,F,1986-01-23,Belén,Instagram,2026-06-04,1,2026-07-03,1,6,70000,Mensual estudiante,Ilimitado,1.4,noche,2026-06-04,2026-07-03,False,True,más de 1 a 2,40,False
+522,DOC15518609,F,1979-09-25,Buenos Aires,Referido,2025-12-16,6,2026-11-10,1,42,420000,Mensual estudiante,Ilimitado,0.7,noche,2025-12-16,2026-04-01,True,True,hasta 1,46,True
+523,DOC25840792,M,1998-05-10,Laureles-Estadio,Referido,2025-07-12,1,2025-08-10,1,4,90000,Mensual ilimitado,Ilimitado,0.93,noche,2025-07-12,2025-08-10,True,True,hasta 1,27,False
+524,DOC26136573,M,2002-02-11,Buenos Aires,Instagram,2025-01-06,1,2025-02-04,1,5,90000,Mensual ilimitado,Ilimitado,1.17,mañana,2025-01-06,2025-02-04,True,True,más de 1 a 2,22,False
+525,DOC36171883,F,2008-12-06,Laureles-Estadio,Walk-in,2026-05-27,5,2026-10-23,0,63,300000,Mensual estudiante,Ilimitado,2.8,tarde,2026-05-27,,False,False,más de 2 a 3,17,True
+526,DOC49456269,M,1977-01-28,Belén,Convenio empresarial,2026-10-04,1,2026-11-02,0,6,90000,Mensual ilimitado,Ilimitado,3.5,mañana,2026-10-04,,False,False,más de 3,49,True
+527,DOC32595584,M,1992-12-22,Doce de Octubre,Instagram,2025-12-19,2,2026-07-07,2,6,114000,Tiquetera 12 ingresos,Tiquetera,0.7,mañana,2025-12-19,2026-01-17,True,True,hasta 1,33,False
+528,DOC66412748,F,2002-01-18,San Javier,Instagram,2025-10-01,1,2025-10-30,1,9,70000,Mensual estudiante,Ilimitado,2.1,mañana,2025-10-01,2025-10-30,True,True,más de 2 a 3,23,False
+529,DOC96186830,F,1991-03-12,El Poblado,Walk-in,2025-09-14,2,2025-11-12,1,5,140000,Mensual estudiante,Ilimitado,0.93,tarde,2025-09-14,2025-11-12,True,True,hasta 1,34,False
+530,DOC45780913,F,2006-05-09,Sin dato,Referido,2026-01-06,10,2026-11-13,0,135,710000,Mensual estudiante,Ilimitado,3.27,noche,2026-01-06,,True,False,más de 3,19,True
+531,DOC25613813,M,2002-10-09,La Candelaria,Instagram,2026-02-06,3,2026-05-28,1,34,270000,Mensual ilimitado,Ilimitado,3.73,mañana,2026-02-06,2026-05-28,True,True,más de 3,23,False
+532,DOC64362640,M,2009-12-27,Sin dato,Referido,2025-03-06,1,2025-04-04,1,4,90000,Mensual ilimitado,Ilimitado,0.93,mañana,2025-03-06,2025-04-04,True,True,hasta 1,15,False
+533,DOC98915077,M,1991-04-18,Belén,Instagram,2026-04-20,1,2026-05-19,1,3,90000,Mensual ilimitado,Ilimitado,0.7,mañana,2026-04-20,2026-05-19,False,True,hasta 1,35,False
+534,DOC32168960,M,1998-04-05,Belén,Referido,2025-03-31,10,2026-01-31,1,137,790000,Mensual ilimitado,Ilimitado,2.8,mañana,2025-03-31,2026-01-31,True,False,más de 2 a 3,27,False
+535,DOC99388927,M,2006-07-22,La América,Referido,2025-07-24,4,2026-04-27,1,124,660000,Mensual estudiante,Ilimitado,3.03,noche,2025-07-24,2026-04-27,True,False,más de 3,19,False
+536,DOC69789029,M,1996-06-29,Castilla,Instagram,2026-04-08,5,2027-02-09,0,94,790000,Mensual ilimitado,Ilimitado,3.73,mañana,2026-04-08,,False,False,más de 3,29,True
+537,DOC16476535,F,1998-05-05,Laureles-Estadio,Referido,2025-02-20,1,2025-03-21,1,8,60000,Tiquetera 12 ingresos,Tiquetera,1.87,noche,2025-02-20,2025-03-21,True,True,más de 1 a 2,26,False
+538,DOC81923787,F,2007-05-23,Castilla,Referido,2026-07-12,4,2026-11-08,0,18,360000,Mensual ilimitado,Ilimitado,2.33,tarde,2026-07-12,,False,False,más de 2 a 3,19,True
+539,DOC82192478,M,1997-05-25,Laureles-Estadio,Referido,2026-01-04,3,2026-10-13,2,19,180000,Tiquetera 12 ingresos,Tiquetera,1.4,mañana,2026-01-04,2026-02-02,True,True,más de 1 a 2,28,False
+540,DOC47611437,M,1985-07-30,San Javier,Instagram,2025-02-13,19,2026-10-18,0,316,1303000,Mensual estudiante,Ilimitado,4.67,noche,2025-02-13,,True,False,más de 3,39,True
+541,DOC16173287,F,,Robledo,Instagram,2025-03-08,2,2025-05-06,1,22,140000,Mensual estudiante,Ilimitado,3.5,mañana,2025-03-08,2025-05-06,True,True,más de 3,,False
+542,DOC99100017,F,1996-04-29,Castilla,Instagram,2026-08-21,1,2026-09-19,0,8,0,Tiquetera 12 ingresos,Tiquetera,1.87,mañana,2026-08-21,,False,False,más de 1 a 2,30,False
+543,DOC72382340,M,1994-12-01,Castilla,Convenio empresarial,2025-04-07,10,2026-03-03,1,119,560000,Mensual estudiante,Ilimitado,2.57,mañana,2025-04-07,2026-03-03,True,False,más de 2 a 3,30,False
+544,DOC89090421,F,1990-04-18,Laureles-Estadio,Walk-in,2026-06-25,1,2026-07-24,1,7,0,Mensual estudiante,Ilimitado,1.63,tarde,2026-06-25,2026-07-24,False,True,más de 1 a 2,36,False
+545,DOC91616300,Sin dato,1999-04-30,Belén,Walk-in,2025-07-21,1,2026-01-16,1,54,450000,Semestral ilimitado,Ilimitado,2.1,tarde,2025-07-21,2026-01-16,True,True,más de 2 a 3,26,False
+546,DOC78521001,F,2002-01-06,La Candelaria,Referido,2025-03-21,13,2027-02-23,1,192,1331000,Mensual estudiante,Ilimitado,2.8,mañana,2025-03-21,2025-11-15,True,False,más de 2 a 3,23,True
+547,DOC24655279,M,2010-01-22,Laureles-Estadio,Convenio empresarial,2025-02-18,8,2025-10-25,1,72,700000,Mensual ilimitado,Ilimitado,2.57,noche,2025-02-18,2025-10-25,True,False,más de 2 a 3,15,False
+548,DOC54646232,M,1994-08-04,Guayabal,Volante,2025-12-14,10,2026-10-26,0,147,686000,Mensual estudiante,Ilimitado,3.03,tarde,2025-12-14,,True,False,más de 3,31,True
+549,DOC65625670,M,1998-06-02,Robledo,Walk-in,2025-10-20,3,2027-04-12,0,121,900000,Semestral ilimitado,Ilimitado,2.22,noche,2025-10-20,,True,False,más de 2 a 3,27,True
+550,DOC85486186,F,1999-11-15,Castilla,Referido,2025-01-10,10,2026-06-16,3,37,623000,Mensual estudiante,Ilimitado,1.63,mañana,2025-01-10,2025-04-25,True,True,más de 1 a 2,25,False
+551,DOC68055004,M,1995-06-13,Belén,Instagram,2026-02-18,2,2027-02-15,0,141,900000,Semestral ilimitado,Ilimitado,4.28,mañana,2026-02-18,,True,False,más de 3,30,True
+552,DOC72055916,F,2002-09-19,Laureles-Estadio,Referido,2026-08-26,1,2026-09-24,0,7,70000,Mensual estudiante,Ilimitado,1.63,mañana,2026-08-26,,False,False,más de 1 a 2,23,False
+553,DOC64346428,M,1999-10-11,Guayabal,Walk-in,2025-09-08,2,2025-11-11,1,21,180000,Mensual ilimitado,Ilimitado,3.03,mañana,2025-09-08,2025-11-11,True,True,más de 3,25,False
+554,DOC99567990,F,2005-07-27,Belén,Instagram,2025-11-13,11,2026-10-30,0,169,760000,Mensual estudiante,Ilimitado,4.43,tarde,2025-11-13,,True,False,más de 3,20,True
+555,DOC29769219,M,1993-10-28,Castilla,Referido,2026-03-26,1,2026-04-24,1,2,90000,Mensual ilimitado,Ilimitado,0.47,mañana,2026-03-26,2026-04-24,False,True,hasta 1,32,False
+556,DOC62652710,F,2002-05-29,Belén,Convenio empresarial,2025-10-09,1,2025-11-07,1,6,70000,Mensual estudiante,Ilimitado,1.4,tarde,2025-10-09,2025-11-07,True,True,más de 1 a 2,23,False
+557,DOC35980393,F,1989-12-07,Sin dato,Referido,2025-10-24,2,2025-12-22,1,11,140000,Mensual estudiante,Ilimitado,2.1,mañana,2025-10-24,2025-12-22,True,True,más de 2 a 3,35,False
+558,DOC93968945,F,1998-09-28,Castilla,Instagram,2025-06-03,1,2025-07-02,1,4,70000,Mensual estudiante,Ilimitado,0.93,mañana,2025-06-03,2025-07-02,True,True,hasta 1,26,False
+559,DOC47238381,M,1989-08-05,Belén,Instagram,2025-05-09,2,2025-07-07,1,19,120000,Tiquetera 12 ingresos,Tiquetera,2.8,tarde,2025-05-09,2025-07-07,True,True,más de 2 a 3,35,False
+560,DOC99680809,F,1980-12-15,San Javier,Walk-in,2025-01-05,2,2025-08-20,2,2,140000,Mensual estudiante,Ilimitado,0.23,mañana,2025-01-05,2025-02-03,True,True,hasta 1,44,False
+561,DOC73450392,M,1998-02-14,Belén,Convenio empresarial,2025-01-22,1,2025-02-20,1,2,90000,Mensual ilimitado,Ilimitado,0.47,mañana,2025-01-22,2025-02-20,True,True,hasta 1,26,False
+562,DOC25955109,F,1990-09-02,La América,Instagram,2025-09-20,5,2026-04-24,1,91,600000,Mensual ilimitado,Ilimitado,3.97,tarde,2025-09-20,2026-04-24,True,False,más de 3,35,False
+563,DOC92913848,M,1995-08-25,San Javier,Walk-in,2026-02-04,8,2026-10-15,0,123,720000,Mensual ilimitado,Ilimitado,3.5,mañana,2026-02-04,,True,False,más de 3,30,True
+564,DOC97604196,F,1978-04-10,Belén,Instagram,2025-02-09,20,2026-11-02,0,158,1683000,Mensual ilimitado,Ilimitado,2.57,tarde,2025-02-09,,True,False,más de 2 a 3,46,True
+565,DOC57456222,M,,Sin dato,Walk-in,2025-05-16,2,2025-07-21,1,17,120000,Tiquetera 12 ingresos,Tiquetera,2.8,mañana,2025-05-16,2025-07-21,True,True,más de 2 a 3,,False
+566,DOC38764581,M,1991-08-04,Doce de Octubre,Referido,2026-07-22,3,2026-10-19,0,36,180000,Tiquetera 12 ingresos,Tiquetera,2.8,mañana,2026-07-22,,False,False,más de 2 a 3,34,True
+567,DOC73081350,F,1994-05-22,Laureles-Estadio,Referido,2025-08-09,15,2026-11-07,0,210,950000,Mensual estudiante,Ilimitado,3.97,noche,2025-08-09,,True,False,más de 3,31,True
+568,DOC66088890,M,1985-04-06,Laureles-Estadio,Instagram,2025-03-16,3,2025-08-12,1,38,420000,Mensual ilimitado,Ilimitado,2.57,noche,2025-03-16,2025-08-12,True,True,más de 2 a 3,39,False
+569,DOC16936857,F,1996-07-31,Castilla,Instagram,2026-02-06,1,2026-08-04,1,41,450000,Semestral ilimitado,Ilimitado,1.59,mañana,2026-02-06,2026-08-04,True,True,más de 1 a 2,29,False
+570,DOC39667270,F,2000-11-23,Belén,Walk-in,2025-12-20,1,2026-01-18,1,2,60000,Tiquetera 12 ingresos,Tiquetera,0.47,mañana,2025-12-20,2026-01-18,True,True,hasta 1,25,False
+571,DOC27049664,M,2007-02-13,Robledo,Referido,2026-05-31,1,2026-06-29,1,10,70000,Mensual estudiante,Ilimitado,2.33,mañana,2026-05-31,2026-06-29,False,True,más de 2 a 3,19,False
+572,DOC37681468,M,1995-11-28,El Poblado,Walk-in,2026-04-16,1,2026-05-15,1,8,70000,Mensual estudiante,Ilimitado,1.87,tarde,2026-04-16,2026-05-15,False,True,más de 1 a 2,30,False
+573,DOC78845406,Sin dato,1989-05-26,Laureles-Estadio,Referido,2025-06-26,1,2025-07-25,1,2,81000,Mensual ilimitado,Ilimitado,0.47,mañana,2025-06-26,2025-07-25,True,True,hasta 1,36,False
+574,DOC68378333,F,1995-08-09,Robledo,Walk-in,2026-05-26,2,2026-10-15,1,10,171000,Mensual ilimitado,Ilimitado,0.93,mañana,2026-05-26,2026-06-24,False,True,hasta 1,30,True
+575,DOC83703356,F,2000-04-14,Buenos Aires,Walk-in,2026-09-12,1,2026-10-11,0,2,54000,Tiquetera 12 ingresos,Tiquetera,0.47,noche,2026-09-12,,False,False,hasta 1,26,False
+576,DOC62528380,Sin dato,1988-04-23,Laureles-Estadio,Referido,2025-02-04,2,2025-08-03,1,67,480000,Trimestral ilimitado,Ilimitado,2.88,noche,2025-02-04,2025-08-03,True,True,más de 2 a 3,36,False
+577,DOC19990109,F,1991-03-15,La América,Instagram,2025-08-20,5,2026-11-13,0,208,1200000,Trimestral ilimitado,Ilimitado,3.34,mañana,2025-08-20,,True,False,más de 3,34,True
+578,DOC37402395,M,2001-12-21,San Javier,Referido,2025-03-03,7,2025-09-30,1,117,370000,Mensual estudiante,Ilimitado,5.37,mañana,2025-03-03,2025-09-30,True,False,más de 3,23,False
+579,DOC82565819,F,2004-01-29,Laureles-Estadio,Referido,2026-05-24,1,2026-06-22,1,4,70000,Mensual estudiante,Ilimitado,0.93,mañana,2026-05-24,2026-06-22,False,True,hasta 1,22,False
+580,DOC31010380,M,,Castilla,Volante,2025-03-30,5,2027-03-10,2,46,1310000,Mensual estudiante,Ilimitado,2.1,tarde,2025-03-30,2025-06-05,True,True,más de 2 a 3,,True
+581,DOC26393660,M,,Doce de Octubre,Walk-in,2025-06-25,5,2025-11-29,1,59,450000,Mensual ilimitado,Ilimitado,2.57,tarde,2025-06-25,2025-11-29,True,True,más de 2 a 3,,False
+582,DOC39106805,M,1992-12-09,Belén,Convenio empresarial,2025-02-15,1,2025-03-16,1,6,60000,Tiquetera 12 ingresos,Tiquetera,1.4,mañana,2025-02-15,2025-03-16,True,True,más de 1 a 2,32,False
+583,DOC33776478,F,2005-02-11,Buenos Aires,Convenio empresarial,2025-08-11,14,2026-10-26,0,243,860000,Mensual estudiante,Ilimitado,4.2,tarde,2025-08-11,,True,False,más de 3,20,True
+584,DOC48776754,Sin dato,1994-02-04,Buenos Aires,Referido,2025-01-28,4,2025-06-06,1,25,280000,Mensual estudiante,Ilimitado,1.63,tarde,2025-01-28,2025-06-06,True,True,más de 1 a 2,31,False
+585,DOC36020062,Sin dato,2011-02-28,Robledo,Volante,2026-03-14,8,2026-11-10,0,97,580000,Mensual estudiante,Ilimitado,3.5,mañana,2026-03-14,,True,False,más de 3,15,True
+586,DOC88018467,F,1992-04-04,Robledo,Instagram,2026-06-30,1,2026-07-29,1,6,90000,Mensual ilimitado,Ilimitado,1.4,mañana,2026-06-30,2026-07-29,False,True,más de 1 a 2,34,False
+587,DOC62602176,F,1999-06-25,Laureles-Estadio,Instagram,2026-04-05,1,2026-05-04,1,3,54000,Tiquetera 12 ingresos,Tiquetera,0.7,mañana,2026-04-05,2026-05-04,False,True,hasta 1,26,False
+588,DOC66786886,M,1987-03-03,Laureles-Estadio,Referido,2026-02-13,3,2026-11-09,0,115,720000,Trimestral ilimitado,Ilimitado,3.73,mañana,2026-02-13,,True,False,más de 3,38,True
+589,DOC11036424,F,2006-07-21,Laureles-Estadio,Referido,2026-05-12,2,2026-11-07,0,62,360000,Trimestral ilimitado,Ilimitado,3.19,mañana,2026-05-12,,False,False,más de 3,19,True
+590,DOC50601527,M,2003-09-18,Aranjuez,Walk-in,2025-06-27,2,2025-08-25,1,19,63000,Mensual estudiante,Ilimitado,3.27,mañana,2025-06-27,2025-08-25,True,True,más de 3,21,False
+591,DOC92300390,F,2003-12-25,Belén,Instagram,2025-09-25,1,2025-10-24,1,6,90000,Mensual ilimitado,Ilimitado,1.4,mañana,2025-09-25,2025-10-24,True,True,más de 1 a 2,21,False
+592,DOC73559145,F,2006-02-11,Guayabal,Instagram,2025-02-15,2,2027-06-24,1,117,1680000,Anual ilimitado,Ilimitado,1.8,noche,2025-02-15,2026-02-14,True,False,más de 1 a 2,19,True
+593,DOC88154865,M,1978-05-07,El Poblado,Referido,2025-01-26,14,2026-08-03,1,283,1194000,Mensual estudiante,Ilimitado,4.67,mañana,2025-01-26,2026-08-03,True,False,más de 3,46,False
+594,DOC99510250,F,2006-01-13,Castilla,Referido,2025-08-02,14,2026-10-18,0,221,979000,Mensual estudiante,Ilimitado,3.73,tarde,2025-08-02,,True,False,más de 3,19,True
+595,DOC71353678,M,,Castilla,Instagram,2026-04-12,1,2027-04-11,0,77,840000,Anual ilimitado,Ilimitado,2.88,mañana,2026-04-12,,False,False,más de 2 a 3,,True
+596,DOC80691856,F,2006-08-22,Belén,Volante,2026-09-08,2,2026-11-06,0,9,140000,Mensual estudiante,Ilimitado,1.87,tarde,2026-09-08,,False,False,más de 1 a 2,20,True
+597,DOC44740962,M,1981-08-07,Belén,Instagram,2025-11-10,5,2026-04-12,1,47,343000,Mensual estudiante,Ilimitado,3.73,tarde,2025-11-10,2026-04-12,True,True,más de 3,44,False
+598,DOC95378644,M,1996-10-06,Robledo,Referido,2026-02-22,4,2026-12-20,0,154,810000,Trimestral ilimitado,Ilimitado,4.59,tarde,2026-02-22,,True,False,más de 3,29,True
+599,DOC35227322,F,2001-11-01,Sin dato,Referido,2025-08-20,14,2026-10-24,0,199,979000,Mensual estudiante,Ilimitado,3.5,mañana,2025-08-20,,True,False,más de 3,23,True
+600,DOC45038502,M,1989-09-21,Belén,Instagram,2026-06-01,1,2026-06-30,1,4,90000,Mensual ilimitado,Ilimitado,0.93,mañana,2026-06-01,2026-06-30,False,True,hasta 1,36,False
+601,DOC25369768,F,2000-06-11,Sin dato,Convenio empresarial,2026-03-30,2,2026-09-25,0,62,480000,Trimestral ilimitado,Ilimitado,2.64,tarde,2026-03-30,,False,False,más de 2 a 3,25,False
+602,DOC90937671,M,2011-02-18,Belén,Referido,2026-10-02,1,2026-12-30,0,8,240000,Trimestral ilimitado,Ilimitado,4.0,noche,2026-10-02,,False,False,más de 3,15,True
+603,DOC48582107,M,1984-11-28,La América,Referido,2025-01-18,4,2025-05-20,1,48,360000,Mensual ilimitado,Ilimitado,2.57,tarde,2025-01-18,2025-05-20,True,True,más de 2 a 3,40,False
+604,DOC45283661,F,2008-04-10,Sin dato,Instagram,2025-01-20,21,2026-11-06,0,292,1386000,Mensual estudiante,Ilimitado,4.2,tarde,2025-01-20,,True,False,más de 3,16,True
+605,DOC30192121,M,2002-08-08,La Candelaria,Convenio empresarial,2025-01-17,1,2025-02-15,1,6,70000,Mensual estudiante,Ilimitado,1.4,mañana,2025-01-17,2025-02-15,True,True,más de 1 a 2,22,False
+606,DOC59083483,F,1986-04-17,Belén,Convenio empresarial,2025-02-05,1,2025-03-06,1,3,90000,Mensual ilimitado,Ilimitado,0.7,mañana,2025-02-05,2025-03-06,True,True,hasta 1,38,False
+607,DOC61185879,M,2001-01-12,Buenos Aires,Walk-in,2026-04-30,1,2026-05-29,1,7,90000,Mensual ilimitado,Ilimitado,1.63,mañana,2026-04-30,2026-05-29,False,True,más de 1 a 2,25,False
+608,DOC19874985,M,2008-12-21,Doce de Octubre,Referido,2025-04-19,1,2025-05-18,1,2,70000,Mensual estudiante,Ilimitado,0.47,mañana,2025-04-19,2025-05-18,True,True,hasta 1,16,False
+609,DOC92470117,M,1999-06-15,San Javier,Referido,2025-05-25,8,2026-01-22,1,83,591000,Mensual ilimitado,Ilimitado,2.8,mañana,2025-05-25,2026-01-22,True,False,más de 2 a 3,25,False
+610,DOC45706394,F,1991-11-04,Castilla,Volante,2025-09-11,4,2026-09-06,1,123,960000,Trimestral ilimitado,Ilimitado,2.33,mañana,2025-09-11,2026-09-06,True,False,más de 2 a 3,33,False
+611,DOC76568795,M,,Laureles-Estadio,Walk-in,2026-06-23,4,2026-10-20,0,42,270000,Mensual estudiante,Ilimitado,3.27,mañana,2026-06-23,,False,False,más de 3,,True
+612,DOC86014392,M,1992-03-23,Robledo,Referido,2025-07-07,6,2026-01-02,1,95,441000,Mensual ilimitado,Ilimitado,3.73,mañana,2025-07-07,2026-01-02,True,True,más de 3,33,False
+613,DOC21202480,M,1992-05-17,Buenos Aires,Referido,2025-05-06,3,2026-10-27,0,264,1350000,Semestral ilimitado,Ilimitado,3.69,tarde,2025-05-06,,True,False,más de 3,32,True
+614,DOC68432408,M,1987-04-16,Laureles-Estadio,Instagram,2025-07-14,2,2025-09-11,1,19,60000,Tiquetera 12 ingresos,Tiquetera,2.8,tarde,2025-07-14,2025-09-11,True,True,más de 2 a 3,38,False
+615,DOC45164890,F,2002-11-06,Belén,Walk-in,2026-05-24,5,2026-10-28,0,46,330000,Tiquetera 12 ingresos,Tiquetera,2.57,noche,2026-05-24,,False,False,más de 2 a 3,23,True
+616,DOC84839159,M,2001-09-20,Laureles-Estadio,Volante,2025-04-24,5,2027-02-03,0,269,1464000,Tiquetera 12 ingresos,Tiquetera,2.8,mañana,2025-04-24,,True,False,más de 2 a 3,23,True
+617,DOC49506271,F,2010-12-30,Aranjuez,Referido,2026-08-07,1,2026-09-05,1,4,70000,Mensual estudiante,Ilimitado,0.93,mañana,2026-08-07,2026-09-05,False,True,hasta 1,15,False
+618,DOC26589816,M,1975-01-22,Robledo,Convenio empresarial,2026-01-18,5,2026-08-20,2,41,411000,Mensual ilimitado,Ilimitado,0.7,tarde,2026-01-18,2026-02-16,True,True,hasta 1,51,False
+619,DOC29015073,F,2009-06-25,Belén,Instagram,2025-01-23,1,2025-02-21,1,3,70000,Mensual estudiante,Ilimitado,0.7,mañana,2025-01-23,2025-02-21,True,True,hasta 1,15,False
+620,DOC83770914,M,,Sin dato,Convenio empresarial,2025-08-07,4,2026-11-04,0,188,960000,Tiquetera 12 ingresos,Tiquetera,2.8,tarde,2025-08-07,,True,False,más de 2 a 3,,True
+621,DOC88434568,M,2006-12-14,Buenos Aires,Walk-in,2026-01-13,9,2026-10-28,0,84,560000,Mensual estudiante,Ilimitado,2.57,mañana,2026-01-13,,True,False,más de 2 a 3,19,True
+622,DOC17042405,F,1996-06-24,Buenos Aires,Referido,2025-07-04,2,2027-07-13,0,252,1680000,Anual ilimitado,Ilimitado,3.76,tarde,2025-07-04,,True,False,más de 3,29,True
+623,DOC77323792,M,1995-12-18,Aranjuez,Volante,2025-01-01,8,2025-09-11,1,107,600000,Mensual estudiante,Ilimitado,3.5,mañana,2025-01-01,2025-09-11,True,False,más de 3,29,False
+624,DOC33943484,M,1999-03-07,Belén,Instagram,2026-07-25,1,2027-01-20,0,12,450000,Semestral ilimitado,Ilimitado,1.01,noche,2026-07-25,,False,False,más de 1 a 2,27,True
+625,DOC67673665,F,,Belén,Instagram,2026-09-25,1,2026-10-24,0,8,63000,Mensual estudiante,Ilimitado,2.67,mañana,2026-09-25,,False,False,más de 2 a 3,,True
+626,DOC27520331,M,2002-10-13,Castilla,Walk-in,2026-01-14,4,2026-11-17,0,129,790000,Mensual estudiante,Ilimitado,4.2,mañana,2026-01-14,,True,False,más de 3,23,True
+627,DOC36403328,M,2002-03-23,Laureles-Estadio,Instagram,2026-04-08,2,2026-06-06,1,14,133000,Mensual estudiante,Ilimitado,2.57,mañana,2026-04-08,2026-06-06,False,True,más de 2 a 3,24,False
+628,DOC85389342,M,1991-05-20,Laureles-Estadio,Volante,2026-06-20,1,2026-12-16,1,0,0,Semestral ilimitado,Ilimitado,0.0,,2026-06-20,2026-06-20,False,True,hasta 1,35,True
+629,DOC68743533,M,2002-05-14,Robledo,Referido,2026-07-02,1,2026-07-31,1,3,70000,Mensual estudiante,Ilimitado,0.7,mañana,2026-07-02,2026-07-31,False,True,hasta 1,24,False
+630,DOC20232900,M,1996-05-04,Belén,Referido,2025-09-25,13,2026-11-04,0,124,1161000,Mensual ilimitado,Ilimitado,2.8,mañana,2025-09-25,,True,False,más de 2 a 3,29,True
+631,DOC58626279,Sin dato,1998-03-14,Laureles-Estadio,Referido,2025-01-18,16,2026-10-22,1,179,900000,Tiquetera 12 ingresos,Tiquetera,2.8,tarde,2025-01-18,2026-01-31,True,False,más de 2 a 3,26,True
+632,DOC23801569,F,2004-03-08,Castilla,Convenio empresarial,2025-02-12,10,2025-12-30,1,108,700000,Mensual estudiante,Ilimitado,2.8,mañana,2025-02-12,2025-12-30,True,False,más de 2 a 3,20,False
+633,DOC51842184,M,1980-04-29,Laureles-Estadio,Referido,2025-02-12,2,2025-04-18,1,16,120000,Tiquetera 12 ingresos,Tiquetera,2.57,mañana,2025-02-12,2025-04-18,True,True,más de 2 a 3,44,False
+634,DOC92836510,M,1992-02-27,Belén,Instagram,2026-06-17,2,2026-12-13,0,47,480000,Trimestral ilimitado,Ilimitado,2.57,tarde,2026-06-17,,False,False,más de 2 a 3,34,True
+635,DOC59883723,M,1998-11-20,Belén,Convenio empresarial,2025-04-20,1,2025-05-19,1,3,70000,Mensual estudiante,Ilimitado,0.7,noche,2025-04-20,2025-05-19,True,True,hasta 1,26,False
+636,DOC34421805,F,2005-03-31,Buenos Aires,Instagram,2026-04-17,2,2027-04-11,0,102,900000,Semestral ilimitado,Ilimitado,3.93,noche,2026-04-17,,False,False,más de 3,21,True
+637,DOC57088362,F,2000-01-22,Robledo,Instagram,2026-02-20,1,2026-05-20,1,16,240000,Trimestral ilimitado,Ilimitado,1.24,mañana,2026-02-20,2026-05-20,True,True,más de 1 a 2,26,False
+638,DOC10336015,M,1989-02-22,San Javier,Referido,2026-02-24,1,2026-03-25,1,3,90000,Mensual ilimitado,Ilimitado,0.7,tarde,2026-02-24,2026-03-25,True,True,hasta 1,37,False
+639,DOC48186482,F,1977-01-06,Belén,Walk-in,2025-02-19,6,2026-08-12,1,200,1440000,Trimestral ilimitado,Ilimitado,2.72,mañana,2025-02-19,2026-08-12,True,False,más de 2 a 3,48,False
+640,DOC61283188,M,2002-11-21,Laureles-Estadio,Volante,2025-06-22,1,2025-07-21,1,2,70000,Mensual estudiante,Ilimitado,0.47,tarde,2025-06-22,2025-07-21,True,True,hasta 1,22,False
+641,DOC10525642,F,1987-05-29,Buenos Aires,Convenio empresarial,2025-01-19,1,2025-04-18,1,35,240000,Trimestral ilimitado,Ilimitado,2.72,mañana,2025-01-19,2025-04-18,True,True,más de 2 a 3,37,False
+642,DOC82361951,M,1988-09-12,Robledo,Referido,2026-10-02,1,2026-12-30,0,6,240000,Trimestral ilimitado,Ilimitado,3.0,tarde,2026-10-02,,False,False,más de 2 a 3,38,True
+643,DOC30059364,F,2009-10-03,La América,Instagram,2025-02-27,6,2025-08-25,1,61,336000,Mensual estudiante,Ilimitado,2.57,mañana,2025-02-27,2025-08-25,True,True,más de 2 a 3,15,False
+644,DOC38340030,M,2011-06-30,San Javier,Instagram,2026-06-28,1,2026-07-27,1,4,0,Mensual ilimitado,Ilimitado,0.93,mañana,2026-06-28,2026-07-27,False,True,hasta 1,15,False
+645,DOC10536088,F,2003-09-15,Doce de Octubre,Convenio empresarial,2026-07-31,3,2026-10-28,0,14,270000,Mensual ilimitado,Ilimitado,1.17,mañana,2026-07-31,,False,False,más de 1 a 2,22,True
+646,DOC85646874,F,2010-02-27,La América,Instagram,2026-02-28,8,2026-11-06,0,66,483000,Mensual estudiante,Ilimitado,1.87,tarde,2026-02-28,,True,False,más de 1 a 2,16,True
+647,DOC20839805,F,2003-06-20,Belén,Walk-in,2026-06-18,1,2026-07-17,1,9,70000,Mensual estudiante,Ilimitado,2.1,mañana,2026-06-18,2026-07-17,False,True,más de 2 a 3,23,False
+648,DOC32746561,M,2009-05-24,Castilla,Instagram,2026-02-25,6,2026-10-23,1,48,390000,Tiquetera 12 ingresos,Tiquetera,1.17,mañana,2026-02-25,2026-03-26,True,True,más de 1 a 2,16,True
+649,DOC51672326,M,1994-12-10,La América,Instagram,2026-06-02,5,2026-11-01,0,34,450000,Mensual ilimitado,Ilimitado,1.4,noche,2026-06-02,,False,False,más de 1 a 2,31,True
+650,DOC20715123,M,2010-06-11,La América,Instagram,2025-08-29,2,2025-10-27,1,18,140000,Mensual estudiante,Ilimitado,2.8,mañana,2025-08-29,2025-10-27,True,True,más de 2 a 3,15,False
+651,DOC33985739,M,1993-11-18,Sin dato,Convenio empresarial,2026-07-18,1,2026-08-16,1,4,60000,Tiquetera 12 ingresos,Tiquetera,0.93,tarde,2026-07-18,2026-08-16,False,True,hasta 1,32,False
+652,DOC37315241,F,,Laureles-Estadio,Walk-in,2025-01-15,1,2025-02-13,1,2,90000,Mensual ilimitado,Ilimitado,0.47,mañana,2025-01-15,2025-02-13,True,True,hasta 1,,False
+653,DOC45573156,F,1996-08-01,Laureles-Estadio,Referido,2025-02-09,3,2025-12-20,2,130,720000,Trimestral ilimitado,Ilimitado,3.89,mañana,2025-02-09,2025-05-09,True,True,más de 3,28,False
+654,DOC84889648,F,1987-05-11,Laureles-Estadio,Instagram,2025-07-10,3,2026-12-31,0,154,1350000,Semestral ilimitado,Ilimitado,2.49,tarde,2025-07-10,,True,False,más de 2 a 3,38,True
+655,DOC27236114,F,1990-12-03,La América,Referido,2026-08-25,1,2026-09-23,0,7,70000,Mensual estudiante,Ilimitado,1.63,mañana,2026-08-25,,False,False,más de 1 a 2,35,False
+656,DOC37386691,F,1995-01-04,La América,Referido,2025-03-06,14,2026-10-03,0,267,1582000,Mensual ilimitado,Ilimitado,4.67,tarde,2025-03-06,,True,False,más de 3,30,False
+657,DOC74700828,M,1995-06-14,Laureles-Estadio,Instagram,2025-02-01,16,2026-06-10,1,175,1312000,Mensual ilimitado,Ilimitado,3.03,mañana,2025-02-01,2026-06-10,True,False,más de 3,29,False
+658,DOC54502454,F,1986-01-20,Belén,Convenio empresarial,2026-01-23,2,2026-03-23,1,22,140000,Mensual estudiante,Ilimitado,4.2,mañana,2026-01-23,2026-03-23,True,True,más de 3,40,False
+659,DOC32171039,F,1999-03-13,Belén,Referido,2026-09-24,1,2026-10-23,0,9,60000,Tiquetera 12 ingresos,Tiquetera,2.86,noche,2026-09-24,,False,False,más de 2 a 3,27,True
+660,DOC41634856,F,1994-04-10,Guayabal,Referido,2026-05-03,2,2026-10-29,0,59,480000,Trimestral ilimitado,Ilimitado,2.18,tarde,2026-05-03,,False,False,más de 2 a 3,32,True
+661,DOC42361424,F,2005-03-25,Belén,Volante,2025-07-11,2,2025-09-16,1,16,140000,Mensual estudiante,Ilimitado,2.33,mañana,2025-07-11,2025-09-16,True,True,más de 2 a 3,20,False
+662,DOC54309865,M,1996-08-21,Belén,Convenio empresarial,2026-04-05,1,2026-05-04,1,7,90000,Mensual ilimitado,Ilimitado,1.63,noche,2026-04-05,2026-05-04,False,True,más de 1 a 2,29,False
+663,DOC82352449,M,2001-07-29,Robledo,Referido,2025-10-09,3,2026-01-06,1,29,210000,Mensual estudiante,Ilimitado,3.03,tarde,2025-10-09,2026-01-06,True,True,más de 3,24,False
+664,DOC86400086,M,2009-03-15,El Poblado,Referido,2025-12-13,5,2026-05-11,1,60,441000,Mensual ilimitado,Ilimitado,2.1,noche,2025-12-13,2026-05-11,True,True,más de 2 a 3,16,False
+665,DOC94289481,F,2004-10-01,Belén,Walk-in,2025-10-09,4,2026-08-10,1,47,790000,Trimestral ilimitado,Ilimitado,0.78,mañana,2025-10-09,2026-08-10,True,False,hasta 1,21,False
+666,DOC81412398,M,2005-09-16,Laureles-Estadio,Instagram,2026-01-30,5,2026-07-02,1,53,350000,Mensual estudiante,Ilimitado,2.57,mañana,2026-01-30,2026-07-02,True,True,más de 2 a 3,20,False
+667,DOC96856838,M,1987-01-15,Robledo,Convenio empresarial,2026-03-20,6,2026-11-20,0,78,681000,Mensual ilimitado,Ilimitado,3.27,tarde,2026-03-20,,False,False,más de 3,39,True
+668,DOC44125271,F,1993-11-28,Robledo,Referido,2025-03-01,3,2025-10-26,1,94,601000,Mensual ilimitado,Ilimitado,1.87,mañana,2025-03-01,2025-10-26,True,False,más de 1 a 2,31,False
+669,DOC54213258,M,1981-02-24,Laureles-Estadio,Volante,2025-11-27,10,2026-10-10,0,177,891000,Mensual ilimitado,Ilimitado,3.03,mañana,2025-11-27,,True,False,más de 3,44,False
+670,DOC33040679,M,,Belén,Instagram,2026-07-16,3,2026-10-17,0,39,140000,Mensual estudiante,Ilimitado,3.5,mañana,2026-07-16,,False,False,más de 3,,True
+671,DOC63162620,M,1997-12-04,Belén,Walk-in,2026-03-20,7,2026-10-26,0,102,481000,Mensual ilimitado,Ilimitado,3.73,noche,2026-03-20,,False,False,más de 3,28,True
+672,DOC56948277,F,1989-10-18,Buenos Aires,Volante,2025-01-06,4,2027-01-01,0,350,1575000,Semestral ilimitado,Ilimitado,3.69,mañana,2025-01-06,,True,False,más de 3,35,True
+673,DOC25376007,F,1993-09-29,Castilla,Walk-in,2025-01-06,1,2025-02-04,1,1,70000,Mensual estudiante,Ilimitado,0.23,noche,2025-01-06,2025-02-04,True,True,hasta 1,31,False
+674,DOC33239820,F,2010-04-07,Laureles-Estadio,Walk-in,2026-01-27,7,2026-08-26,1,54,540000,Mensual ilimitado,Ilimitado,2.1,mañana,2026-01-27,2026-08-26,True,False,más de 2 a 3,15,False
+675,DOC82075475,M,1995-04-20,Laureles-Estadio,Walk-in,2025-02-20,1,2025-03-21,1,3,70000,Mensual estudiante,Ilimitado,0.7,tarde,2025-02-20,2025-03-21,True,True,hasta 1,29,False
+676,DOC38809491,F,2004-02-23,La América,Instagram,2026-01-22,4,2026-05-24,1,33,273000,Mensual estudiante,Ilimitado,2.57,mañana,2026-01-22,2026-05-24,True,True,más de 2 a 3,21,False
+677,DOC72581436,M,1994-07-05,La América,Convenio empresarial,2026-09-27,1,2026-10-26,0,3,90000,Mensual ilimitado,Ilimitado,1.11,noche,2026-09-27,,False,False,más de 1 a 2,32,True
+678,DOC39245553,F,1998-03-19,San Javier,Walk-in,2026-05-21,5,2026-10-25,0,79,450000,Mensual ilimitado,Ilimitado,4.43,mañana,2026-05-21,,False,False,más de 3,28,True
+679,DOC57673330,F,1981-06-02,San Javier,Referido,2025-06-26,2,2025-08-24,1,15,120000,Tiquetera 12 ingresos,Tiquetera,2.8,noche,2025-06-26,2025-08-24,True,True,más de 2 a 3,44,False
+680,DOC71077948,M,,Laureles-Estadio,Instagram,2026-09-27,1,2026-10-26,0,3,90000,Mensual ilimitado,Ilimitado,1.11,tarde,2026-09-27,,False,False,más de 1 a 2,,True
+681,DOC26022786,Sin dato,1988-08-26,Castilla,Referido,2025-07-06,4,2025-11-21,1,52,273000,Mensual estudiante,Ilimitado,4.2,tarde,2025-07-06,2025-11-21,True,True,más de 3,36,False
+682,DOC89830304,M,1995-03-18,La América,Volante,2025-01-26,5,2025-08-31,1,100,591000,Mensual ilimitado,Ilimitado,3.73,mañana,2025-01-26,2025-08-31,True,False,más de 3,29,False
+683,DOC18122330,F,1988-08-09,Doce de Octubre,Walk-in,2025-06-28,15,2026-10-14,0,189,1341000,Mensual ilimitado,Ilimitado,2.1,mañana,2025-06-28,,True,False,más de 2 a 3,36,False
+684,DOC15424605,F,2011-03-04,San Javier,Instagram,2026-05-02,1,2026-07-30,1,25,240000,Trimestral ilimitado,Ilimitado,1.94,noche,2026-05-02,2026-07-30,False,True,más de 1 a 2,15,False
+685,DOC42214707,M,1980-02-25,Guayabal,Referido,2025-12-11,1,2026-01-09,1,4,90000,Mensual ilimitado,Ilimitado,0.93,tarde,2025-12-11,2026-01-09,True,True,hasta 1,45,False
+686,DOC98151083,M,2010-07-11,Laureles-Estadio,Convenio empresarial,2026-04-21,6,2026-10-29,0,60,501000,Mensual ilimitado,Ilimitado,2.57,mañana,2026-04-21,,False,False,más de 2 a 3,15,True
+687,DOC11886125,F,1994-11-15,Belén,Instagram,2025-01-21,3,2025-05-01,1,9,180000,Tiquetera 12 ingresos,Tiquetera,0.93,mañana,2025-01-21,2025-05-01,True,True,hasta 1,30,False
+688,DOC95975542,F,2005-09-29,Guayabal,Convenio empresarial,2026-07-06,4,2026-11-13,0,27,280000,Mensual estudiante,Ilimitado,1.63,tarde,2026-07-06,,False,False,más de 1 a 2,20,True
+689,DOC97807524,M,2010-09-30,Laureles-Estadio,Instagram,2026-02-11,2,2027-02-05,0,91,900000,Semestral ilimitado,Ilimitado,2.45,mañana,2026-02-11,,True,False,más de 2 a 3,15,True
+690,DOC62548578,M,2005-05-17,El Poblado,Walk-in,2025-07-01,6,2026-11-03,0,194,1270000,Trimestral ilimitado,Ilimitado,3.03,mañana,2025-07-01,,True,False,más de 3,20,True
+691,DOC29663664,M,1998-12-24,Castilla,Volante,2025-09-27,1,2025-10-26,1,3,90000,Mensual ilimitado,Ilimitado,0.7,tarde,2025-09-27,2025-10-26,True,True,hasta 1,26,False
+692,DOC50894629,M,1997-03-22,San Javier,Instagram,2025-12-06,10,2026-10-11,0,150,873000,Mensual ilimitado,Ilimitado,3.27,noche,2025-12-06,,True,False,más de 3,28,False
+693,DOC66776020,M,1979-04-16,Laureles-Estadio,Referido,2026-02-28,1,2026-03-29,1,6,60000,Tiquetera 12 ingresos,Tiquetera,1.4,mañana,2026-02-28,2026-03-29,True,True,más de 1 a 2,46,False
+694,DOC19816782,M,2005-03-16,Robledo,Volante,2025-06-15,2,2025-08-13,1,11,140000,Mensual estudiante,Ilimitado,1.63,mañana,2025-06-15,2025-08-13,True,True,más de 1 a 2,20,False
+695,DOC51660570,M,2007-01-22,Laureles-Estadio,Referido,2025-08-17,1,2025-09-15,1,4,70000,Mensual estudiante,Ilimitado,0.93,mañana,2025-08-17,2025-09-15,True,True,hasta 1,18,False
+696,DOC73775099,F,2010-01-31,Belén,Instagram,2025-11-03,4,2026-03-13,1,20,360000,Mensual ilimitado,Ilimitado,1.4,mañana,2025-11-03,2026-03-13,True,True,más de 1 a 2,15,False
+697,DOC76405281,F,2002-07-19,Laureles-Estadio,Instagram,2026-01-08,4,2027-01-04,0,120,840000,Trimestral ilimitado,Ilimitado,3.27,tarde,2026-01-08,,True,False,más de 3,23,True
+698,DOC22231631,F,1996-12-13,La Candelaria,Volante,2025-09-23,5,2026-10-28,0,162,1050000,Trimestral ilimitado,Ilimitado,3.34,noche,2025-09-23,,True,False,más de 3,28,True
+699,DOC55699831,M,2001-09-24,Buenos Aires,Walk-in,2025-06-24,2,2025-08-22,1,22,70000,Mensual estudiante,Ilimitado,3.27,mañana,2025-06-24,2025-08-22,True,True,más de 3,23,False
+700,DOC82033859,M,2008-07-04,Belén,Instagram,2025-01-21,10,2026-08-19,2,160,990000,Tiquetera 12 ingresos,Tiquetera,2.8,noche,2025-01-21,2025-07-30,True,False,más de 2 a 3,16,False
+701,DOC50809364,M,1984-11-16,Guayabal,Convenio empresarial,2025-09-02,11,2026-08-21,1,138,770000,Mensual estudiante,Ilimitado,3.97,tarde,2025-09-02,2026-08-21,True,False,más de 3,40,False
+702,DOC51313415,M,2007-08-19,Laureles-Estadio,Instagram,2025-04-19,3,2026-10-25,0,314,1350000,Semestral ilimitado,Ilimitado,3.93,mañana,2025-04-19,,True,False,más de 3,17,True
+703,DOC69003105,M,1991-04-05,Sin dato,Convenio empresarial,2025-10-16,1,2026-10-15,0,171,840000,Anual ilimitado,Ilimitado,3.28,mañana,2025-10-16,,True,False,más de 3,34,True
+704,DOC84744415,M,2005-07-22,Laureles-Estadio,Instagram,2026-06-12,5,2026-11-12,0,47,280000,Mensual estudiante,Ilimitado,3.27,mañana,2026-06-12,,False,False,más de 3,20,True
+705,DOC93786755,F,1995-05-16,Sin dato,Walk-in,2025-06-29,3,2025-10-04,1,25,180000,Mensual ilimitado,Ilimitado,1.63,tarde,2025-06-29,2025-10-04,True,True,más de 1 a 2,30,False
+706,DOC62366092,F,2003-12-23,Laureles-Estadio,Walk-in,2025-03-09,9,2026-11-11,1,328,1540000,Mensual ilimitado,Ilimitado,3.97,mañana,2025-03-09,2026-10-13,True,False,más de 3,21,True
+707,DOC39315929,F,1983-11-23,Robledo,Referido,2025-04-11,1,2025-05-10,1,3,90000,Mensual ilimitado,Ilimitado,0.7,tarde,2025-04-11,2025-05-10,True,True,hasta 1,41,False
+708,DOC44325139,F,2010-01-03,La Candelaria,Referido,2025-06-23,1,2025-07-22,1,3,70000,Mensual estudiante,Ilimitado,0.7,mañana,2025-06-23,2025-07-22,True,True,hasta 1,15,False
+709,DOC29919207,F,1988-10-19,Robledo,Instagram,2026-08-28,2,2026-10-26,0,26,180000,Mensual ilimitado,Ilimitado,3.73,tarde,2026-08-28,,False,False,más de 3,37,True
+710,DOC29454339,M,2000-03-17,Laureles-Estadio,Convenio empresarial,2025-06-28,1,2025-07-27,1,2,70000,Mensual estudiante,Ilimitado,0.47,mañana,2025-06-28,2025-07-27,True,True,hasta 1,25,False
+711,DOC38002510,M,1987-12-25,Guayabal,Walk-in,2025-03-09,6,2026-07-01,1,151,1266000,Trimestral ilimitado,Ilimitado,2.8,tarde,2025-03-09,2026-07-01,True,False,más de 2 a 3,37,False
+712,DOC79879268,F,1997-02-28,Belén,Convenio empresarial,2025-09-21,5,2026-12-14,0,199,1176000,Trimestral ilimitado,Ilimitado,3.58,mañana,2025-09-21,,True,False,más de 3,28,True
+713,DOC83713103,M,1989-09-28,La América,Convenio empresarial,2025-04-27,6,2026-10-24,0,242,1440000,Trimestral ilimitado,Ilimitado,3.19,tarde,2025-04-27,,True,False,más de 3,35,True
+714,DOC77642703,F,,San Javier,Referido,2025-10-10,1,2025-11-08,1,4,70000,Mensual estudiante,Ilimitado,0.93,tarde,2025-10-10,2025-11-08,True,True,hasta 1,,False
+715,DOC65556409,F,2002-02-25,Laureles-Estadio,Instagram,2025-02-02,1,2025-03-03,1,6,90000,Mensual ilimitado,Ilimitado,1.4,noche,2025-02-02,2025-03-03,True,True,más de 1 a 2,22,False
+716,DOC58559233,M,1986-10-21,Robledo,Referido,2025-07-11,5,2026-10-20,2,43,426000,Mensual estudiante,Ilimitado,0.7,mañana,2025-07-11,2025-08-09,True,True,hasta 1,38,True
+717,DOC12190511,F,,El Poblado,Walk-in,2025-02-05,2,2025-04-05,1,7,180000,Mensual ilimitado,Ilimitado,1.17,noche,2025-02-05,2025-04-05,True,True,más de 1 a 2,,False
+718,DOC36157231,F,1994-10-22,Belén,Volante,2025-02-27,8,2025-10-24,1,103,711000,Mensual ilimitado,Ilimitado,3.97,mañana,2025-02-27,2025-10-24,True,False,más de 3,30,False
+719,DOC58293881,F,2002-05-16,Laureles-Estadio,Walk-in,2025-01-17,8,2026-11-07,0,317,1656000,Trimestral ilimitado,Ilimitado,2.96,tarde,2025-01-17,,True,False,más de 2 a 3,22,True
+720,DOC74473187,F,,Sin dato,Instagram,2026-09-20,1,2026-12-18,0,10,240000,Trimestral ilimitado,Ilimitado,2.69,tarde,2026-09-20,,False,False,más de 2 a 3,,True
+721,DOC75726493,F,1998-01-29,Belén,Walk-in,2025-01-03,1,2025-04-02,1,22,216000,Trimestral ilimitado,Ilimitado,1.71,noche,2025-01-03,2025-04-02,True,True,más de 1 a 2,26,False
+722,DOC26183017,M,1991-04-23,Guayabal,Walk-in,2026-06-03,1,2026-07-02,1,2,70000,Mensual estudiante,Ilimitado,0.47,mañana,2026-06-03,2026-07-02,False,True,hasta 1,35,False
+723,DOC24789945,M,2000-07-16,Laureles-Estadio,Walk-in,2026-07-19,1,2026-08-17,1,10,70000,Mensual estudiante,Ilimitado,2.33,tarde,2026-07-19,2026-08-17,False,True,más de 2 a 3,26,False
+724,DOC45904499,F,2007-10-03,La América,Instagram,2026-01-21,7,2026-08-19,1,64,503000,Mensual estudiante,Ilimitado,2.33,noche,2026-01-21,2026-08-19,True,False,más de 2 a 3,18,False
+725,DOC73133411,F,2007-04-19,Laureles-Estadio,Instagram,2025-04-06,2,2027-04-05,0,233,1680000,Anual ilimitado,Ilimitado,2.97,mañana,2025-04-06,,True,False,más de 2 a 3,17,True
+726,DOC86036972,M,2004-04-01,Sin dato,Instagram,2025-07-31,2,2025-10-07,1,16,133000,Mensual estudiante,Ilimitado,1.87,tarde,2025-07-31,2025-10-07,True,True,más de 1 a 2,21,False
+727,DOC85451650,M,1993-01-09,La América,Instagram,2025-02-18,6,2025-08-25,1,86,520000,Mensual ilimitado,Ilimitado,3.5,noche,2025-02-18,2025-08-25,True,False,más de 3,32,False
+728,DOC81219488,Sin dato,1997-10-12,San Javier,Walk-in,2026-01-11,2,2026-03-11,1,24,90000,Mensual ilimitado,Ilimitado,3.27,mañana,2026-01-11,2026-03-11,True,True,más de 3,28,False
+729,DOC45692639,M,2008-09-24,Laureles-Estadio,Walk-in,2025-11-02,1,2025-12-01,1,2,70000,Mensual estudiante,Ilimitado,0.47,noche,2025-11-02,2025-12-01,True,True,hasta 1,17,False
+730,DOC82749876,Sin dato,2001-03-19,Robledo,Instagram,2025-06-25,10,2026-06-22,1,139,699000,Mensual estudiante,Ilimitado,3.5,tarde,2025-06-25,2026-06-22,True,False,más de 3,24,False
+731,DOC50777410,F,2000-05-15,Doce de Octubre,Convenio empresarial,2025-12-23,10,2026-11-10,0,133,623000,Mensual estudiante,Ilimitado,3.03,tarde,2025-12-23,,True,False,más de 3,25,True
+732,DOC17383158,M,2000-07-20,Castilla,Referido,2026-08-09,3,2026-11-06,0,24,210000,Mensual estudiante,Ilimitado,2.1,mañana,2026-08-09,,False,False,más de 2 a 3,26,True
+733,DOC21965559,F,1977-09-25,La América,Referido,2026-01-25,9,2026-10-28,0,94,700000,Mensual ilimitado,Ilimitado,3.5,mañana,2026-01-25,,True,False,más de 3,48,True
+734,DOC15200253,F,2011-01-28,Belén,Instagram,2026-07-28,1,2027-01-23,0,38,450000,Semestral ilimitado,Ilimitado,3.32,noche,2026-07-28,,False,False,más de 3,15,True
+735,DOC31292777,F,2000-04-29,Robledo,Walk-in,2025-09-14,1,2025-12-12,1,11,240000,Trimestral ilimitado,Ilimitado,0.86,noche,2025-09-14,2025-12-12,True,True,hasta 1,25,False
+736,DOC31267169,F,1986-12-03,Sin dato,Referido,2025-12-28,1,2026-03-27,1,41,240000,Trimestral ilimitado,Ilimitado,3.19,mañana,2025-12-28,2026-03-27,True,True,más de 3,39,False
+737,DOC61824305,F,1973-04-03,Castilla,Instagram,2026-05-16,1,2026-06-14,1,5,90000,Mensual ilimitado,Ilimitado,1.17,mañana,2026-05-16,2026-06-14,False,True,más de 1 a 2,53,False
+738,DOC42977744,F,1988-10-12,Laureles-Estadio,Volante,2026-07-24,3,2026-10-21,0,28,210000,Mensual estudiante,Ilimitado,2.1,tarde,2026-07-24,,False,False,más de 2 a 3,37,True
+739,DOC54621445,M,1999-05-16,Belén,Instagram,2026-01-24,2,2026-03-24,1,13,171000,Mensual ilimitado,Ilimitado,2.57,mañana,2026-01-24,2026-03-24,True,True,más de 2 a 3,26,False
+740,DOC58286669,M,2003-09-24,Castilla,Instagram,2025-06-13,3,2025-09-10,1,30,210000,Mensual estudiante,Ilimitado,3.27,noche,2025-06-13,2025-09-10,True,True,más de 3,21,False
+741,DOC12525186,F,2009-04-06,El Poblado,Walk-in,2025-01-21,1,2025-02-19,1,3,90000,Mensual ilimitado,Ilimitado,0.7,tarde,2025-01-21,2025-02-19,True,True,hasta 1,15,False
+742,DOC77124668,F,1987-01-16,Castilla,Instagram,2026-08-31,1,2026-11-28,0,4,240000,Trimestral ilimitado,Ilimitado,0.61,tarde,2026-08-31,,False,False,hasta 1,39,True
+743,DOC69434830,Sin dato,1989-09-23,Aranjuez,Referido,2025-05-14,4,2025-10-25,2,21,270000,Mensual ilimitado,Ilimitado,0.7,noche,2025-05-14,2025-06-12,True,True,hasta 1,35,False
+744,DOC59973859,M,1992-06-16,Laureles-Estadio,Convenio empresarial,2025-06-05,10,2026-10-27,1,150,1110000,Mensual ilimitado,Ilimitado,1.17,tarde,2025-06-05,2025-07-04,True,True,más de 1 a 2,32,True
+745,DOC13490931,M,1995-04-06,El Poblado,Walk-in,2025-04-01,1,2025-04-30,1,4,70000,Mensual estudiante,Ilimitado,0.93,tarde,2025-04-01,2025-04-30,True,True,hasta 1,30,False
+746,DOC67886808,M,1993-05-19,San Javier,Instagram,2025-02-10,1,2025-03-11,1,7,70000,Mensual estudiante,Ilimitado,1.63,tarde,2025-02-10,2025-03-11,True,True,más de 1 a 2,31,False
+747,DOC98369836,F,2010-07-13,La Candelaria,Walk-in,2026-01-15,3,2026-04-14,1,26,270000,Mensual ilimitado,Ilimitado,3.27,tarde,2026-01-15,2026-04-14,True,True,más de 3,15,False
+748,DOC26966041,F,,Robledo,Walk-in,2025-07-20,3,2026-05-26,3,6,261000,Mensual ilimitado,Ilimitado,0.23,mañana,2025-07-20,2025-08-18,True,True,hasta 1,,False
+749,DOC53255483,F,1993-04-12,Belén,Instagram,2026-03-29,1,2026-04-27,1,6,90000,Mensual ilimitado,Ilimitado,1.4,mañana,2026-03-29,2026-04-27,False,True,más de 1 a 2,32,False
+750,DOC28719122,F,1995-08-07,Castilla,Instagram,2026-09-12,2,2026-11-10,0,11,180000,Mensual ilimitado,Ilimitado,2.1,mañana,2026-09-12,,False,False,más de 2 a 3,31,True
+751,DOC72233881,M,1997-01-27,Robledo,Walk-in,2026-02-17,1,2026-05-17,1,13,240000,Trimestral ilimitado,Ilimitado,1.01,noche,2026-02-17,2026-05-17,True,True,más de 1 a 2,29,False
+752,DOC24292964,M,1995-10-17,Robledo,Referido,2026-04-06,1,2026-05-05,1,7,90000,Mensual ilimitado,Ilimitado,1.63,noche,2026-04-06,2026-05-05,False,True,más de 1 a 2,30,False
+753,DOC70674370,F,1994-05-27,Laureles-Estadio,Instagram,2025-05-28,1,2025-06-26,1,6,70000,Mensual estudiante,Ilimitado,1.4,mañana,2025-05-28,2025-06-26,True,True,más de 1 a 2,31,False
+754,DOC89174274,F,1994-07-14,Laureles-Estadio,Convenio empresarial,2026-06-20,1,2026-07-19,1,5,90000,Mensual ilimitado,Ilimitado,1.17,noche,2026-06-20,2026-07-19,False,True,más de 1 a 2,31,False
+755,DOC65175559,M,2010-02-08,Aranjuez,Instagram,2025-12-29,7,2026-10-30,1,73,490000,Mensual estudiante,Ilimitado,1.4,mañana,2025-12-29,2026-01-27,True,True,más de 1 a 2,15,True
+756,DOC55155343,Sin dato,2010-09-16,La Candelaria,Convenio empresarial,2026-02-11,9,2026-11-07,0,93,630000,Mensual estudiante,Ilimitado,3.5,tarde,2026-02-11,,True,False,más de 3,15,True
+757,DOC23928712,F,,Guayabal,Instagram,2026-06-26,3,2026-10-04,0,26,203000,Mensual estudiante,Ilimitado,2.57,mañana,2026-06-26,,False,False,más de 2 a 3,,False
+758,DOC79962942,Sin dato,1977-05-14,Robledo,Instagram,2026-02-22,2,2026-04-22,1,15,120000,Tiquetera 12 ingresos,Tiquetera,1.63,tarde,2026-02-22,2026-04-22,True,True,más de 1 a 2,48,False
+759,DOC55876171,M,1993-04-19,Belén,Instagram,2025-03-03,1,2025-05-31,1,20,240000,Trimestral ilimitado,Ilimitado,1.56,tarde,2025-03-03,2025-05-31,True,True,más de 1 a 2,31,False
+760,DOC13173586,F,1998-11-03,Robledo,Walk-in,2025-02-22,14,2026-10-25,2,181,1001000,Mensual estudiante,Ilimitado,3.03,mañana,2025-02-22,2025-06-25,True,True,más de 3,26,True
+761,DOC23895557,M,2002-01-21,La América,Instagram,2026-08-22,2,2026-10-24,0,13,90000,Mensual ilimitado,Ilimitado,2.33,noche,2026-08-22,,False,False,más de 2 a 3,24,True
+762,DOC39115882,M,,Belén,Instagram,2026-06-07,3,2026-09-04,1,31,270000,Mensual ilimitado,Ilimitado,3.73,mañana,2026-06-07,2026-09-04,False,True,más de 3,,False
+763,DOC99808546,M,2007-10-10,Laureles-Estadio,Referido,2025-01-16,14,2026-11-04,1,191,883000,Mensual estudiante,Ilimitado,2.8,tarde,2025-01-16,2025-10-22,True,False,más de 2 a 3,17,True
+764,DOC47597089,M,1992-04-05,Guayabal,Instagram,2026-08-07,1,2026-11-04,0,25,240000,Trimestral ilimitado,Ilimitado,2.5,noche,2026-08-07,,False,False,más de 2 a 3,34,True
+765,DOC39647529,M,,Laureles-Estadio,Walk-in,2025-07-15,4,2025-11-12,1,30,360000,Mensual ilimitado,Ilimitado,3.03,noche,2025-07-15,2025-11-12,True,True,más de 3,,False
+766,DOC29175750,F,1993-08-24,La Candelaria,Volante,2025-01-17,3,2025-10-13,1,88,480000,Trimestral ilimitado,Ilimitado,3.19,mañana,2025-01-17,2025-10-13,True,False,más de 3,31,False
+767,DOC61648789,M,1995-06-02,Laureles-Estadio,Walk-in,2025-10-16,1,2025-11-14,1,1,90000,Mensual ilimitado,Ilimitado,0.23,noche,2025-10-16,2025-11-14,True,True,hasta 1,30,False
+768,DOC26455914,M,1989-07-01,Robledo,Instagram,2025-07-25,1,2025-08-23,1,4,90000,Mensual ilimitado,Ilimitado,0.93,mañana,2025-07-25,2025-08-23,True,True,hasta 1,36,False
+769,DOC61696524,M,1996-04-06,Laureles-Estadio,Instagram,2026-07-22,3,2026-10-26,0,45,270000,Mensual ilimitado,Ilimitado,3.27,tarde,2026-07-22,,False,False,más de 3,30,True
+770,DOC46976429,Sin dato,1996-08-10,Laureles-Estadio,Instagram,2025-04-04,7,2025-11-10,1,53,504000,Mensual ilimitado,Ilimitado,1.63,mañana,2025-04-04,2025-11-10,True,False,más de 1 a 2,28,False
+771,DOC36370974,M,,Laureles-Estadio,Walk-in,2026-04-21,6,2026-10-25,0,84,420000,Mensual estudiante,Ilimitado,3.73,tarde,2026-04-21,,False,False,más de 3,,True
+772,DOC21982340,M,,La América,Instagram,2026-08-26,2,2026-10-24,0,24,151000,Mensual ilimitado,Ilimitado,2.8,tarde,2026-08-26,,False,False,más de 2 a 3,,True
+773,DOC67728628,M,2009-05-07,La Candelaria,Referido,2025-02-27,10,2026-10-24,1,224,1243000,Mensual estudiante,Ilimitado,3.03,mañana,2025-02-27,2025-09-06,True,False,más de 3,15,True
+774,DOC28878883,F,1986-07-07,Castilla,Volante,2025-11-13,7,2026-10-27,1,21,360000,Mensual ilimitado,Ilimitado,0.7,tarde,2025-11-13,2026-02-10,True,True,hasta 1,39,True
+775,DOC73149845,F,2003-05-02,Laureles-Estadio,Walk-in,2026-09-07,2,2026-11-05,0,12,140000,Mensual estudiante,Ilimitado,1.4,mañana,2026-09-07,,False,False,más de 1 a 2,23,True
+776,DOC56420922,M,2004-01-30,El Poblado,Convenio empresarial,2026-01-08,2,2026-03-11,1,10,140000,Mensual estudiante,Ilimitado,1.4,noche,2026-01-08,2026-03-11,True,True,más de 1 a 2,21,False
+777,DOC19160397,M,,La Candelaria,Instagram,2026-09-22,1,2026-10-21,0,7,90000,Mensual ilimitado,Ilimitado,2.04,mañana,2026-09-22,,False,False,más de 2 a 3,,True
+778,DOC60635808,M,1996-09-24,Castilla,Convenio empresarial,2026-01-04,6,2026-11-01,1,51,531000,Mensual ilimitado,Ilimitado,1.4,mañana,2026-01-04,2026-02-02,True,True,más de 1 a 2,29,True
+779,DOC38312652,M,1999-01-22,Belén,Instagram,2025-11-06,3,2026-02-03,1,22,114000,Tiquetera 12 ingresos,Tiquetera,2.57,mañana,2025-11-06,2026-02-03,True,True,más de 2 a 3,26,False
+780,DOC33852106,M,1998-03-16,Buenos Aires,Instagram,2025-05-24,2,2025-07-22,1,11,162000,Mensual ilimitado,Ilimitado,2.1,mañana,2025-05-24,2025-07-22,True,True,más de 2 a 3,27,False
+781,DOC33571534,M,1997-04-08,Robledo,Referido,2026-08-01,3,2026-10-29,0,39,261000,Mensual ilimitado,Ilimitado,2.8,mañana,2026-08-01,,False,False,más de 2 a 3,29,True
+782,DOC95366074,F,2010-06-24,La Candelaria,Instagram,2026-06-06,4,2026-10-09,0,27,270000,Mensual ilimitado,Ilimitado,1.63,tarde,2026-06-06,,False,False,más de 1 a 2,15,False
+783,DOC36849290,F,2001-10-12,Robledo,Walk-in,2025-07-19,1,2025-08-17,1,2,0,Mensual estudiante,Ilimitado,0.47,tarde,2025-07-19,2025-08-17,True,True,hasta 1,23,False
+784,DOC47303893,M,1989-05-24,Laureles-Estadio,Instagram,2026-02-19,1,2027-02-18,0,121,840000,Anual ilimitado,Ilimitado,3.54,mañana,2026-02-19,,True,False,más de 3,36,True
+785,DOC23578437,F,2005-11-13,Belén,Instagram,2025-08-15,8,2027-03-28,0,206,1246000,Mensual estudiante,Ilimitado,3.97,tarde,2025-08-15,,True,False,más de 3,19,True
+786,DOC70021626,M,1990-07-19,Robledo,Instagram,2025-07-24,5,2026-01-07,1,35,450000,Mensual ilimitado,Ilimitado,2.1,mañana,2025-07-24,2026-01-07,True,True,más de 2 a 3,35,False
+787,DOC25003815,M,1996-08-12,Sin dato,Walk-in,2025-07-09,3,2026-02-26,2,17,354000,Tiquetera 12 ingresos,Tiquetera,0.23,mañana,2025-07-09,2025-08-07,True,True,hasta 1,28,False
+788,DOC60793384,M,2005-01-23,Laureles-Estadio,Walk-in,2026-01-31,4,2026-08-14,2,33,270000,Mensual estudiante,Ilimitado,2.8,noche,2026-01-31,2026-03-31,True,True,más de 2 a 3,21,False
+789,DOC82898282,F,2001-05-18,Buenos Aires,Referido,2026-07-30,3,2026-10-27,0,37,180000,Mensual ilimitado,Ilimitado,4.2,tarde,2026-07-30,,False,False,más de 3,25,True
+790,DOC71779986,F,1993-11-21,El Poblado,Referido,2026-07-25,1,2026-10-22,0,39,240000,Trimestral ilimitado,Ilimitado,3.29,mañana,2026-07-25,,False,False,más de 3,32,True
+791,DOC92092226,F,,Buenos Aires,Instagram,2025-01-05,17,2026-11-11,0,327,1881000,Mensual ilimitado,Ilimitado,2.8,mañana,2025-01-05,,True,False,más de 2 a 3,,True
+792,DOC34407882,M,1980-01-16,Laureles-Estadio,Referido,2026-03-15,7,2026-10-15,0,101,510000,Mensual estudiante,Ilimitado,3.03,mañana,2026-03-15,,True,False,más de 3,46,True
+793,DOC65587534,M,1992-11-12,Robledo,Instagram,2026-01-02,1,2026-01-31,1,2,60000,Tiquetera 12 ingresos,Tiquetera,0.47,noche,2026-01-02,2026-01-31,True,True,hasta 1,33,False
+794,DOC52396835,F,1991-07-05,Laureles-Estadio,Instagram,2025-04-20,1,2025-05-19,1,4,90000,Mensual ilimitado,Ilimitado,0.93,noche,2025-04-20,2025-05-19,True,True,hasta 1,33,False
+795,DOC80447846,M,1989-10-06,El Poblado,Instagram,2026-09-09,2,2026-11-12,0,10,114000,Tiquetera 12 ingresos,Tiquetera,2.1,mañana,2026-09-09,,False,False,más de 2 a 3,36,True
+796,DOC94135106,F,1973-12-30,Sin dato,Instagram,2025-02-05,3,2025-05-11,1,19,203000,Mensual estudiante,Ilimitado,1.87,mañana,2025-02-05,2025-05-11,True,True,más de 1 a 2,51,False
+797,DOC75048458,F,1974-08-01,Aranjuez,Walk-in,2025-02-14,4,2027-02-14,0,142,1755000,Semestral ilimitado,Ilimitado,1.71,mañana,2025-02-14,,True,False,más de 1 a 2,50,True
+798,DOC51716735,F,1983-11-13,El Poblado,Volante,2026-01-20,1,2026-02-18,1,7,90000,Mensual ilimitado,Ilimitado,1.63,mañana,2026-01-20,2026-02-18,True,True,más de 1 a 2,42,False
+799,DOC11649118,F,1981-07-03,Belén,Instagram,2025-09-21,3,2026-12-02,1,121,720000,Trimestral ilimitado,Ilimitado,3.81,tarde,2025-09-21,2025-12-19,True,True,más de 3,44,True
+800,DOC68259251,F,2004-10-05,La Candelaria,Referido,2026-07-04,3,2026-10-01,0,12,230000,Mensual estudiante,Ilimitado,0.93,tarde,2026-07-04,,False,False,hasta 1,21,False
+801,DOC89470631,F,1971-05-08,Belén,Instagram,2025-01-07,1,2025-02-05,1,8,90000,Mensual ilimitado,Ilimitado,1.87,tarde,2025-01-07,2025-02-05,True,True,más de 1 a 2,53,False
+802,DOC14011229,M,1998-01-16,El Poblado,Instagram,2025-09-12,6,2026-03-15,1,61,450000,Mensual ilimitado,Ilimitado,3.27,tarde,2025-09-12,2026-03-15,True,False,más de 3,27,False
+803,DOC97732137,M,1987-09-03,Laureles-Estadio,Walk-in,2025-07-19,2,2025-09-16,1,16,180000,Mensual ilimitado,Ilimitado,3.03,tarde,2025-07-19,2025-09-16,True,True,más de 3,37,False
+804,DOC50363074,M,1992-04-06,Sin dato,Walk-in,2026-05-24,1,2026-06-22,1,2,90000,Mensual ilimitado,Ilimitado,0.47,mañana,2026-05-24,2026-06-22,False,True,hasta 1,34,False
+805,DOC96681669,Sin dato,1990-12-14,Belén,Convenio empresarial,2025-09-14,3,2025-12-12,1,25,270000,Mensual ilimitado,Ilimitado,1.63,mañana,2025-09-14,2025-12-12,True,True,más de 1 a 2,34,False
+806,DOC43546568,M,2005-02-17,La América,Referido,2026-06-04,5,2026-10-31,0,38,203000,Mensual estudiante,Ilimitado,1.63,tarde,2026-06-04,,False,False,más de 1 a 2,21,True
+807,DOC66038162,M,1994-09-05,Laureles-Estadio,Instagram,2025-01-31,4,2025-05-30,1,46,270000,Tiquetera 12 ingresos,Tiquetera,2.8,noche,2025-01-31,2025-05-30,True,True,más de 2 a 3,30,False
+808,DOC89746025,F,,San Javier,Referido,2025-09-27,7,2026-06-29,1,119,780000,Mensual ilimitado,Ilimitado,3.03,mañana,2025-09-27,2026-06-29,True,False,más de 3,,False
+809,DOC55616050,F,1990-06-17,Castilla,Convenio empresarial,2025-01-27,4,2027-01-16,0,221,1575000,Semestral ilimitado,Ilimitado,2.53,mañana,2025-01-27,,True,False,más de 2 a 3,34,True
+810,DOC41455290,Sin dato,2000-10-28,Robledo,Referido,2025-02-04,15,2026-05-18,1,206,1332000,Mensual ilimitado,Ilimitado,4.2,mañana,2025-02-04,2026-05-18,True,False,más de 3,24,False
+811,DOC33708139,M,2010-05-26,Laureles-Estadio,Referido,2025-12-16,1,2026-01-14,1,3,70000,Mensual estudiante,Ilimitado,0.7,noche,2025-12-16,2026-01-14,True,True,hasta 1,15,False
+812,DOC46978158,M,,Belén,Referido,2026-06-12,2,2026-08-10,1,24,90000,Mensual ilimitado,Ilimitado,3.5,noche,2026-06-12,2026-08-10,False,True,más de 3,,False
+813,DOC46522374,M,1997-11-20,Laureles-Estadio,Walk-in,2025-11-10,2,2026-11-04,0,133,900000,Semestral ilimitado,Ilimitado,2.72,noche,2025-11-10,,True,False,más de 2 a 3,27,True
+814,DOC91192387,F,1998-08-25,Robledo,Referido,2026-01-04,4,2026-09-30,1,15,360000,Mensual ilimitado,Ilimitado,0.23,noche,2026-01-04,2026-02-02,True,True,hasta 1,27,False
+815,DOC52412480,M,1988-10-16,Aranjuez,Referido,2025-03-26,9,2026-01-22,1,76,781000,Mensual ilimitado,Ilimitado,1.87,tarde,2025-03-26,2026-01-22,True,False,más de 1 a 2,36,False
+816,DOC32939241,M,2010-07-28,Belén,Convenio empresarial,2026-02-12,1,2026-03-13,1,5,70000,Mensual estudiante,Ilimitado,1.17,tarde,2026-02-12,2026-03-13,True,True,más de 1 a 2,15,False
+817,DOC60077780,F,2000-04-07,Laureles-Estadio,Walk-in,2025-03-28,1,2025-04-26,1,4,70000,Mensual estudiante,Ilimitado,0.93,noche,2025-03-28,2025-04-26,True,True,hasta 1,24,False
+818,DOC12164820,F,2011-02-10,Belén,Referido,2026-07-22,3,2026-12-18,0,27,310000,Mensual estudiante,Ilimitado,1.63,mañana,2026-07-22,,False,False,más de 1 a 2,15,True
+819,DOC36289951,F,1997-05-10,San Javier,Walk-in,2025-01-09,8,2025-09-08,1,88,673000,Mensual ilimitado,Ilimitado,2.8,mañana,2025-01-09,2025-09-08,True,False,más de 2 a 3,27,False
+820,DOC90926068,M,2006-10-31,Laureles-Estadio,Convenio empresarial,2026-04-02,5,2026-09-15,1,63,334000,Mensual estudiante,Ilimitado,3.5,mañana,2026-04-02,2026-09-15,False,True,más de 3,19,False
+821,DOC64294517,M,1996-05-15,Laureles-Estadio,Referido,2026-01-04,2,2026-03-04,1,26,180000,Mensual ilimitado,Ilimitado,3.73,mañana,2026-01-04,2026-03-04,True,True,más de 3,29,False
+822,DOC26663293,F,1998-09-20,Laureles-Estadio,Walk-in,2025-01-09,1,2025-02-07,1,4,60000,Tiquetera 12 ingresos,Tiquetera,0.93,mañana,2025-01-09,2025-02-07,True,True,hasta 1,26,False
+823,DOC82998083,Sin dato,1996-05-07,Laureles-Estadio,Convenio empresarial,2026-01-27,1,2026-02-25,1,4,60000,Tiquetera 12 ingresos,Tiquetera,0.93,mañana,2026-01-27,2026-02-25,True,True,hasta 1,29,False
+824,DOC50218166,M,2010-03-17,Laureles-Estadio,Convenio empresarial,2025-06-08,3,2026-11-29,0,244,1035000,Semestral ilimitado,Ilimitado,3.5,noche,2025-06-08,,True,False,más de 3,15,True
+825,DOC64178077,M,1996-08-04,Belén,Walk-in,2025-01-22,15,2026-05-12,1,207,1060000,Mensual estudiante,Ilimitado,3.5,tarde,2025-01-22,2026-05-12,True,False,más de 3,28,False
+826,DOC11016605,M,1998-09-17,Sin dato,Referido,2026-06-26,1,2026-12-22,0,41,450000,Semestral ilimitado,Ilimitado,2.56,mañana,2026-06-26,,False,False,más de 2 a 3,27,True
+827,DOC55245457,F,1995-12-15,Laureles-Estadio,Walk-in,2025-06-24,1,2025-09-21,1,20,240000,Trimestral ilimitado,Ilimitado,1.56,mañana,2025-06-24,2025-09-21,True,True,más de 1 a 2,29,False
+828,DOC12783097,M,1990-11-09,Laureles-Estadio,Walk-in,2025-03-02,2,2025-04-30,1,10,180000,Mensual ilimitado,Ilimitado,1.63,mañana,2025-03-02,2025-04-30,True,True,más de 1 a 2,34,False
+829,DOC21223697,F,2001-10-30,La América,Referido,2025-12-20,3,2026-03-19,1,16,243000,Mensual ilimitado,Ilimitado,1.63,mañana,2025-12-20,2026-03-19,True,True,más de 1 a 2,24,False
+830,DOC95901569,Sin dato,2009-12-01,Belén,Instagram,2025-01-08,10,2025-11-25,1,139,720000,Mensual estudiante,Ilimitado,3.03,tarde,2025-01-08,2025-11-25,True,False,más de 3,15,False
+831,DOC73173302,F,1997-01-26,Castilla,Instagram,2025-07-16,1,2025-10-13,1,19,240000,Trimestral ilimitado,Ilimitado,1.48,noche,2025-07-16,2025-10-13,True,True,más de 1 a 2,28,False
+832,DOC29827940,F,1985-11-05,La América,Walk-in,2025-04-05,1,2025-05-04,1,2,81000,Mensual ilimitado,Ilimitado,0.47,noche,2025-04-05,2025-05-04,True,True,hasta 1,39,False
+833,DOC23341503,M,2004-07-09,Laureles-Estadio,Volante,2026-04-22,1,2026-05-21,1,3,70000,Mensual estudiante,Ilimitado,0.7,mañana,2026-04-22,2026-05-21,False,True,hasta 1,21,False
+834,DOC62936609,F,,Sin dato,Instagram,2025-01-23,8,2026-11-24,0,328,1740000,Trimestral ilimitado,Ilimitado,3.89,tarde,2025-01-23,,True,False,más de 3,,True
+835,DOC57169194,M,1991-06-10,Belén,Referido,2025-12-30,1,2026-01-28,1,1,90000,Mensual ilimitado,Ilimitado,0.23,tarde,2025-12-30,2026-01-28,True,True,hasta 1,34,False
+836,DOC73694516,F,1999-01-26,Aranjuez,Instagram,2025-08-17,2,2025-10-25,1,15,180000,Mensual ilimitado,Ilimitado,2.33,tarde,2025-08-17,2025-10-25,True,True,más de 2 a 3,26,False
+837,DOC62703981,M,1991-08-21,Sin dato,Referido,2025-11-08,1,2026-02-05,1,20,240000,Trimestral ilimitado,Ilimitado,1.56,mañana,2025-11-08,2026-02-05,True,True,más de 1 a 2,34,False
+838,DOC25332102,F,1992-07-14,Laureles-Estadio,Instagram,2025-05-19,2,2025-07-17,1,23,171000,Mensual ilimitado,Ilimitado,3.73,noche,2025-05-19,2025-07-17,True,True,más de 3,32,False
+839,DOC89810867,M,1980-11-06,Castilla,Referido,2025-01-11,5,2025-06-18,1,35,360000,Mensual ilimitado,Ilimitado,1.87,mañana,2025-01-11,2025-06-18,True,True,más de 1 a 2,44,False
+840,DOC76348148,F,1988-02-10,El Poblado,Walk-in,2025-08-31,4,2026-08-25,1,163,960000,Trimestral ilimitado,Ilimitado,3.5,noche,2025-08-31,2026-08-25,True,False,más de 3,37,False
+841,DOC19877268,F,1987-03-15,San Javier,Instagram,2025-10-25,2,2026-10-19,0,91,900000,Semestral ilimitado,Ilimitado,1.79,tarde,2025-10-25,,True,False,más de 1 a 2,38,True
+842,DOC14355577,M,1996-03-19,Castilla,Convenio empresarial,2026-06-08,2,2026-08-06,1,17,120000,Tiquetera 12 ingresos,Tiquetera,2.8,mañana,2026-06-08,2026-08-06,False,True,más de 2 a 3,30,False
+843,DOC32813053,F,1997-11-28,La América,Instagram,2025-02-18,12,2026-06-10,2,162,963000,Mensual ilimitado,Ilimitado,3.5,mañana,2025-02-18,2025-06-18,True,True,más de 3,27,False
+844,DOC77064180,F,1997-01-30,La Candelaria,Instagram,2025-12-04,1,2026-03-03,1,29,240000,Trimestral ilimitado,Ilimitado,2.26,mañana,2025-12-04,2026-03-03,True,True,más de 2 a 3,28,False
+845,DOC80387432,F,2007-02-06,Castilla,Walk-in,2025-10-07,2,2025-12-05,1,6,60000,Tiquetera 12 ingresos,Tiquetera,0.93,tarde,2025-10-07,2025-12-05,True,True,hasta 1,18,False
+846,DOC57012272,F,,Belén,Walk-in,2026-01-03,1,2026-02-01,1,5,90000,Mensual ilimitado,Ilimitado,1.17,noche,2026-01-03,2026-02-01,True,True,más de 1 a 2,,False
+847,DOC38910884,F,1996-10-15,La América,Convenio empresarial,2025-04-19,3,2025-07-20,1,38,210000,Mensual estudiante,Ilimitado,3.03,mañana,2025-04-19,2025-07-20,True,True,más de 3,28,False
+848,DOC23679062,M,2005-06-21,San Javier,Walk-in,2026-02-11,3,2026-07-10,1,29,400000,Mensual estudiante,Ilimitado,0.93,mañana,2026-02-11,2026-07-10,True,True,hasta 1,20,False
+849,DOC30366775,Sin dato,1991-10-04,Castilla,Referido,2026-03-24,5,2026-08-20,1,60,441000,Mensual ilimitado,Ilimitado,2.57,tarde,2026-03-24,2026-08-20,False,True,más de 2 a 3,34,False
+850,DOC29696982,F,2005-03-19,Laureles-Estadio,Walk-in,2025-08-31,4,2025-12-28,1,55,273000,Mensual estudiante,Ilimitado,3.03,mañana,2025-08-31,2025-12-28,True,True,más de 3,20,False
+851,DOC71490666,F,1999-01-20,La América,Convenio empresarial,2025-11-22,7,2026-06-24,1,75,390000,Tiquetera 12 ingresos,Tiquetera,2.8,mañana,2025-11-22,2026-06-24,True,False,más de 2 a 3,26,False
+852,DOC41018795,F,2001-03-02,Belén,Instagram,2025-10-12,1,2026-01-09,1,25,216000,Trimestral ilimitado,Ilimitado,1.94,mañana,2025-10-12,2026-01-09,True,True,más de 1 a 2,24,False
+853,DOC25252907,F,2011-04-26,Castilla,Volante,2026-08-01,1,2026-08-30,1,9,70000,Mensual estudiante,Ilimitado,2.1,noche,2026-08-01,2026-08-30,False,True,más de 2 a 3,15,False
+854,DOC97413414,M,,Laureles-Estadio,Referido,2025-05-01,2,2025-06-29,1,20,120000,Tiquetera 12 ingresos,Tiquetera,2.8,mañana,2025-05-01,2025-06-29,True,True,más de 2 a 3,,False
+855,DOC18945433,F,1991-08-30,Laureles-Estadio,Referido,2025-07-07,14,2026-10-05,0,162,950000,Mensual estudiante,Ilimitado,3.97,mañana,2025-07-07,,True,False,más de 3,33,False
+856,DOC65021924,F,2001-01-15,Laureles-Estadio,Instagram,2025-02-12,6,2026-07-17,1,99,1281000,Mensual ilimitado,Ilimitado,1.17,tarde,2025-02-12,2026-07-17,True,False,más de 1 a 2,24,False
+857,DOC15607684,M,1990-04-16,Laureles-Estadio,Referido,2025-11-29,4,2026-03-28,1,46,264000,Mensual estudiante,Ilimitado,3.5,mañana,2025-11-29,2026-03-28,True,True,más de 3,35,False
+858,DOC16395140,M,,Doce de Octubre,Referido,2026-02-03,2,2027-02-03,0,119,900000,Semestral ilimitado,Ilimitado,3.58,mañana,2026-02-03,,True,False,más de 3,,True
+859,DOC88222015,M,2000-12-13,Belén,Referido,2026-02-22,1,2026-03-23,1,3,90000,Mensual ilimitado,Ilimitado,0.7,tarde,2026-02-22,2026-03-23,True,True,hasta 1,25,False
+860,DOC93805660,F,2001-02-25,La Candelaria,Volante,2026-06-07,3,2026-09-04,1,14,168000,Tiquetera 12 ingresos,Tiquetera,0.7,tarde,2026-06-07,2026-09-04,False,True,hasta 1,25,False
+861,DOC86068679,M,1987-07-15,Castilla,Convenio empresarial,2026-03-11,4,2026-11-07,1,23,360000,Mensual ilimitado,Ilimitado,1.87,mañana,2026-03-11,2026-06-08,True,True,más de 1 a 2,38,True
+862,DOC46232367,F,2002-11-03,Robledo,Volante,2025-07-03,15,2026-10-14,0,179,980000,Mensual estudiante,Ilimitado,2.8,noche,2025-07-03,,True,False,más de 2 a 3,22,False
+863,DOC77775728,F,2004-11-27,Sin dato,Instagram,2025-04-08,2,2025-06-06,1,7,140000,Mensual estudiante,Ilimitado,0.93,mañana,2025-04-08,2025-06-06,True,True,hasta 1,20,False
+864,DOC60312131,M,1999-04-05,El Poblado,Referido,2026-05-17,3,2026-08-19,1,21,270000,Mensual ilimitado,Ilimitado,2.1,noche,2026-05-17,2026-08-19,False,True,más de 2 a 3,27,False
+865,DOC60770938,F,1975-03-06,Buenos Aires,Referido,2025-07-11,11,2026-10-31,1,127,1131000,Mensual ilimitado,Ilimitado,2.8,mañana,2025-07-11,2025-10-08,True,True,más de 2 a 3,50,True
+866,DOC23424271,M,1994-09-29,San Javier,Convenio empresarial,2026-10-04,1,2026-11-02,0,8,70000,Mensual estudiante,Ilimitado,4.67,tarde,2026-10-04,,False,False,más de 3,32,True
+867,DOC44262498,F,2008-07-12,El Poblado,Instagram,2025-05-20,1,2025-06-18,1,9,70000,Mensual estudiante,Ilimitado,2.1,noche,2025-05-20,2025-06-18,True,True,más de 2 a 3,16,False
+868,DOC54630901,M,2001-05-11,Belén,Referido,2026-02-01,2,2026-04-01,1,17,140000,Mensual estudiante,Ilimitado,2.57,noche,2026-02-01,2026-04-01,True,True,más de 2 a 3,24,False
+869,DOC36830059,M,1995-08-20,San Javier,Referido,2025-04-25,8,2026-02-28,2,68,510000,Tiquetera 12 ingresos,Tiquetera,2.8,mañana,2025-04-25,2025-10-30,True,False,más de 2 a 3,29,False
+870,DOC83347941,M,1995-04-18,Robledo,Instagram,2025-05-31,1,2025-06-29,1,0,60000,Tiquetera 12 ingresos,Tiquetera,0.0,,2025-05-31,2025-06-29,True,True,hasta 1,30,False
+871,DOC72396792,M,2004-01-26,Belén,Referido,2026-06-25,4,2026-10-31,0,51,273000,Mensual estudiante,Ilimitado,3.73,mañana,2026-06-25,,False,False,más de 3,22,True
+872,DOC80358870,F,2002-04-19,Belén,Convenio empresarial,2025-01-29,3,2025-05-03,1,23,222000,Mensual ilimitado,Ilimitado,1.63,tarde,2025-01-29,2025-05-03,True,True,más de 1 a 2,22,False
+873,DOC91706342,F,2004-12-31,La América,Instagram,2026-03-25,3,2026-06-22,1,20,270000,Mensual ilimitado,Ilimitado,2.1,mañana,2026-03-25,2026-06-22,False,True,más de 2 a 3,21,False
+874,DOC56565964,F,2010-10-12,San Javier,Instagram,2025-11-19,6,2026-06-06,1,54,450000,Mensual ilimitado,Ilimitado,1.4,tarde,2025-11-19,2026-06-06,True,False,más de 1 a 2,15,False
+875,DOC31777685,F,2003-10-07,Castilla,Instagram,2025-10-17,1,2025-11-15,1,7,90000,Mensual ilimitado,Ilimitado,1.63,tarde,2025-10-17,2025-11-15,True,True,más de 1 a 2,22,False
+876,DOC72724708,M,1997-06-19,Laureles-Estadio,Volante,2026-01-13,4,2026-05-12,1,41,244000,Tiquetera 12 ingresos,Tiquetera,2.8,tarde,2026-01-13,2026-05-12,True,True,más de 2 a 3,28,False
+877,DOC83171712,M,2006-08-04,Laureles-Estadio,Instagram,2025-07-08,1,2025-08-06,1,4,70000,Mensual estudiante,Ilimitado,0.93,mañana,2025-07-08,2025-08-06,True,True,hasta 1,18,False
+878,DOC98823887,M,1996-06-28,Guayabal,Walk-in,2026-01-29,4,2026-11-11,0,131,653000,Mensual estudiante,Ilimitado,3.97,tarde,2026-01-29,,True,False,más de 3,29,True
+879,DOC38167762,M,1980-09-25,Doce de Octubre,Convenio empresarial,2025-06-05,1,2025-07-04,1,5,90000,Mensual ilimitado,Ilimitado,1.17,mañana,2025-06-05,2025-07-04,True,True,más de 1 a 2,44,False
+880,DOC85530193,F,1970-09-03,Laureles-Estadio,Walk-in,2025-01-31,4,2025-05-30,1,49,300000,Mensual estudiante,Ilimitado,2.8,tarde,2025-01-31,2025-05-30,True,True,más de 2 a 3,54,False
+881,DOC42781211,M,1988-03-18,Castilla,Volante,2026-05-13,2,2026-10-18,1,10,180000,Mensual ilimitado,Ilimitado,1.63,tarde,2026-05-13,2026-06-11,False,True,más de 1 a 2,38,True
+882,DOC43669484,M,1998-01-27,La América,Walk-in,2026-06-22,1,2026-12-18,0,34,450000,Semestral ilimitado,Ilimitado,2.05,mañana,2026-06-22,,False,False,más de 2 a 3,28,True
+883,DOC23406739,Sin dato,1983-10-10,Robledo,Instagram,2026-01-11,3,2026-04-10,1,28,200000,Mensual estudiante,Ilimitado,3.03,mañana,2026-01-11,2026-04-10,True,True,más de 3,42,False
+884,DOC19627289,M,2011-06-12,Castilla,Referido,2026-09-28,1,2026-10-27,0,6,90000,Mensual ilimitado,Ilimitado,2.33,mañana,2026-09-28,,False,False,más de 2 a 3,15,True
+885,DOC53872528,F,1999-12-08,Robledo,Referido,2025-10-24,7,2026-05-26,1,68,630000,Mensual ilimitado,Ilimitado,2.8,noche,2025-10-24,2026-05-26,True,False,más de 2 a 3,25,False
+886,DOC64561157,F,1991-10-30,Belén,Referido,2026-07-08,4,2026-11-04,0,61,360000,Mensual ilimitado,Ilimitado,4.9,noche,2026-07-08,,False,False,más de 3,34,True
+887,DOC83000335,F,2004-12-11,Belén,Walk-in,2025-05-04,1,2025-06-02,1,5,70000,Mensual estudiante,Ilimitado,1.17,noche,2025-05-04,2025-06-02,True,True,más de 1 a 2,20,False
+888,DOC64352342,F,,El Poblado,Convenio empresarial,2026-09-17,1,2026-10-16,0,12,70000,Mensual estudiante,Ilimitado,2.9,mañana,2026-09-17,,False,False,más de 2 a 3,,True
+889,DOC32388294,M,1970-08-19,La América,Referido,2026-09-16,1,2026-10-15,0,3,90000,Mensual ilimitado,Ilimitado,0.7,mañana,2026-09-16,,False,False,hasta 1,56,True
+890,DOC27849731,M,1980-01-01,Guayabal,Walk-in,2026-05-31,1,2027-05-30,0,24,756000,Anual ilimitado,Ilimitado,1.22,mañana,2026-05-31,,False,False,más de 1 a 2,46,True
+891,DOC36078093,F,1987-10-22,El Poblado,Referido,2025-07-05,1,2025-08-03,1,6,90000,Mensual ilimitado,Ilimitado,1.4,noche,2025-07-05,2025-08-03,True,True,más de 1 a 2,37,False
+892,DOC89472866,M,2010-07-15,Laureles-Estadio,Instagram,2026-03-17,2,2026-05-15,1,9,160000,Mensual estudiante,Ilimitado,1.63,mañana,2026-03-17,2026-05-15,True,True,más de 1 a 2,15,False
+893,DOC55636250,F,,La Candelaria,Volante,2025-12-02,4,2026-08-20,2,24,240000,Tiquetera 12 ingresos,Tiquetera,1.4,mañana,2025-12-02,2025-12-31,True,True,más de 1 a 2,,False
+894,DOC97998084,F,2007-07-22,Castilla,Volante,2025-02-10,2,2025-04-10,1,12,140000,Mensual estudiante,Ilimitado,2.1,tarde,2025-02-10,2025-04-10,True,True,más de 2 a 3,17,False
+895,DOC16763269,F,2005-09-15,La América,Instagram,2026-06-10,1,2026-07-09,1,8,70000,Mensual estudiante,Ilimitado,1.87,noche,2026-06-10,2026-07-09,False,True,más de 1 a 2,20,False
+896,DOC54772376,F,2001-12-16,Laureles-Estadio,Instagram,2025-08-03,1,2025-09-01,1,3,90000,Mensual ilimitado,Ilimitado,0.7,noche,2025-08-03,2025-09-01,True,True,hasta 1,23,False
+897,DOC38151808,M,2007-03-20,Guayabal,Referido,2025-07-29,12,2026-10-31,0,215,996000,Mensual estudiante,Ilimitado,4.43,tarde,2025-07-29,,True,False,más de 3,18,True
+898,DOC71003708,M,1994-03-08,El Poblado,Instagram,2026-08-28,2,2026-10-26,0,18,180000,Mensual ilimitado,Ilimitado,2.33,tarde,2026-08-28,,False,False,más de 2 a 3,32,True
+899,DOC28374518,M,1990-09-18,La América,Referido,2025-07-06,7,2026-01-31,1,88,590000,Mensual ilimitado,Ilimitado,4.2,mañana,2025-07-06,2026-01-31,True,False,más de 3,34,False
+900,DOC20024345,M,2001-08-01,Castilla,Walk-in,2025-10-07,3,2026-01-04,1,37,140000,Mensual estudiante,Ilimitado,3.73,tarde,2025-10-07,2026-01-04,True,True,más de 3,24,False

@@ -1,0 +1,7 @@
+id_plan,nombre_plan,tipo_plan,duracion_dias,ingresos_incluidos,precio
+1,Mensual ilimitado,Ilimitado,30,,90000
+2,Trimestral ilimitado,Ilimitado,90,,240000
+3,Semestral ilimitado,Ilimitado,180,,450000
+4,Anual ilimitado,Ilimitado,365,,840000
+5,Tiquetera 12 ingresos,Tiquetera,30,12,60000
+6,Mensual estudiante,Ilimitado,30,,70000
