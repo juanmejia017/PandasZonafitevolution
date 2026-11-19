@@ -5,7 +5,7 @@
 **Programa:** Análisis y Desarrollo de Software (ADSO) – SENA Regional Antioquia, ficha 3223873
 **Fecha:** noviembre de 2026
 
-Todas las cifras de este informe salen del notebook [`notebooks/diagnostico_calidad.ipynb`](../notebooks/diagnostico_calidad.ipynb).
+Todas las cifras de este informe salen del notebook [`notebooks/data_quality.ipynb`](../notebooks/data_quality.ipynb).
 
 ---
 
