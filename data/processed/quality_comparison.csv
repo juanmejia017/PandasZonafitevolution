@@ -1,0 +1,9 @@
+dataset,filas_antes,columnas_antes,nulos_antes,filas_duplicadas_antes,columnas_texto_antes,memoria_kb_antes,filas_despues,columnas_despues,nulos_despues,filas_duplicadas_despues,columnas_texto_despues,memoria_kb_despues
+zf_planes,6,6,5,0,2,0.6,6,6,5,0,1,0.4
+zf_miembros,908,7,127,0,6,95.1,900,7,63,0,1,36.3
+zf_membresias,3425,7,51,0,3,277.4,3425,7,0,0,0,100.6
+zf_pagos,3572,6,108,12,4,276.1,3560,6,0,0,0,76.8
+zf_accesos,57003,5,1140,0,3,4283.0,56109,6,386,0,0,1151.0
+kg_churn,4000,14,0,0,0,437.6,4000,14,0,0,0,140.8
+kg_actividad,2600,10,0,0,6,317.0,2600,9,0,0,0,112.0
+gov_escenarios,1071,5,0,0,3,128.7,1071,5,44,0,3,125.1
