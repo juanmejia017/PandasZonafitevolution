@@ -341,18 +341,33 @@ Formato de salida: un único bloque de código para una celda del notebook.
 
 | Campo | Registro |
 | :---- | :---- |
-| Herramienta y versión |  |
-| Técnica(s) de prompting |  |
-| Objetivo del prompt |  |
-| Evidencia del resultado |  |
+| Herramienta y versión | Claude (Anthropic), modelo Claude Opus 5.5 |
+| Técnica(s) de prompting | Rol o persona, contexto estructurado, delimitadores, cadena de pensamiento (paso a paso), restricciones, formato de salida |
+| Objetivo del prompt | Obtener el código de las medidas de tendencia central, dispersión y frecuencias, y plantillas de interpretación para completar con mis cifras reales |
+| Evidencia del resultado | Sección 4 (4.1, 4.2 y 4.3) de `notebooks/analytical_report.ipynb` (commit `feat: add univariate analysis`) |
 
 &nbsp;
 
 ```
-
+Actúa como analista de datos que enseña estadística descriptiva con Pandas.
+Contexto: proyecto de deserción del gimnasio Zona Fit Evolution. En el notebook ya están cargados dos DataFrames:
+- membresias (3425 filas, una por membresía)
+- miembros (900 filas, una por miembro)
+Variables a describir:
+"""
+Cuantitativas (membresias): visitas_semana (continua, visitas/semana), antiguedad_dias (discreta, días), edad_al_inicio (discreta, años, Int16 con nulos), precio_pagado (continua, COP)
+Cualitativas (membresias): nombre_plan (nominal), frecuencia (ordinal), franja_principal (ordinal, con nulos), tramo_antiguedad (ordinal), no_renovo (solo con observable == True)
+Cualitativa (miembros): desertor_6m (solo con evaluable == True)
+"""
+Tarea, paso a paso:
+1. Para las cuantitativas: una tabla con media, mediana, desviación estándar, mínimo, máximo, rango, Q1, Q3 y rango intercuartílico.
+2. Para cada cualitativa: frecuencia absoluta y relativa en una sola tabla (value_counts y value_counts(normalize=True)), respetando el orden de las categorías ordinales y mostrando los nulos de franja_principal.
+3. Las proporciones de no_renovo y desertor_6m con su filtro correspondiente.
+Restricciones: solo pandas; sin bucles for; redondeo a 2 decimales; no calcules estadísticas sobre identificadores; no inventes columnas.
+Formato de salida: un bloque de código por cada paso (3 celdas) con comentarios en español y, después de cada bloque, una plantilla de interpretación de 2 líneas con espacios [ ] para que yo complete las cifras reales.
 ```
 
-**Verificación y ajustes:**
+**Verificación y ajustes:** ejecuté las tres celdas en el notebook completo. Revisé que no hubiera bucles `for`, que las ordinales salieran en su orden lógico (`frecuencia` y `tramo_antiguedad` con `cat.categories`; `franja_principal` con el orden mañana, tarde, noche) y que los totales cuadraran: 3.425 membresías en cada tabla de frecuencias y 3.245 edades no nulas. Contrasté con la EV07: la tasa de no renovación (21,27 % de 3.084) y la deserción a 6 meses (61,10 % de 671) coinciden con la sección 7.2 del README. Detecté que `franja_principal` tiene 14 nulos en todas las membresías y 9 entre las observables; las dos cifras son correctas porque se miden sobre bases distintas. Completé las plantillas con las cifras de las salidas, no con cifras de la IA. Ajusté la interpretación del precio: como la media está inflada por los planes largos, uso la mediana (90.000 COP) como precio típico.
 
 **Prompt 2:**
 
@@ -455,18 +470,31 @@ Formato de salida: un único bloque de código para una celda del notebook.
 
 | Campo | Registro |
 | :---- | :---- |
-| Herramienta y versión |  |
-| Técnica(s) de prompting |  |
-| Objetivo del prompt |  |
-| Evidencia del resultado |  |
+| Herramienta y versión | Claude (Anthropic), modelo Claude Opus 5.5 |
+| Técnica(s) de prompting | Rol o persona, generación de alternativas, contexto estructurado, delimitadores, restricciones, formato de salida |
+| Objetivo del prompt | Elegir la gráfica adecuada para cada variable comparando alternativas, y generar las figuras univariadas con título, ejes, unidades y exportación |
+| Evidencia del resultado | Sección 4.4 de `notebooks/analytical_report.ipynb` (Figura 1 `reports/figures/univariate_distributions.png` y Figura 2 `reports/figures/price_paid_boxplot.png`); commit `feat: add univariate analysis` |
 
 &nbsp;
 
 ```
-
+Actúa como especialista en visualización de datos.
+Contexto: en mi notebook ya calculé el análisis univariado de las membresías del gimnasio Zona Fit Evolution. Variables y tipo estadístico:
+"""
+visitas_semana: cuantitativa continua (visitas/semana)
+precio_pagado: cuantitativa continua (COP), sesgada a la derecha
+nombre_plan: cualitativa nominal (6 planes)
+frecuencia: cualitativa ordinal (4 rangos)
+franja_principal: cualitativa ordinal (mañana, tarde, noche)
+"""
+Tarea:
+1. Para cada variable propón 2 alternativas de gráfica, con una ventaja y una desventaja de cada una, y recomienda una según el tipo de variable (barras, pastel, líneas, histograma, dispersión o boxplot).
+2. Con las recomendadas, dame el código de una figura de 2 x 2 con matplotlib (sin seaborn) para visitas_semana, nombre_plan, frecuencia y franja_principal, y una figura aparte para precio_pagado.
+Restricciones: cada gráfica con título, ejes con etiqueta y unidad y leyenda solo si aplica; las ordinales en su orden lógico; guarda cada figura con plt.savefig en ../reports/figures/ con nombres en inglés (univariate_distributions.png y price_paid_boxplot.png), dpi=150 y bbox_inches="tight"; crea la carpeta si no existe usando solo pathlib.
+Formato de salida: primero una tabla con las alternativas y la recomendación, después un único bloque de código.
 ```
 
-**Verificación y ajustes:**
+**Verificación y ajustes:** comprobé que las recomendaciones coinciden con la tabla de la EV08 (histograma para la continua, barras para la nominal y las ordinales; descarté el pastel porque pierde el orden de las ordinales y no permite comparar los planes pequeños). Ejecuté el código y revisé visualmente las dos figuras exportadas. Correcciones: (1) la primera versión usaba `boxplot(vert=False)`, que en matplotlib 3.11 está obsoleto (aviso `MatplotlibDeprecationWarning`); lo cambié por `orientation="horizontal"`, como indica la documentación; (2) los porcentajes de las barras verticales chocaban con el título, así que agregué margen con `set_ylim`; (3) el boxplot mostraba solo 6 puntos atípicos, pero calculé con la regla de Tukey que son 492 membresías (todas de planes trimestral, semestral y anual), así que agregué una anotación para que la figura no lleve a una lectura equivocada. Confirmé que los porcentajes de las etiquetas coinciden con las tablas de frecuencias de la sección 4.2.
 
 **Prompt 2:**
 
@@ -813,7 +841,7 @@ Marca con una X las técnicas que aplicaste en cada apartado.
 
 | Apartado | Qué respondió mal la IA | Cómo lo detectaste | Cómo lo corregiste |
 | :---- | :---- | :---- | :---- |
-|  |  |  |  |
+| 6. Visualización | Usó el parámetro `vert=False` en `plt.boxplot`, obsoleto en matplotlib 3.11 (se eliminará en la 3.13) | Al ejecutar la celda apareció un `MatplotlibDeprecationWarning` | Lo reemplacé por `orientation="horizontal"`, según la documentación oficial de matplotlib |
 |  |  |  |  |
 |  |  |  |  |
 
