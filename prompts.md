@@ -413,18 +413,34 @@ Formato de salida: un bloque de código por cada paso (3 celdas) con comentarios
 
 | Campo | Registro |
 | :---- | :---- |
-| Herramienta y versión |  |
-| Técnica(s) de prompting |  |
-| Objetivo del prompt |  |
-| Evidencia del resultado |  |
+| Herramienta y versión | Claude (Anthropic), modelo Claude Opus 5.5 |
+| Técnica(s) de prompting | Rol o persona, descomposición o encadenamiento de prompts, contexto estructurado, delimitadores, restricciones, formato de salida |
+| Objetivo del prompt | Responder las 5 subpreguntas validadas con `groupby`, `agg` y `join`, calcular la correlación y analizar los valores atípicos |
+| Evidencia del resultado | Secciones 5.1 a 5.6 de `notebooks/analytical_report.ipynb` (commit `feat: add bivariate and segment analysis`) |
 
 &nbsp;
 
 ```
-
+Actúa como analista de datos senior. Continúo el proyecto de deserción de Zona Fit Evolution: ya validé las subpreguntas y terminé el análisis univariado.
+Contexto: en el notebook existen membresias, miembros, observables = membresias[membresias["observable"]] y evaluables = miembros[miembros["evaluable"]].
+Subpreguntas validadas:
+"""
+1. ¿Cómo varía la deserción según el plan? (nombre_plan, tipo_plan / tipo_plan_inicial)
+2. ¿Qué relación hay entre la frecuencia semanal y la deserción? (visitas_semana, frecuencia / frecuencia_inicial)
+3. ¿La franja horaria se asocia con la deserción? (franja_principal / franja_inicial, excluyendo nulos)
+4. ¿Cómo cambia el riesgo según la antigüedad? (tramo_antiguedad, antiguedad_dias)
+5. ¿Cómo evoluciona la tasa de no renovación según el mes de inicio? (fecha_inicio, solo observables)
+"""
+Tarea, una celda por subpregunta:
+- En las subpreguntas 1 a 3, una tabla con groupby y agg que muestre, por categoría, el número de membresías, las no renovadas y la tasa de no renovación (observables), y al lado el número de miembros y la tasa de desertor_6m (evaluables), unidas con join.
+- En la subpregunta 4, la tabla por tramo_antiguedad y la correlación de Pearson entre antiguedad_dias, visitas_semana y no_renovo (convertida a entero).
+- En la subpregunta 5, la tasa mensual con groupby por fecha_inicio.dt.to_period("M"), con el número de membresías observables de cada mes.
+- Una celda final con los valores atípicos de visitas_semana por la regla de Tukey (Q1 − 1,5·IQR y Q3 + 1,5·IQR) y su efecto en la media.
+Restricciones: solo pandas; sin bucles for; observed=True en los groupby de categorías; tasas en porcentaje con 2 decimales; no inventes columnas.
+Formato de salida: un bloque de código por celda, comentado en español, sin interpretaciones (las escribo yo con mis salidas).
 ```
 
-**Verificación y ajustes:**
+**Verificación y ajustes:** ejecuté las 7 celdas en el notebook completo. Contrasté las tasas con la EV07 (README, sección 7.2): tiquetera 28,4 %, semestral 10,5 %, frecuencia «hasta 1» 84,4 % y «más de 3» 0,6 %, y primeros 6 meses 23,9 %; coinciden. Comprobé que los totales cuadran: 3.084 membresías observables (3.075 con franja más las 9 sin franja) y 671 miembros evaluables. Al revisar las salidas detecté dos cosas que la IA no advirtió: (1) la deserción a 6 meses del plan anual (0 %) y del semestral (14,71 %) no es comparable, porque un plan de 365 o 180 días casi no puede vencerse sin renovar dentro de los primeros 180 días; lo aclaré en la interpretación. (2) Las 8 membresías atípicas (7 visitas por semana) empezaron entre el 13 y el 15 de octubre de 2026, justo antes del corte, así que son un efecto de la ventana corta y no un uso real; agregué `fecha_inicio` a la tabla de atípicos para mostrarlo. Agregué a la subpregunta 5 la columna `porcentaje_observable` para evidenciar la censura de los últimos meses (septiembre 32,52 %, octubre 1,18 %). Las interpretaciones las redacté con base en las salidas del notebook.
 
 **Prompt 2:**
 
