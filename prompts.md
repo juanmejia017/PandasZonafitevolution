@@ -566,18 +566,42 @@ Formato de salida: un bloque de código por figura.
 
 | Campo | Registro |
 | :---- | :---- |
-| Herramienta y versión |  |
-| Técnica(s) de prompting |  |
-| Objetivo del prompt |  |
-| Evidencia del resultado |  |
+| Herramienta y versión | Claude (Anthropic), modelo Claude Opus 5.5 |
+| Técnica(s) de prompting | Rol o persona, contexto estructurado, delimitadores, few-shot, formato de salida, autoverificación o crítica |
+| Objetivo del prompt | Redactar la respuesta a la pregunta analítica, los hallazgos, las recomendaciones y las limitaciones a partir de mis resultados reales |
+| Evidencia del resultado | Sección 6 (6.1 a 6.5) de `notebooks/analytical_report.ipynb` y secciones 7 a 9 de `reports/analytical_report.md` (commit `docs: add analytical report`) |
 
 &nbsp;
 
 ```
-
+Actúa como consultor de analítica que presenta resultados al administrador de un gimnasio.
+Pregunta analítica: ¿Qué factores (tipo de plan, frecuencia de asistencia, horario de entrenamiento y antigüedad) influyen en que un miembro de Zona Fit Evolution cancele o no renueve su membresía durante sus primeros seis meses?
+Mis resultados reales (salidas del notebook, no agregues otras cifras):
+"""
+- Deserción a 6 meses: 61,10 % de 671 miembros evaluables. No renovación por membresía: 21,27 % de 3.084 observables.
+- Frecuencia (no renovación / deserción 6m): hasta 1 visita 84,43 % / 98,44 %; 1 a 2: 48,27 % / 79,19 %; 2 a 3: 6,71 % / 53,65 %; más de 3: 0,57 % / 31,19 %. Mediana de visitas: 1,17 (no renovó) vs. 3,03 (renovó). Correlación visitas_semana–no_renovo: −0,64.
+- Plan: tiquetera 28,37 % / 74,68 %; ilimitados 20,37 % / 59,29 %; mensual estudiante 21,34 % / 71,04 %; mensual ilimitado 20,19 % / 66,67 %; trimestral 18,18 % / 41,43 %; semestral 10,53 %. El anual tiene solo 26 membresías observables.
+- Antigüedad: 0–6 meses 23,85 %; 6–12 meses 14,44 %; más de 12 meses 12,79 %. Correlación antigüedad–no_renovo: −0,14.
+- Franja: mañana 20,85 %, tarde 20,04 %, noche 23,26 % (deserción 6m de quienes empiezan de noche: 67,80 %).
+- Serie mensual: estable alrededor de 21 % entre feb-2025 y jul-2026.
+- Datos simulados; corte 15/10/2026; solo se registra la entrada; sin motivo de retiro.
+"""
+Ejemplo del formato de un hallazgo:
+"""
+Hallazgo 1 – La frecuencia de asistencia es el factor más asociado con la deserción.
+Evidencia: la no renovación pasa de 84,43 % con hasta 1 visita semanal a 0,57 % con más de 3 (correlación −0,64).
+Implicación: el número de visitas es la señal temprana más útil para detectar miembros en riesgo.
+"""
+Tarea:
+1. Responde la pregunta analítica en un párrafo de máximo 120 palabras, citando cifras.
+2. Redacta 4 hallazgos con el formato del ejemplo (el primero puede ser el del ejemplo, mejorado).
+3. Propón 4 recomendaciones accionables, cada una ligada a un hallazgo, con indicador para medirla.
+4. Lista las limitaciones y 3 próximos pasos.
+5. Al final, revisa tu propia respuesta: confirma que cada cifra que usaste aparece en mis resultados y señala cualquier afirmación causal que los datos no permitan sostener.
+Formato de salida: Markdown con los subtítulos Respuesta, Hallazgos, Recomendaciones, Limitaciones y próximos pasos, Autoverificación.
 ```
 
-**Verificación y ajustes:**
+**Verificación y ajustes:** comparé cada cifra de la respuesta con las salidas del notebook y agregué al inicio de la sección 6 una celda (`resumen_hallazgos`) que recalcula las cifras principales desde las tablas, para que se puedan comprobar en un solo lugar; todas coinciden. La IA no agregó cifras nuevas: las líneas base de los indicadores son mis propias tasas. Revisé la autoverificación y acepté sus advertencias: la frecuencia se presenta como señal de alerta y no como causa (posible causalidad inversa), la mejor retención de los planes largos puede ser autoselección y las recomendaciones son hipótesis que se deben medir. Agregué la tabla de respuesta a cada subpregunta (6.1), que la guía pide en el Momento 6, y confirmé que el párrafo de respuesta tiene menos de 120 palabras.
 
 **Prompt 2:**
 
@@ -623,18 +647,26 @@ Formato de salida: un bloque de código por figura.
 
 | Campo | Registro |
 | :---- | :---- |
-| Herramienta y versión |  |
-| Técnica(s) de prompting |  |
-| Objetivo del prompt |  |
-| Evidencia del resultado |  |
+| Herramienta y versión | Claude (Anthropic), modelo Claude Opus 5.5 |
+| Técnica(s) de prompting | Rol o persona, contexto estructurado, restricciones, formato de salida |
+| Objetivo del prompt | Obtener el esquema del informe, el resumen ejecutivo, la metodología y la lista de referencias en APA 7.ª |
+| Evidencia del resultado | `reports/analytical_report.md` (secciones 1, 3 y 9) y `reports/analytical_report.pdf`; commit `docs: add analytical report` |
 
 &nbsp;
 
 ```
-
+Actúa como redactor técnico que convierte un notebook de análisis en un informe para la gerencia de un gimnasio.
+Contexto: tengo el notebook notebooks/analytical_report.ipynb con secciones 1 a 6 (planteamiento, diccionario, carga, univariado, bivariado y hallazgos) y 6 figuras en reports/figures/. Las fuentes son 5 tablas simuladas de Zona Fit Evolution, 2 datasets de Kaggle (Gym customers features and churn; Gym Members Activity Analysis) y 1 de datos.gov.co (Escenarios deportivos del INDER Medellín). Usé Python con pandas 3, matplotlib y JupyterLab, y Claude (Anthropic, modelo Claude Opus 5.5) como asistente de IA.
+Tarea:
+1. Propón el esquema del informe con estas 10 secciones: portada, resumen ejecutivo, contexto y pregunta analítica, datos, metodología (incluido el uso de IA), resultados, respuesta y hallazgos, recomendaciones, limitaciones y próximos pasos, y referencias.
+2. Redacta el resumen ejecutivo (máximo media página) usando SOLO las cifras de la sección 6 del notebook.
+3. Redacta la sección de metodología en máximo 200 palabras.
+4. Escribe la lista de referencias en APA 7.ª con las fuentes de datos, la documentación de pandas y matplotlib y el asistente de IA.
+Restricciones: no inventes cifras ni fuentes; si no estás seguro de un dato bibliográfico (autor, año, URL), márcalo con [verificar]; el resto del informe lo completo copiando del notebook.
+Formato de salida: Markdown, con las figuras referenciadas como ![Figura N. Título](figures/archivo.png).
 ```
 
-**Verificación y ajustes:**
+**Verificación y ajustes:** comprobé cada cifra del resumen ejecutivo y de las tablas del informe contra las salidas del notebook (secciones 4 a 6); las de la preparación de datos (sección 4.3 del informe) contra el README y los notebooks de la EV06 y la EV07. Verifiqué cada referencia en su fuente: (1) la IA presentó a los autores de Kaggle como «Kowalik, A.» y «Vinueza, A.», pero Kaggle solo muestra los nombres de usuario `anetakowalik` y `adrianvinueza`, así que cité el nombre de usuario como autor, con «s. f.» y fecha de consulta; (2) el título del dataset del INDER era inexacto: según los metadatos del portal (`/api/views/i5z5-qhf8.json`) es «Escenarios Deportivos INSTITUTO DE DEPORTES Y RECREACIÓN DE MEDELLÍN – INDER», creado en 2021 por el Instituto de Deportes y Recreación de Medellín; (3) confirmé que el DOI de pandas (10.5281/zenodo.3509134) lleva al registro de Zenodo con autor «The pandas development team», y que los DOI de McKinney (2010) y Hunter (2007) corresponden a esas publicaciones. Eliminé del contexto una afirmación general sin fuente («conseguir un miembro nuevo cuesta más que conservarlo»). Completé las secciones 2 y 4 a 8 con el contenido del notebook y exporté el PDF desde el mismo Markdown (pandoc + wkhtmltopdf); revisé las 9 páginas.
 
 **Prompt 2:**
 
@@ -868,7 +900,7 @@ Marca con una X las técnicas que aplicaste en cada apartado.
 | Apartado | Qué respondió mal la IA | Cómo lo detectaste | Cómo lo corregiste |
 | :---- | :---- | :---- | :---- |
 | 6. Visualización | Usó el parámetro `vert=False` en `plt.boxplot`, obsoleto en matplotlib 3.11 (se eliminará en la 3.13) | Al ejecutar la celda apareció un `MatplotlibDeprecationWarning` | Lo reemplacé por `orientation="horizontal"`, según la documentación oficial de matplotlib |
-|  |  |  |  |
+| 8. Informe | Presentó a los autores de los datasets de Kaggle como «Kowalik, A.» y «Vinueza, A.», y dio un título inexacto para el dataset del INDER | Abrí cada página de Kaggle y los metadatos de datos.gov.co: Kaggle solo muestra nombres de usuario y el título oficial del INDER es otro | Cité los nombres de usuario como autores (APA 7.ª), usé el título oficial y el año de creación (2021) y agregué la fecha de consulta |
 |  |  |  |  |
 
 ### 12.3 Reflexión final
