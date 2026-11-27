@@ -516,18 +516,28 @@ Formato de salida: primero una tabla con las alternativas y la recomendación, d
 
 | Campo | Registro |
 | :---- | :---- |
-| Herramienta y versión |  |
-| Técnica(s) de prompting |  |
-| Objetivo del prompt |  |
-| Evidencia del resultado |  |
+| Herramienta y versión | Claude (Anthropic), modelo Claude Opus 5.5 |
+| Técnica(s) de prompting | Refinamiento iterativo, descomposición o encadenamiento de prompts, contexto estructurado, delimitadores, restricciones, formato de salida |
+| Objetivo del prompt | Generar las gráficas del análisis bivariado (Figuras 3 a 6) con el mismo estilo de la Figura 1 y exportarlas |
+| Evidencia del resultado | Sección 5.7 de `notebooks/analytical_report.ipynb` y `reports/figures/` (`churn_by_plan_and_frequency.png`, `weekly_visits_by_renewal_boxplot.png`, `monthly_churn_trend.png`, `visits_vs_tenure_scatter.png`); commit `feat: export report figures` |
 
 &nbsp;
 
 ```
-
+Ahora necesito las gráficas del análisis bivariado, con el mismo estilo de la Figura 1 que ya tengo en el notebook (colores AZUL y AZUL_ORDINAL, rcParams y RUTA_FIGURAS ya definidos).
+Contexto: ya existen las tablas plan_detalle, frecuencia_desercion, franja_desercion y tasa_mensual, y los DataFrames observables y evaluables.
+Genera estas figuras:
+"""
+Figura 3 (churn_by_plan_and_frequency.png): 1 x 2. Izquierda: barras horizontales de tasa_no_renovacion por plan, ordenadas. Derecha: barras de tasa_no_renovacion y tasa_desercion_6m por rango de frecuencia (barras agrupadas, en orden lógico).
+Figura 4 (weekly_visits_by_renewal_boxplot.png): boxplot de visitas_semana de las membresías observables según si renovaron o no.
+Figura 5 (monthly_churn_trend.png): líneas con la tasa mensual de no renovación; marca con otro estilo los meses con porcentaje_observable menor a 90 % y agrega una línea horizontal con la tasa general.
+Figura 6 (visits_vs_tenure_scatter.png): dispersión de antiguedad_dias contra visitas_semana de las observables, diferenciando renovó y no renovó.
+"""
+Restricciones: solo matplotlib y pandas; título con "Figura N.", ejes con etiqueta y unidad, leyenda solo si hay más de una serie; porcentajes como etiquetas en las barras; guarda cada figura con plt.savefig en RUTA_FIGURAS con dpi=150 y bbox_inches="tight"; no uses parámetros obsoletos de matplotlib 3.11.
+Formato de salida: un bloque de código por figura.
 ```
 
-**Verificación y ajustes:**
+**Verificación y ajustes:** ejecuté las 4 celdas sin avisos de obsolescencia (el boxplot usa `orientation` y `tick_labels`, vigentes en matplotlib 3.11) y revisé visualmente cada figura exportada. Correcciones: (1) en la Figura 5, octubre de 2026 aparecía con un pico de 100 % que deformaba la escala; comprobé en la tabla `tasa_mensual` que tiene una sola membresía observable, así que se omiten los meses con menos de 10 observables y se indica en la figura; (2) en la Figura 3, la etiqueta «Tasa general» quedaba sobre el eje; la moví arriba y agregué el número de membresías de cada plan para que se vea que el plan anual tiene solo 26 casos; (3) en la Figura 6, el texto «6 meses» quedaba fuera del área del gráfico; lo ubiqué con coordenadas relativas al eje. Confirmé que las etiquetas de porcentaje coinciden con las tablas de las secciones 5.1 y 5.2. Con estas figuras el proyecto tiene 6 visualizaciones de 5 tipos (histograma, barras, boxplot, líneas y dispersión).
 
 **Prompt 3:**
 
