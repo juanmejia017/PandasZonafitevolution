@@ -167,23 +167,6 @@ Formato de salida: una tabla con las columnas subpregunta, tabla y columnas que 
 
 **Verificación y ajustes:** comprobé cada observación de la IA cargando las tablas en Pandas: `tipo_plan` solo tiene 2 valores (Ilimitado y Tiquetera), así que para el detalle uso `nombre_plan` (6 planes); `franja_principal` tiene 9 membresías sin franja (sin visitas), que se excluyen; la proporción de membresías observables cae en los últimos meses (septiembre de 2026: 33 %; octubre: 1 %), lo que confirma la censura; y "altas" no se puede medir con las columnas que di. Acepté medir cada factor también por miembro (`desertor_6m`, 671 miembros evaluables). Subpreguntas definitivas: (1) deserción según el plan; (2) frecuencia semanal de asistencia y deserción; (3) franja horaria y deserción; (4) riesgo según la antigüedad y deserción en los primeros 6 meses; (5) tasa de no renovación según el mes de inicio, solo con membresías observables.
 
-**Prompt 3:**
-
-| Campo | Registro |
-| :---- | :---- |
-| Herramienta y versión |  |
-| Técnica(s) de prompting |  |
-| Objetivo del prompt |  |
-| Evidencia del resultado |  |
-
-&nbsp;
-
-```
-
-```
-
-**Verificación y ajustes:**
-
 ---
 
 ## 2\. Diccionario de datos y verificación del dataset
@@ -251,23 +234,6 @@ Formato de salida: primero los pasos numerados en máximo 6 líneas, después un
 
 **Verificación y ajustes:** ejecuté la celda sobre las dos tablas y pasaron todos los `assert`: membresías (3425, 39), miembros (900, 23) y 671 miembros evaluables. Ajusté la comprobación de pagos duplicados: como la tabla de pagos no está en las tablas analíticas, se valida de forma indirecta (`pagado_aprobado <= precio_pagado`; el cociente máximo es 1,0). Encontré que 81 miembros no evaluables tienen `desertor_6m = True` (desertaron pronto, pero su alta es reciente), lo que confirma que la tasa de deserción a 6 meses debe calcularse solo con `evaluable == True`. Por eso esa regla se comprueba con la fecha de alta y no con el valor de `desertor_6m`.
 
-**Prompt 3:**
-
-| Campo | Registro |
-| :---- | :---- |
-| Herramienta y versión |  |
-| Técnica(s) de prompting |  |
-| Objetivo del prompt |  |
-| Evidencia del resultado |  |
-
-&nbsp;
-
-```
-
-```
-
-**Verificación y ajustes:**
-
 ---
 
 ## 3\. Carga y validación de los datos
@@ -314,23 +280,6 @@ Formato de salida: un único bloque de código para una celda del notebook.
 
 **Verificación y ajustes:** ejecuté la celda dentro del notebook completo (Reiniciar y ejecutar todo): las dimensiones son (3425, 39) y (900, 23) y no hay columnas con tipo distinto al del diccionario. Comprobé que la comparación sin bucles funciona porque `pd.DataFrame` alinea las dos `Series` por nombre de columna, así que una columna faltante o sobrante aparecería con `NaN`. Revisé que los 62 tipos esperados coinciden uno a uno con la tabla del diccionario de datos (apartado 2). Comparado con el prompt 1, el código pasó de una inspección visual a una validación automática con `assert`.
 
-**Prompt 3:**
-
-| Campo | Registro |
-| :---- | :---- |
-| Herramienta y versión |  |
-| Técnica(s) de prompting |  |
-| Objetivo del prompt |  |
-| Evidencia del resultado |  |
-
-&nbsp;
-
-```
-
-```
-
-**Verificación y ajustes:**
-
 ---
 
 ## 4\. Análisis univariado
@@ -368,40 +317,6 @@ Formato de salida: un bloque de código por cada paso (3 celdas) con comentarios
 ```
 
 **Verificación y ajustes:** ejecuté las tres celdas en el notebook completo. Revisé que no hubiera bucles `for`, que las ordinales salieran en su orden lógico (`frecuencia` y `tramo_antiguedad` con `cat.categories`; `franja_principal` con el orden mañana, tarde, noche) y que los totales cuadraran: 3.425 membresías en cada tabla de frecuencias y 3.245 edades no nulas. Contrasté con la EV07: la tasa de no renovación (21,27 % de 3.084) y la deserción a 6 meses (61,10 % de 671) coinciden con la sección 7.2 del README. Detecté que `franja_principal` tiene 14 nulos en todas las membresías y 9 entre las observables; las dos cifras son correctas porque se miden sobre bases distintas. Completé las plantillas con las cifras de las salidas, no con cifras de la IA. Ajusté la interpretación del precio: como la media está inflada por los planes largos, uso la mediana (90.000 COP) como precio típico.
-
-**Prompt 2:**
-
-| Campo | Registro |
-| :---- | :---- |
-| Herramienta y versión |  |
-| Técnica(s) de prompting |  |
-| Objetivo del prompt |  |
-| Evidencia del resultado |  |
-
-&nbsp;
-
-```
-
-```
-
-**Verificación y ajustes:**
-
-**Prompt 3:**
-
-| Campo | Registro |
-| :---- | :---- |
-| Herramienta y versión |  |
-| Técnica(s) de prompting |  |
-| Objetivo del prompt |  |
-| Evidencia del resultado |  |
-
-&nbsp;
-
-```
-
-```
-
-**Verificación y ajustes:**
 
 ---
 
@@ -441,40 +356,6 @@ Formato de salida: un bloque de código por celda, comentado en español, sin in
 ```
 
 **Verificación y ajustes:** ejecuté las 7 celdas en el notebook completo. Contrasté las tasas con la EV07 (README, sección 7.2): tiquetera 28,4 %, semestral 10,5 %, frecuencia «hasta 1» 84,4 % y «más de 3» 0,6 %, y primeros 6 meses 23,9 %; coinciden. Comprobé que los totales cuadran: 3.084 membresías observables (3.075 con franja más las 9 sin franja) y 671 miembros evaluables. Al revisar las salidas detecté dos cosas que la IA no advirtió: (1) la deserción a 6 meses del plan anual (0 %) y del semestral (14,71 %) no es comparable, porque un plan de 365 o 180 días casi no puede vencerse sin renovar dentro de los primeros 180 días; lo aclaré en la interpretación. (2) Las 8 membresías atípicas (7 visitas por semana) empezaron entre el 13 y el 15 de octubre de 2026, justo antes del corte, así que son un efecto de la ventana corta y no un uso real; agregué `fecha_inicio` a la tabla de atípicos para mostrarlo. Agregué a la subpregunta 5 la columna `porcentaje_observable` para evidenciar la censura de los últimos meses (septiembre 32,52 %, octubre 1,18 %). Las interpretaciones las redacté con base en las salidas del notebook.
-
-**Prompt 2:**
-
-| Campo | Registro |
-| :---- | :---- |
-| Herramienta y versión |  |
-| Técnica(s) de prompting |  |
-| Objetivo del prompt |  |
-| Evidencia del resultado |  |
-
-&nbsp;
-
-```
-
-```
-
-**Verificación y ajustes:**
-
-**Prompt 3:**
-
-| Campo | Registro |
-| :---- | :---- |
-| Herramienta y versión |  |
-| Técnica(s) de prompting |  |
-| Objetivo del prompt |  |
-| Evidencia del resultado |  |
-
-&nbsp;
-
-```
-
-```
-
-**Verificación y ajustes:**
 
 ---
 
@@ -539,23 +420,6 @@ Formato de salida: un bloque de código por figura.
 
 **Verificación y ajustes:** ejecuté las 4 celdas sin avisos de obsolescencia (el boxplot usa `orientation` y `tick_labels`, vigentes en matplotlib 3.11) y revisé visualmente cada figura exportada. Correcciones: (1) en la Figura 5, octubre de 2026 aparecía con un pico de 100 % que deformaba la escala; comprobé en la tabla `tasa_mensual` que tiene una sola membresía observable, así que se omiten los meses con menos de 10 observables y se indica en la figura; (2) en la Figura 3, la etiqueta «Tasa general» quedaba sobre el eje; la moví arriba y agregué el número de membresías de cada plan para que se vea que el plan anual tiene solo 26 casos; (3) en la Figura 6, el texto «6 meses» quedaba fuera del área del gráfico; lo ubiqué con coordenadas relativas al eje. Confirmé que las etiquetas de porcentaje coinciden con las tablas de las secciones 5.1 y 5.2. Con estas figuras el proyecto tiene 6 visualizaciones de 5 tipos (histograma, barras, boxplot, líneas y dispersión).
 
-**Prompt 3:**
-
-| Campo | Registro |
-| :---- | :---- |
-| Herramienta y versión |  |
-| Técnica(s) de prompting |  |
-| Objetivo del prompt |  |
-| Evidencia del resultado |  |
-
-&nbsp;
-
-```
-
-```
-
-**Verificación y ajustes:**
-
 ---
 
 ## 7\. Hallazgos, respuesta a la pregunta y recomendaciones
@@ -603,40 +467,6 @@ Formato de salida: Markdown con los subtítulos Respuesta, Hallazgos, Recomendac
 
 **Verificación y ajustes:** comparé cada cifra de la respuesta con las salidas del notebook y agregué al inicio de la sección 6 una celda (`resumen_hallazgos`) que recalcula las cifras principales desde las tablas, para que se puedan comprobar en un solo lugar; todas coinciden. La IA no agregó cifras nuevas: las líneas base de los indicadores son mis propias tasas. Revisé la autoverificación y acepté sus advertencias: la frecuencia se presenta como señal de alerta y no como causa (posible causalidad inversa), la mejor retención de los planes largos puede ser autoselección y las recomendaciones son hipótesis que se deben medir. Agregué la tabla de respuesta a cada subpregunta (6.1), que la guía pide en el Momento 6, y confirmé que el párrafo de respuesta tiene menos de 120 palabras.
 
-**Prompt 2:**
-
-| Campo | Registro |
-| :---- | :---- |
-| Herramienta y versión |  |
-| Técnica(s) de prompting |  |
-| Objetivo del prompt |  |
-| Evidencia del resultado |  |
-
-&nbsp;
-
-```
-
-```
-
-**Verificación y ajustes:**
-
-**Prompt 3:**
-
-| Campo | Registro |
-| :---- | :---- |
-| Herramienta y versión |  |
-| Técnica(s) de prompting |  |
-| Objetivo del prompt |  |
-| Evidencia del resultado |  |
-
-&nbsp;
-
-```
-
-```
-
-**Verificación y ajustes:**
-
 ---
 
 ## 8\. Informe analítico
@@ -668,40 +498,6 @@ Formato de salida: Markdown, con las figuras referenciadas como ![Figura N. Tít
 
 **Verificación y ajustes:** comprobé cada cifra del resumen ejecutivo y de las tablas del informe contra las salidas del notebook (secciones 4 a 6); las de la preparación de datos (sección 4.3 del informe) contra el README y los notebooks de la EV06 y la EV07. Verifiqué cada referencia en su fuente: (1) la IA presentó a los autores de Kaggle como «Kowalik, A.» y «Vinueza, A.», pero Kaggle solo muestra los nombres de usuario `anetakowalik` y `adrianvinueza`, así que cité el nombre de usuario como autor, con «s. f.» y fecha de consulta; (2) el título del dataset del INDER era inexacto: según los metadatos del portal (`/api/views/i5z5-qhf8.json`) es «Escenarios Deportivos INSTITUTO DE DEPORTES Y RECREACIÓN DE MEDELLÍN – INDER», creado en 2021 por el Instituto de Deportes y Recreación de Medellín; (3) confirmé que el DOI de pandas (10.5281/zenodo.3509134) lleva al registro de Zenodo con autor «The pandas development team», y que los DOI de McKinney (2010) y Hunter (2007) corresponden a esas publicaciones. Eliminé del contexto una afirmación general sin fuente («conseguir un miembro nuevo cuesta más que conservarlo»). Completé las secciones 2 y 4 a 8 con el contenido del notebook y exporté el PDF desde el mismo Markdown (pandoc + wkhtmltopdf); revisé las 9 páginas.
 
-**Prompt 2:**
-
-| Campo | Registro |
-| :---- | :---- |
-| Herramienta y versión |  |
-| Técnica(s) de prompting |  |
-| Objetivo del prompt |  |
-| Evidencia del resultado |  |
-
-&nbsp;
-
-```
-
-```
-
-**Verificación y ajustes:**
-
-**Prompt 3:**
-
-| Campo | Registro |
-| :---- | :---- |
-| Herramienta y versión |  |
-| Técnica(s) de prompting |  |
-| Objetivo del prompt |  |
-| Evidencia del resultado |  |
-
-&nbsp;
-
-```
-
-```
-
-**Verificación y ajustes:**
-
 ---
 
 ## 9\. Versionamiento y documentación del repositorio
@@ -712,52 +508,35 @@ Formato de salida: Markdown, con las figuras referenciadas como ![Figura N. Tít
 
 | Campo | Registro |
 | :---- | :---- |
-| Herramienta y versión |  |
-| Técnica(s) de prompting |  |
-| Objetivo del prompt |  |
-| Evidencia del resultado |  |
+| Herramienta y versión | Claude (Anthropic), modelo Claude Opus 5.5 |
+| Técnica(s) de prompting | Rol o persona, contexto estructurado, delimitadores, cadena de pensamiento (paso a paso), restricciones, formato de salida |
+| Objetivo del prompt | Actualizar el README para la EV09 (evidencias, resultados con figuras, estructura, instrucciones de ejecución y enlace a la bitácora) sin perder lo de la EV06 y la EV07 |
+| Evidencia del resultado | `README.md`, secciones 4, 5, 8 y 9 (commit `docs: update README with results and run instructions`) |
 
 &nbsp;
 
 ```
-
+Actúa como mantenedor de un repositorio de ciencia de datos.
+Contexto: mi README.md actual documenta la EV06 y la EV07 del proyecto de deserción de Zona Fit Evolution. Ahora debo actualizarlo para la EV09 (proyecto final) sin perder lo anterior.
+Lo nuevo en el repositorio:
+"""
+- notebooks/analytical_report.ipynb: análisis univariado, bivariado y hallazgos
+- reports/analytical_report.md y .pdf: informe analítico
+- reports/figures/: 6 figuras (univariate_distributions.png, price_paid_boxplot.png, churn_by_plan_and_frequency.png, weekly_visits_by_renewal_boxplot.png, monthly_churn_trend.png, visits_vs_tenure_scatter.png)
+- prompts.md: bitácora de prompts; docs/ai_conversations/: conversación de práctica
+- requirements.txt ahora incluye matplotlib
+"""
+Tarea: indícame paso a paso qué secciones del README cambiar y dame el texto Markdown de:
+1. La fila de la EV09 en la tabla de evidencias.
+2. Una sección «Resultados del proyecto final (EV09)» con la respuesta a la pregunta en 3 líneas y 2 figuras embebidas (churn_by_plan_and_frequency.png y weekly_visits_by_renewal_boxplot.png).
+3. La estructura del repositorio actualizada.
+4. Las instrucciones para reproducir el análisis en Windows (CMD), con el orden de ejecución de los 3 notebooks.
+5. Un enlace a la bitácora prompts.md.
+Restricciones: usa solo las cifras de la sección 6 del informe; no cambies las secciones de la EV06 y la EV07; rutas relativas.
+Formato de salida: pasos numerados y bloques de Markdown listos para pegar.
 ```
 
-**Verificación y ajustes:**
-
-**Prompt 2:**
-
-| Campo | Registro |
-| :---- | :---- |
-| Herramienta y versión |  |
-| Técnica(s) de prompting |  |
-| Objetivo del prompt |  |
-| Evidencia del resultado |  |
-
-&nbsp;
-
-```
-
-```
-
-**Verificación y ajustes:**
-
-**Prompt 3:**
-
-| Campo | Registro |
-| :---- | :---- |
-| Herramienta y versión |  |
-| Técnica(s) de prompting |  |
-| Objetivo del prompt |  |
-| Evidencia del resultado |  |
-
-&nbsp;
-
-```
-
-```
-
-**Verificación y ajustes:**
+**Verificación y ajustes:** comprobé que las secciones 6 (EV06) y 7 (EV07) quedaron intactas y que la sección de limitaciones solo cambió de número (8 → 10). Confirmé que las cifras de la sección de resultados coinciden con la sección 6 del informe y que los enlaces relativos y las dos imágenes embebidas apuntan a archivos que existen en el repositorio. Revisé las instrucciones de ejecución contra lo que hice en mi PC: el entorno `.venv` no viene en el repositorio (está en `.gitignore`), así que el paso `python -m venv .venv` es necesario, como descubrí en el apartado 11. Agregué una frase a la descripción del proyecto para mencionar la EV09.
 
 ---
 
@@ -769,52 +548,25 @@ Formato de salida: Markdown, con las figuras referenciadas como ![Figura N. Tít
 
 | Campo | Registro |
 | :---- | :---- |
-| Herramienta y versión |  |
-| Técnica(s) de prompting |  |
-| Objetivo del prompt |  |
-| Evidencia del resultado |  |
+| Herramienta y versión | Claude (Anthropic), modelo Claude Opus 5.5 |
+| Técnica(s) de prompting | Rol o persona, contexto estructurado, generación de alternativas, restricciones, formato de salida |
+| Objetivo del prompt | Estructurar la sustentación de 8 a 10 minutos, elegir el ejemplo de la bitácora y practicar con preguntas difíciles del instructor |
+| Evidencia del resultado | `docs/presentation_outline.md` (guion, ejemplo de bitácora y preguntas de práctica) |
 
 &nbsp;
 
 ```
-
+Actúa como instructor del SENA que evalúa la sustentación de un proyecto de ciencia de datos.
+Contexto: mi proyecto analiza la deserción de miembros de Zona Fit Evolution. Tengo un informe de 9 páginas, 6 figuras y una bitácora de prompts. La sustentación dura de 8 a 10 minutos y debe cubrir: el problema y la pregunta, los datos y su preparación, 2 o 3 visualizaciones clave, la respuesta y las recomendaciones, las limitaciones y un ejemplo de mi bitácora (un prompt inicial, cómo lo refiné y cómo verifiqué el resultado).
+Tarea:
+1. Propón un guion de 7 diapositivas con el tiempo de cada una (total máximo 10 minutos) y qué figura usar en cada una.
+2. Recomienda qué ejemplo de la bitácora mostrar: el par zero-shot / refinamiento de la carga de datos (apartado 3) o el par de visualización con generación de alternativas (apartado 6), y explica por qué.
+3. Escribe 8 preguntas difíciles que me harías sobre el código, las cifras y las decisiones (por ejemplo: por qué hay dos tasas de deserción, qué significa observable, por qué la correlación no implica causa, qué hace la función desercion_por_factor), sin las respuestas.
+Restricciones: no inventes cifras; las preguntas deben poder responderse con lo que hay en el notebook y la bitácora.
+Formato de salida: una tabla para el guion, un párrafo para la recomendación y una lista numerada de preguntas.
 ```
 
-**Verificación y ajustes:**
-
-**Prompt 2:**
-
-| Campo | Registro |
-| :---- | :---- |
-| Herramienta y versión |  |
-| Técnica(s) de prompting |  |
-| Objetivo del prompt |  |
-| Evidencia del resultado |  |
-
-&nbsp;
-
-```
-
-```
-
-**Verificación y ajustes:**
-
-**Prompt 3:**
-
-| Campo | Registro |
-| :---- | :---- |
-| Herramienta y versión |  |
-| Técnica(s) de prompting |  |
-| Objetivo del prompt |  |
-| Evidencia del resultado |  |
-
-&nbsp;
-
-```
-
-```
-
-**Verificación y ajustes:**
+**Verificación y ajustes:** sumé los tiempos del guion (10 minutos exactos, dentro del límite) y comprobé que cubre los seis puntos que pide la guía para la sustentación. Confirmé que cada cifra del guion aparece en el informe y en el notebook, y que las 8 preguntas se pueden responder con el notebook (secciones 1, 5 y 6) y la bitácora (tabla 12.2). Acepté la recomendación de mostrar el apartado 3 porque la mejora del prompt se ve en una sola celda que puedo ejecutar en vivo. Guardé el guion y las preguntas en `docs/presentation_outline.md` y practiqué respondiéndolas sin mirar las respuestas.
 
 ---
 
@@ -826,52 +578,60 @@ Formato de salida: Markdown, con las figuras referenciadas como ![Figura N. Tít
 
 | Campo | Registro |
 | :---- | :---- |
-| Herramienta y versión |  |
-| Técnica(s) de prompting |  |
-| Objetivo del prompt |  |
-| Evidencia del resultado |  |
+| Herramienta y versión | Claude (Anthropic), modelo Claude Opus 5.5 |
+| Técnica(s) de prompting | Zero-shot, delimitadores |
+| Objetivo del prompt | Resolver el error al activar el entorno virtual en CMD |
+| Evidencia del resultado | Entorno `.venv` creado en el proyecto; instrucciones de la sección 5 del `README.md` |
 
 &nbsp;
 
 ```
-
+C:\Users\juanm\PandasZonafitevolution>.venv\Scripts\activate
+El sistema no puede encontrar la ruta especificada.
 ```
 
-**Verificación y ajustes:**
+**Verificación y ajustes:** la IA explicó que la carpeta `.venv` no existía porque está en `.gitignore` y no viene con el repositorio, y me dio los comandos para crearla (`python -m venv .venv`), activarla e instalar `requirements.txt`. Los ejecuté: apareció `(.venv)` al inicio de la línea, la instalación terminó y JupyterLab abrió el notebook. Agregué el paso de creación del entorno a las instrucciones del README.
 
 **Prompt 2:**
 
 | Campo | Registro |
 | :---- | :---- |
-| Herramienta y versión |  |
-| Técnica(s) de prompting |  |
-| Objetivo del prompt |  |
-| Evidencia del resultado |  |
+| Herramienta y versión | Claude (Anthropic), modelo Claude Opus 5.5 |
+| Técnica(s) de prompting | Zero-shot |
+| Objetivo del prompt | Saber si haber ejecutado `pip install` antes de crear el entorno virtual afectaba el proyecto |
+| Evidencia del resultado | Dependencias instaladas dentro de `.venv` |
 
 &nbsp;
 
 ```
-
+pasa algo si hice el pip install antes de el entorno virtual?
 ```
 
-**Verificación y ajustes:**
+**Verificación y ajustes:** la respuesta indicó que las librerías habían quedado en el Python global y que el entorno virtual no las ve, así que había que volver a instalarlas con `(.venv)` activo. Lo hice y no desinstalé las del Python global, porque otros proyectos míos pueden usarlas. Comprobé que el notebook se ejecuta con el entorno del proyecto.
 
 **Prompt 3:**
 
 | Campo | Registro |
 | :---- | :---- |
-| Herramienta y versión |  |
-| Técnica(s) de prompting |  |
-| Objetivo del prompt |  |
-| Evidencia del resultado |  |
+| Herramienta y versión | Claude (Anthropic), modelo Claude Opus 5.5 |
+| Técnica(s) de prompting | Zero-shot, delimitadores |
+| Objetivo del prompt | Entender por qué JupyterLab marcaba el notebook como modificado (punto ●) sin haberlo editado, y si debía hacer push |
+| Evidencia del resultado | `git status` limpio en `notebooks/analytical_report.ipynb` antes de cada commit |
 
 &nbsp;
 
 ```
+C:\Users\juanm\PandasZonafitevolution>git push
+Everything up-to-date
 
+C:\Users\juanm\PandasZonafitevolution>
+
+aparece el puntito
 ```
 
-**Verificación y ajustes:**
+*(Adjunté una captura de JupyterLab con `analytical_report.ipynb` abierto y el punto ● de cambios sin guardar.)*
+
+**Verificación y ajustes:** la IA confirmó en GitHub que el commit ya estaba publicado (por eso salió *Everything up-to-date*) y explicó que el punto aparece porque JupyterLab ajusta metadatos al abrir el notebook. Cuando guardé sin querer, comprobé con `git diff` que solo cambiaban dos metadatos (nombre del kernel y versión de Python) y no el contenido. Desde entonces cierro el notebook con *Discard* antes de que se actualice el archivo.
 
 ---
 
@@ -881,19 +641,21 @@ Formato de salida: Markdown, con las figuras referenciadas como ![Figura N. Tít
 
 Marca con una X las técnicas que aplicaste en cada apartado.
 
+En total se usaron las 12 técnicas del catálogo (el mínimo exigido es 6).
+
 | Apartado | Zero-shot | Few-shot | Rol | Contexto | Formato | Delimitadores | Restricciones | Paso a paso | Encadenamiento | Iterativo | Autoverificación | Alternativas |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| 1\. Planteamiento |  |  |  |  |  |  |  |  |  |  |  |  |
-| 2\. Diccionario de datos |  |  |  |  |  |  |  |  |  |  |  |  |
-| 3\. Carga y validación |  |  |  |  |  |  |  |  |  |  |  |  |
-| 4\. Análisis univariado |  |  |  |  |  |  |  |  |  |  |  |  |
-| 5\. Análisis bivariado |  |  |  |  |  |  |  |  |  |  |  |  |
-| 6\. Visualización |  |  |  |  |  |  |  |  |  |  |  |  |
-| 7\. Hallazgos |  |  |  |  |  |  |  |  |  |  |  |  |
-| 8\. Informe |  |  |  |  |  |  |  |  |  |  |  |  |
-| 9\. Repositorio |  |  |  |  |  |  |  |  |  |  |  |  |
-| 10\. Sustentación |  |  |  |  |  |  |  |  |  |  |  |  |
-| 11\. Depuración |  |  |  |  |  |  |  |  |  |  |  |  |
+| 1\. Planteamiento |  |  | X | X | X |  | X |  | X |  | X |  |
+| 2\. Diccionario de datos |  | X | X | X | X | X | X | X |  |  |  |  |
+| 3\. Carga y validación | X |  |  | X | X |  | X |  |  | X |  |  |
+| 4\. Análisis univariado |  |  | X | X | X | X | X | X |  |  |  |  |
+| 5\. Análisis bivariado |  |  | X | X | X | X | X |  | X |  |  |  |
+| 6\. Visualización |  |  | X | X | X | X | X |  | X | X |  | X |
+| 7\. Hallazgos |  | X | X | X | X | X |  |  |  |  | X |  |
+| 8\. Informe |  |  | X | X | X |  | X |  |  |  |  |  |
+| 9\. Repositorio |  |  | X | X | X | X | X | X |  |  |  |  |
+| 10\. Sustentación |  |  | X | X | X |  | X |  |  |  |  | X |
+| 11\. Depuración | X |  |  |  |  | X |  |  |  |  |  |  |
 
 ### 12.2 Errores de la IA que detectaste
 
@@ -901,7 +663,7 @@ Marca con una X las técnicas que aplicaste en cada apartado.
 | :---- | :---- | :---- | :---- |
 | 6. Visualización | Usó el parámetro `vert=False` en `plt.boxplot`, obsoleto en matplotlib 3.11 (se eliminará en la 3.13) | Al ejecutar la celda apareció un `MatplotlibDeprecationWarning` | Lo reemplacé por `orientation="horizontal"`, según la documentación oficial de matplotlib |
 | 8. Informe | Presentó a los autores de los datasets de Kaggle como «Kowalik, A.» y «Vinueza, A.», y dio un título inexacto para el dataset del INDER | Abrí cada página de Kaggle y los metadatos de datos.gov.co: Kaggle solo muestra nombres de usuario y el título oficial del INDER es otro | Cité los nombres de usuario como autores (APA 7.ª), usé el título oficial y el año de creación (2021) y agregué la fecha de consulta |
-|  |  |  |  |
+| 5. Análisis bivariado | Entregó las tablas sin advertir que la deserción a 6 meses de los planes semestral (14,71 %) y anual (0 %) no es comparable, ni que las 8 membresías atípicas eran efecto de la ventana corta antes del corte | Revisé las salidas: un plan de 180 o 365 días casi no puede vencerse antes de los 180 días, y las 8 atípicas empezaron entre el 13 y el 15 de octubre de 2026 | Lo aclaré en las interpretaciones y en el informe (nota en la tabla de planes) y agregué `fecha_inicio` a la tabla de atípicos |
 
 ### 12.3 Reflexión final
 
@@ -912,16 +674,28 @@ Responde en un párrafo cada pregunta:
 3. ¿Qué decisiones del proyecto tomaste tú y no la IA?  
 4. ¿Qué aprendiste sobre la forma de pedirle cosas a un asistente de IA?
 
+**1. ¿En qué apartados te ayudó más la IA y por qué?**
+El mayor aporte de la IA se dio en el análisis bivariado y la visualización de datos, al facilitar la construcción de agregaciones con `groupby`, `agg` y `join` para comparar dos tasas simultáneamente, además de lograr gráficas visualmente coherentes en menos tiempo. Asimismo, resultó clave al resolver problemas del entorno virtual, ya que aclaró el motivo de la ausencia de la carpeta `.venv` en lugar de limitarse a entregar un comando aislado.
+
+**2. ¿Qué técnica de prompting te dio mejores resultados?**
+Combinar contexto estructurado con restricciones explícitas produjo los mejores resultados. Mientras que un enfoque zero-shot en la carga de datos devolvió un ejemplo genérico con `archivo.parquet` y revisión meramente visual, especificar rutas, dimensiones esperadas y tipos de datos del diccionario —sin recurrir a bucles— permitió obtener comprobaciones automáticas mediante `assert` listas para ejecutarse y validarse.
+
+**3. ¿Qué decisiones del proyecto tomaste tú y no la IA?**
+Las definiciones centrales del estudio fueron propias: formular la pregunta analítica y sus cuatro variables (EV02), trabajar con datos simulados ante la ausencia de operación actual del gimnasio y calcular la deserción tanto por membresía como por miembro (EV07). También se mantuvo criterio propio al filtrar y ajustar cada salida de la IA: priorizar la mediana para el precio, señalar que los planes extensos no equivalen a un horizonte de seis meses, excluir octubre de 2026 de las gráficas y corregir citas bibliográficas con autorías imprecisas.
+
+**4. ¿Qué aprendiste sobre la forma de pedirle cosas a un asistente de IA?**
+Las instrucciones ambiguas generan respuestas plausibles en apariencia pero poco útiles para el proyecto, y la IA puede cometer errores con un tono convincente, como emplear parámetros desactualizados o atribuir fuentes incorrectas. En consecuencia, conviene aportar datos reales del caso, restringir explícitamente la invención de métricas y validar cada resultado corriendo el código y contrastando las referencias.
+
 ### 12.4 Conversaciones completas (opcional)
 
 | Apartado | Enlace o archivo |
 | :---- | :---- |
-|  |  |
+| Momento 1 (práctica zero-shot vs. prompt mejorado) | [`docs/ai_conversations/momento1_practice.md`](docs/ai_conversations/momento1_practice.md) |
 
 ### 12.5 Declaración de uso responsable
 
 Declaro que los prompts registrados en esta bitácora son los que usé realmente. Verifiqué el código, las cifras y las referencias generadas con IA, y puedo explicar cada parte del proyecto durante la sustentación.
 
-**Nombre del aprendiz:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ **Fecha:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Nombre del aprendiz:** Juan Diego Mejía Llano **Fecha:** 27 de noviembre de 2026
 
 > En la lista de referencias del informe, cita el asistente de IA en formato APA 7.ª. Por ejemplo: OpenAI. (2025). *ChatGPT* (versión del 15 de octubre) \[Modelo de lenguaje de gran tamaño\]. [https\://chat.openai.com](https://chat.openai.com)
