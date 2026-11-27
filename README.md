@@ -9,12 +9,13 @@ Este repositorio reúne las evidencias del proyecto individual con Python y Pand
 |---|---|---|---|
 | GA1-220501094-01-AA1-EV06 – Diagnosticar la calidad de datos | Carga, inspección y diagnóstico de calidad de los datasets | [`notebooks/data_quality.ipynb`](notebooks/data_quality.ipynb) | [`reports/data_quality.md`](reports/data_quality.md) |
 | GA1-220501094-01-AA1-EV07 – Preparación, limpieza y estructuración de datos | Limpieza, análisis por grupos, combinación y exportación de los datos | [`notebooks/data_preparation.ipynb`](notebooks/data_preparation.ipynb) | Este README (sección 7) |
+| GA1-220501094-01-AA1-EV09 – Proyecto final: informe analítico | Análisis univariado y bivariado, hallazgos y recomendaciones, con bitácora de uso de IA | [`notebooks/analytical_report.ipynb`](notebooks/analytical_report.ipynb) | [`reports/analytical_report.md`](reports/analytical_report.md) ([PDF](reports/analytical_report.pdf)) · [`prompts.md`](prompts.md) |
 
 ## 1. Descripción y propósito
 
 Zona Fit Evolution es un sistema de gestión para un gimnasio de Medellín (miembros, planes, control de acceso con huella y pagos). El proyecto busca identificar qué hace que un miembro deje de renovar su membresía, para que el administrador pueda actuar a tiempo con los miembros en riesgo.
 
-Primero se diagnosticó la calidad de los datos (EV06) y después se limpiaron, analizaron y estructuraron para responder la pregunta analítica (EV07).
+Primero se diagnosticó la calidad de los datos (EV06), después se limpiaron, analizaron y estructuraron (EV07) y, por último, se hizo el análisis descriptivo y visual que responde la pregunta analítica, con un informe para la gerencia (EV09).
 
 ## 2. Pregunta analítica
 
@@ -50,6 +51,7 @@ Los datos externos se usan con fines académicos. Todos los archivos son pequeñ
 ```text
 PandasZonafitevolution/
 ├── README.md                          Descripción del proyecto (este archivo)
+├── prompts.md                         Bitácora de prompts de IA (EV09)
 ├── .gitignore                         Archivos que Git no sube (entorno virtual, temporales)
 ├── requirements.txt                   Dependencias de Python
 │
@@ -60,17 +62,24 @@ PandasZonafitevolution/
 │   │   └── datos_gov/                 1 dataset de datos.gov.co
 │   └── processed/                     Datos limpios y tablas consolidadas (generados por data_preparation.ipynb)
 │
+├── docs/
+│   └── ai_conversations/              Conversaciones con IA (ejercicio de práctica del Momento 1)
+│
 ├── notebooks/
 │   ├── data_quality.ipynb             EV06: carga, inspección y diagnóstico de calidad
-│   └── data_preparation.ipynb         EV07: limpieza, análisis y estructuración
+│   ├── data_preparation.ipynb         EV07: limpieza, análisis y estructuración
+│   └── analytical_report.ipynb        EV09: análisis univariado, bivariado y hallazgos
 │
 └── reports/
-    └── data_quality.md                Informe técnico del diagnóstico de calidad
+    ├── data_quality.md                Informe técnico del diagnóstico de calidad (EV06)
+    ├── analytical_report.md           Informe analítico final (EV09)
+    ├── analytical_report.pdf          Informe analítico en PDF
+    └── figures/                       6 figuras del informe (generadas por analytical_report.ipynb)
 ```
 
 ## 5. Cómo ejecutar el proyecto
 
-Requisitos: Python 3 y Git. Las dependencias (pandas, PyArrow y JupyterLab) están en `requirements.txt`. Comandos para Windows (CMD):
+Requisitos: Python 3 y Git. Las dependencias (pandas, PyArrow, JupyterLab y Matplotlib) están en `requirements.txt`. Comandos para Windows (CMD):
 
 ```cmd
 git clone https://github.com/juanmejia017/PandasZonafitevolution.git
@@ -81,18 +90,20 @@ pip install -r requirements.txt
 jupyter lab
 ```
 
-En JupyterLab abre los notebooks de la carpeta `notebooks/` **en este orden** y en cada uno elige **Run → Run All Cells**:
+En JupyterLab abre los notebooks de la carpeta `notebooks/` **en este orden** y en cada uno elige **Kernel → Restart Kernel and Run All Cells**:
 
-1. `data_quality.ipynb`: diagnóstico de calidad.
-2. `data_preparation.ipynb`: limpieza, análisis y estructuración. Lee `data/raw/` y escribe los resultados en `data/processed/`.
+1. `data_quality.ipynb`: diagnóstico de calidad (EV06).
+2. `data_preparation.ipynb`: limpieza, análisis y estructuración (EV07). Lee `data/raw/` y escribe los resultados en `data/processed/`.
+3. `analytical_report.ipynb`: análisis final (EV09). Lee `data/processed/` y guarda las figuras en `reports/figures/`.
 
-Los notebooks usan rutas relativas (`../data/raw/`, `../data/processed/`), así que deben ejecutarse desde la carpeta `notebooks/`.
+Los notebooks usan rutas relativas (`../data/raw/`, `../data/processed/`, `../reports/figures/`), así que deben ejecutarse desde la carpeta `notebooks/`. Como `data/processed/` ya está en el repositorio, `analytical_report.ipynb` también se puede ejecutar solo.
 
 Para ejecutarlos completos sin abrir JupyterLab:
 
 ```cmd
 jupyter nbconvert --to notebook --execute --inplace notebooks\data_quality.ipynb
 jupyter nbconvert --to notebook --execute --inplace notebooks\data_preparation.ipynb
+jupyter nbconvert --to notebook --execute --inplace notebooks\analytical_report.ipynb
 ```
 
 ## 6. Resultados del diagnóstico (EV06)
@@ -182,7 +193,23 @@ Archivos generados en `data/processed/`:
 
 Los archivos Parquet conservan los tipos de dato (fechas, categorías y enteros con nulos); los CSV se pueden abrir en Excel.
 
-## 8. Limitaciones
+## 8. Resultados del proyecto final (EV09)
+
+El notebook [`notebooks/analytical_report.ipynb`](notebooks/analytical_report.ipynb) responde la pregunta analítica con cinco subpreguntas, y el informe [`reports/analytical_report.md`](reports/analytical_report.md) ([PDF](reports/analytical_report.pdf)) presenta los resultados para la gerencia.
+
+**Respuesta a la pregunta:** el factor más asociado con la deserción es la **frecuencia de asistencia**: la no renovación cae del 84,43 % con hasta 1 visita semanal al 0,57 % con más de 3 (correlación −0,64). Le siguen la **antigüedad** (el 61,10 % de los miembros evaluables deja de renovar en sus primeros seis meses) y el **tipo de plan** (la tiquetera tiene 28,37 % de no renovación y 74,68 % de deserción a 6 meses). El **horario** influye poco (noche 23,26 %).
+
+![Figura 3. Deserción según el plan y la frecuencia de asistencia](reports/figures/churn_by_plan_and_frequency.png)
+
+![Figura 4. Visitas por semana según la renovación](reports/figures/weekly_visits_by_renewal_boxplot.png)
+
+**Recomendaciones:** alerta automática cuando un miembro baje de 2 visitas por semana, acompañamiento en los primeros seis meses, incentivos para pasar de la tiquetera a planes más largos y revisión de la experiencia en la franja nocturna. Los hallazgos, las recomendaciones con sus indicadores y las limitaciones están en las secciones 6 a 8 del informe.
+
+## 9. Bitácora de prompts y uso de IA
+
+El proyecto final se desarrolló con apoyo de Claude (Anthropic, modelo Claude Opus 5.5). La bitácora [`prompts.md`](prompts.md) registra, para cada uno de los 11 apartados, los prompts usados, las técnicas de prompting aplicadas, la evidencia del resultado y la verificación hecha, además de los errores de la IA detectados y la reflexión final. La conversación del ejercicio de práctica está en [`docs/ai_conversations/`](docs/ai_conversations/).
+
+## 10. Limitaciones
 
 - Los datos de Zona Fit son **simulados**: las conclusiones deben validarse cuando el gimnasio tenga datos reales.
 - Solo se registra la entrada al gimnasio (no la salida) y no hay motivo de retiro ni fecha de cancelación.
